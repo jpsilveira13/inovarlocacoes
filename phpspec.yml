@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: inovarlocacoes
+        psr4_prefix: inovarlocacoes
         src_path: app
