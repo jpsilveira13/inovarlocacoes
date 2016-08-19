@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    font-weight: normal;
+    font-family: 'Oswald',sans-serif;
+    min-width: 300px;
+    width: 100%;
+    color: #292929;
+}
+a {
+    text-decoration: none;
+}
+.header-total{
+    background: #F4F4F4;
+    font-weight: 400;
+}
+
+.menu-header{
+    float: left;
+    padding: 7px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.menu-header span{
+    color: #E29B2F;
+}
+
+.menu-header-direito{
+    float: right;
+}
+
+.facebook{
+    float: right;
+    padding: 5px 0 5px 10px;
+}
+
+.telefone{
+    float: right;
+    font-size: 11px;
+    background: url(../images/icoFone.png) left center no-repeat;
+    padding: 5px 0 5px 35px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+.telefone span{
+
+    font-size: 16px;
+    color: #E5751F;
+
+}
+.transicaoPadrao{
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: #E29B2F;
+}
+
+.transparenciaHover:hover {
+    opacity: 0.7;
+}
+.clear {
+    clear: both;
+}
