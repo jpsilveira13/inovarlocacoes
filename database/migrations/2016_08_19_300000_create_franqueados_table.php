@@ -14,8 +14,6 @@ class CreateFranqueadosTable extends Migration
     {
         Schema::create('franqueados', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('cidade',250);
-            $table->char('estado',2);
             $table->string('cnpj',50);
             $table->string('endereco',250);
             $table->string('end_correspondencia',250);
@@ -25,6 +23,10 @@ class CreateFranqueadosTable extends Migration
             $table->string('whatsapp',100);
             $table->string('skype',100);
             $table->string('nascimento',30);
+            $table->integer('cidade_id')->unsigned();
+            $table->foreign('cidade_id')->references('id')->on('cidade');
+            $table->integer('estado_id')->unsigned();
+            $table->foreign('estado_id')->references('id')->on('estado');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->integer('tipo_id')->unsigned();

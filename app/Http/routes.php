@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('layout');
 });
+
+Route::get('/','EquipController@index');
+
+Route::get('/loja/{url_nome}', 'SiteController@hotsite');
+
