@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('layout');
+
+    return view('site.principal');
 });
 
 Route::get('/','EquipController@index');
+
+Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
 
 Route::get('/loja/{url_nome}', 'SiteController@hotsite');
 

@@ -27,7 +27,13 @@ class SiteController extends Controller
 
     public function hotsite($url_nome){
 
-       // $nomeCidade = $this->cidade->where('url_nome',$url_nome)->get()->id;
-       // dd($nomeCidade);
+        $idCidade = $this->cidade->where('url_nome',$url_nome)->first()->id;
+        $franqueado = $this->franqueado->where('cidade_id',$idCidade)->first();
+
+
+        return view('site.hotsite', [
+            'title' => 'inovarlocacoes.com.br | A maior locadora de equipamentos do Brasil.',
+            'franqueado' => $franqueado,
+        ]);
     }
 }

@@ -9,6 +9,7 @@ class CategoriaEquipamento extends Model
     protected $table = "categoria_equipamentos";
     protected $fillable = [
         'nome',
+        'url_nome'
 
     ];
 
