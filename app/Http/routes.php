@@ -22,3 +22,4 @@ Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
 
 Route::get('/loja/{url_nome}', 'SiteController@hotsite');
 
+Route::get('a-inovar','SiteController@sobre');

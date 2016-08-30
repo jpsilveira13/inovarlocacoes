@@ -507,6 +507,22 @@ fieldset[disabled] .btn-success.active {
 
 /* alteracoes site */
 
+.item-fundo{
+
+    background-image: url(../img/banner/home_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 79px;
+
+    display: table;
+    height: 562px;
+    width: 100%;
+}
+
+.mt-responsivo{
+    margin-top: 136px;
+    text-align: center;
+}
+
 .inovar-produto{
     height: 250px;
     margin-bottom: 10px;
@@ -1027,7 +1043,114 @@ fieldset[disabled] .btn-success.active {
     color: #d2d2d2;
     font-size: 12px;
 }
+
+.titulo-padrao h1{
+    background: url(../img/bgTitulo.png) center center repeat-x;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo-padrao p{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 0;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+}
+
+.menu ul{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.select-fundo {
+    color: #FFF;
+    background-size: 100% 100%;
+    background-color: #f7921e;
+}
+
+.menu ul li{
+    padding: 8px 0 8px 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Oswald',sans-serif;
+    cursor: pointer;
+
+
+}
+
+/* css modal */
+
+.titulo-modal{
+    text-align: center;
+    color: #f7921e;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20px;
+}
+.form-modal{
+    padding: 0 30px 30px 30px;
+    font-size: 15px;
+    color: #282828;
+}
+
+#emailLigamos .input{
+    padding: 6px 2%;
+    font-family: 'Oswald',sans-serif;
+    background: #EEE;
+    color: #282828;
+    border: 0;
+    font-size: 14px;
+}
+
+#btnLigar{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 24px;
+    background: #E5751F;
+    border-bottom: 3px solid #292929;
+    color: #FFF;
+    font-weight: 400;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.labelBotao {
+    color: #CCC;
+    margin-top: 11px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+}
+
+#emailLigamos .input:focus{
+    -webkit-box-shadow: inset 0 0 10px 5px #f7921e!important;
+    box-shadow: inset 0 0 5px 2px #f7921e!important;
+}
+@media screen and (max-width: 768px){
+    .mt-responsivo {
+        margin-top: 0!important;
+    }
+    .item-fundo{
+        background-position: 0 0;
+        background-size: cover;
+        height: 300px;
+    }
+}
 @media screen and (max-width: 640px){
+
+
     #portfolio h2{
         font-size: 1.4rem;
     }

@@ -2,15 +2,16 @@
 @section('content')
 
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive mg0" src="{{url('img/banner/home_banner.jpg')}}" alt="">
-                    <!--<div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
-                    </div> -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="item-fundo">
+                    <div class="container">
+                        <div class="col-md-6 pull-right col-sm-12 col-xs-12">
+                            <h1 class="mt-responsivo">Com o equipamento certo o sucesso da obra é inevitável.</h1>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -24,7 +25,7 @@
             @foreach($containers as $container)
 
                 <a href="{{url('container')}}/{{$container->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-image: url('{{url('img/capa')}}/{{$container->url_imagem}}')">
+                    <div class="img-fundo" style="background-color:#f1f1f1;    background-size: contain;background-repeat:no-repeat;background-image: url('{{url('img/capa')}}/{{$container->url_imagem}}')">
                         <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
                             <div class="linha" style="">
                                 <div class="media">
@@ -62,7 +63,7 @@
             @foreach($maquinas as $maquina)
 
                 <a href="{{url('maquinas')}}/{{$maquina->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-image: url('{{url('img/capa')}}/{{$maquina->url_imagem}}')">
+                    <div class="img-fundo" style="background-color:#f1f1f1;background-image: url('{{url('img/capa')}}/{{$maquina->url_imagem}}')">
                         <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
                             <div class="linha" style="">
                                 <div class="media">
@@ -101,7 +102,7 @@
             @foreach($ferramentas as $ferramenta)
 
                 <a href="{{url('ferramentas')}}/{{$ferramenta->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-image: url('{{url('img/capa')}}/{{$ferramenta->url_imagem}}')">
+                    <div class="img-fundo" style="background-color:#f1f1f1;background-image: url('{{url('img/capa')}}/{{$ferramenta->url_imagem}}')">
                         <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
                             <div class="linha" style="">
                                 <div class="media">
@@ -147,12 +148,12 @@
                 <div class="col-md-12">
                     <div class="conteudo-portfolio">
                         <div class="col-md-6 hidden-xs img-fundo-portfolio">
-                            <img class="img-responsive" src="{{url('img/bgResumoSejaUmFranqueado.jpg')}}" />
+                            <img class="img-responsive" src="{{url('img/bgResumoSejaUmFranqueado.png')}}" />
                         </div>
                         <div class="col-md-6">
                             <div class="texto">
-                                <p class="titulo">A MAIOR LOCADORA DE CONTAINERS,EQUIPAMENTOS E FERRAMENTAS DO BRASIL</p>
-                                <p>Seja um franqueado da Maior Locadora de Containers do Brasil.&nbsp;São mais de 19 franqueados em 17 estados, atendendo a mais de 20 mil clientes.</p>
+                                <p class="titulo">A MAIOR LOCADORA DE CONTAINERS, EQUIPAMENTOS E FERRAMENTAS DO BRASIL</p>
+                                <p>Seja um franqueado da Maior Locadora de Containers do Brasil.&nbsp;São mais de 39 franqueados em 17 estados, onde já atendemos mais de 28 mil clientes.</p>
                             </div>
                             <div class="contentBotao wobble-horizontal">
                                 <div>

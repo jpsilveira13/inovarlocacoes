@@ -36,4 +36,8 @@ class SiteController extends Controller
             'franqueado' => $franqueado,
         ]);
     }
+
+    public function sobre(){
+        return view('site.sobre');
+    }
 }
