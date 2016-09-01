@@ -16,10 +16,11 @@ Route::get('/', function () {
     return view('site.principal');
 });
 
+Route::get('/unidade/{url_nome}', 'SiteController@hotsite');
 Route::get('/','EquipController@index');
 
 Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
 
-Route::get('/loja/{url_nome}', 'SiteController@hotsite');
+
 
 Route::get('a-inovar','SiteController@sobre');
