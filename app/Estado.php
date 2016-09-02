@@ -9,7 +9,8 @@ class Estado extends Model
     protected $table = 'estado';
 
     protected $fillable = [
-      'uf'
+        'uf',
+        'nome'
     ];
 
     public function franqueaestado(){

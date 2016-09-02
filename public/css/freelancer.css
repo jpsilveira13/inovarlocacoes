@@ -818,12 +818,24 @@ fieldset[disabled] .btn-success.active {
     margin-top: 13px;
 }
 
+.mt8{
+    margin-top: 8px;
+}
 .mb50{
     margin-bottom: 50px;
 }
-
+.mt50{
+    margin-top: 50px;
+}
+.mb100{
+    margin-bottom: 100px;
+}
 .mb10{
     margin-bottom: 10px;
+}
+
+.mb18{
+    margin-bottom: 18px;
 }
 
 .corLaranja{
@@ -1174,7 +1186,7 @@ h1.franq-loca{
 }
 
 .email-franqueado p{
-    color: #E5751F;
+    color: #f7921e;
     margin-top: -15px;
     margin-bottom: 15px;
     font-size: 14px;
@@ -1235,7 +1247,64 @@ h1.franq-loca{
     color: #2C3E50;
     border: 1px solid #2C3E50;
 }
+/* css unidades */
 
+.bg-escuro{
+    background-color: #2C3E50;
+    min-height: 50px;
+}
+
+.box-franqueado:hover{
+   background-color: #2C3E50!important;
+}
+
+
+.box-franqueado:hover .franquia-telefone{
+    color: #fff;
+}
+.formEstado label{
+    color: #fff;
+}
+
+.formEstado{
+    text-align: center;
+}
+
+.item-franquia{
+    display: inline-block;
+    opacity: 1;
+}
+
+.item-franquia h2{
+    font-size: 22px;
+    margin: 5px 0;
+    color: #2C3E50;
+    font-family: 'Oswald',sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.item-franquia .box-franqueado{
+    background: #f7921e;
+    padding: 30px 0;
+
+}
+
+.franquia-telefone{
+    color: #2C3E50;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+
+}
+
+.franquia-endereco{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+}
 @media screen and (max-width: 768px){
     .mt-responsivo {
         margin-top: 0!important;

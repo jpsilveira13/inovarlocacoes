@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <base href="http://www.inovarlocacoes.com.br/">
     <meta http-equiv="content-language" content="pt-br">
     <meta name="format-detection" content="telephone=no">
     <meta charset="utf-8">
@@ -20,7 +18,7 @@
     <meta property="og:image" content="">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <title>Inovar Locações | Franquia, Locação e Aluguel de Containers</title>
 
     <!-- Bootstrap Core CSS -->

@@ -22,5 +22,7 @@ Route::get('/','EquipController@index');
 Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
 
 
-
+Route::get('unidades','SiteController@unidades');
 Route::get('a-inovar','SiteController@sobre');
+
+Route::get('busca-franquia','SiteController@buscaFranquia');

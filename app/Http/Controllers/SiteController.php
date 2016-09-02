@@ -4,7 +4,9 @@ namespace inovarlocacoes\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Input;
 use inovarlocacoes\Cidade;
 use inovarlocacoes\Equipamento;
 use inovarlocacoes\Estado;
@@ -39,6 +41,25 @@ class SiteController extends Controller
     }
 
     public function sobre(){
+
         return view('site.sobre');
+    }
+
+    public function unidades(){
+        $estados = $this->estado->orderBy('nome','asc')->get();
+
+        $unidades = $this->franqueado->get();
+
+        return view('site.unidades',compact('unidades','estados'));
+    }
+
+    public function buscaFranquia(){
+        $estado_id = Input::get('estado_id');
+        if($estado_id){
+            $achado = $this->franqueado->where('estado_id',$estado_id)->with('cidade','estado')->get();
+        }else{
+            $achado = $this->franqueado->with('cidade','estado')->get();
+        }
+        return Response::json($achado);
     }
 }
