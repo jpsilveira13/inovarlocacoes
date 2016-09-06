@@ -87,4 +87,29 @@ $(document).ready(function () {
         });
 
     });
+    $( "#formContactFranq" ).submit(function( event ) {
+        var formFranqueado = $('#formContactFranq');
+        event.preventDefault();
+        var $form = $( this ),
+            data = $form.serialize(),
+            url = "/form-franqueado";
+
+        var posting = $.post( url, { formData: data } );
+
+        posting.done(function( data ) {
+            if(data.fail) {
+
+                $.each(data.errors, function( index, value ) {
+                    $('text-error').show('fast');
+                });
+               // $('#successMessage').empty();
+            }
+            if(data.success) {
+
+                formFranqueado.empty();
+                $('.hide-body').empty();
+              //  $('#divSucessoAmigo').css('display','block');
+            } //success
+        }); //done
+    });
 });

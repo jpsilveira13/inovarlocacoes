@@ -27,9 +27,11 @@ class EquipController extends Controller
 
     public function equipInterno($url_categoria,$url_nome){
         $url_categoria = $this->equipCategoria->where('url_nome',$url_categoria)->first()->id;
+        $equipsCategs = $this->equips->where('categoria_id',$url_categoria)->get();
+
         $equipamento = $this->equips->where('url_site',$url_nome)->where('categoria_id',$url_categoria)->first();
 
-        return view('site.equipamento',compact('equipamento'));
+        return view('site.equipamento',compact('equipamento','equipsCategs'));
     }
 
 

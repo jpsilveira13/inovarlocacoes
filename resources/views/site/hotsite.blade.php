@@ -49,9 +49,11 @@
                         {{$franqueado->telefone}} / {{$franqueado->celular}}
                     </div>
                     <div class="clearfix"></div>
-                    <div class="mapa" id="mapa">
-                        {!! $franqueado->mapa  !!}
-                    </div>
+                    @if($franqueado->cidade_id != 13)
+                        <div class="mapa" id="mapa">
+                            {!! $franqueado->mapa  !!}
+                        </div>
+                    @endif
                 </div>
             </div>
             <div class="col-md-4">
@@ -174,12 +176,15 @@
                 <h1>Contato</h1>
                 <p>Entre em contato conosco</p>
                 <div class="container">
-                    <form novalidate id="formContactFranq">
+                    <form  id="formContactFranq">
+                        <input type="hidden" value="samotinho@gmail.com" name="email_franqueado">
+                        <input type="hidden" value="{{$franqueado->user->name}}" name="nome_franqueado" />
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="email">DIGITE SEU NOME (OBRIGATÓRIO)</label>
-                                    <input required type="text" name="nome" class="form-control input" id="nome">
+                                    <label for="nome">DIGITE SEU NOME (OBRIGATÓRIO)</label>
+                                    <input required type="text" name="nome" class="form-control input" id="nome" data-validation-required-message="Por favor entre com o nome">
+                                    <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -193,19 +198,19 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email">DIGITE SEU TELEFONE (OBRIGATÓRIO)</label>
-                                    <input required type="text" name="telefone" class="form-control input" id="telefone">
+                                    <input required type="text" name="telefone" class="form-control input" id="telefone" />
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="como nos conheceu">COMO VOCÊ FICOU SABENDO DA INOVAR LOCAÇÕES? (OBRIGATÓRIO)</label>
-                                   <select class="input form-control">
-                                       <option value="">Seleciona uma opção</option>
-                                       <option value="Facebook">Facebook</option>
-                                       <option value="Google">Google</option>
-                                       <option value="Jornais e Revistas">Jornais e Revistas</option>
-                                       <option value="ABF">ABF</option>
-                                   </select>
+                                    <select name="conheceu" class="input form-control">
+                                        <option value="">Seleciona uma opção</option>
+                                        <option value="Facebook">Facebook</option>
+                                        <option value="Google">Google</option>
+                                        <option value="Jornais e Revistas">Jornais e Revistas</option>
+                                        <option value="ABF">ABF</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>

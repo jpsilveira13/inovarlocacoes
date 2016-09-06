@@ -26,8 +26,11 @@
             <div class="contentBarraVejaMais">
                 <div class="label">Ver mais modelos de</div>
                 <div class="select">
-                    <select name="modelo_equip" id="selectMaisModelos">
+                    <select name="modelo_equip" onchange="window.location.href = this.value" id="selectMaisModelos">
                         <option value="">Seleciona uma opção</option>
+                        @foreach($equipsCategs as $equipsCateg)
+                            <option value="{{url()}}/{{$equipsCateg->catequip->nome}}/{{$equipsCateg->url_site}}">{{$equipsCateg->nome}}</option>
+                            @endforeach
                     </select>
                 </div>
                 <div class="clear"></div>

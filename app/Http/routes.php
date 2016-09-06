@@ -16,13 +16,20 @@ Route::get('/', function () {
     return view('site.principal');
 });
 
+Route::get('/email',[
+    'uses' => 'SiteController@sendEmailTest'
+
+]);
+
+Route::post('/form-franqueado','SiteController@formFranqueado');
+
 Route::get('/unidade/{url_nome}', 'SiteController@hotsite');
 Route::get('/','EquipController@index');
 
 Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
 
 
-Route::get('unidades','SiteController@unidades');
+Route::get('unidades',['as' => 'unidades', 'uses' =>'SiteController@unidades']);
 Route::get('a-inovar','SiteController@sobre');
 
 Route::get('busca-franquia','SiteController@buscaFranquia');

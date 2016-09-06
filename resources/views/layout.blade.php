@@ -6,20 +6,42 @@
     <meta name="format-detection" content="telephone=no">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="Locar Containers nunca foi tão fácil com a Inovar Locações. Uma franquia que inova a cada ano que passa e que oferece Containers para armazenamento, habitação e banheiros, com foco em Obras, Reformas, Indústria, Comércio, Eventos e Agropecuária.">
+
     <meta name="keywords" content="Bunker, Containers, Metalúrgica, Franquia, Franqueados, Brasil, Construção, Civil, Obras, Container, Locar, Aluguel, Locação, Negócio, Armazenamento, Habitação, Eventos, Agrícola, ">
     <meta name="author" content="João Paulo Silveira. FullStack Developer :D">
 
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Inovar Locações">
-    <meta property="og:url" content="inicio">
-    <meta property="og:title" content="Inovar Locações | Franquia, Locação e Aluguel de Containers">
-    <meta property="og:description" content="Locar Containers nunca foi tão fácil com a Inovar Locações. Uma franquia que inova a cada ano que passa e que oferece Containers para armazenamento, habitação e banheiros, com foco em Obras, Reformas, Indústria, Comércio, Eventos e Agropecuária.">
-    <meta property="og:image" content="">
-    <meta property="og:image:width" content="200">
-    <meta property="og:image:height" content="200">
+    @if(isset($franqueado))
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Inovar Locações">
+        <meta property="og:url" content="{{url('unidade')}}/{{$franqueado->cidade->url_nome}}">
+        <meta property="og:title" content="Inovar Locações - Unidade {{$franqueado->cidade->nome}} - {{$franqueado->estado->uf}}">
+        <meta property="og:description" content="Locar Containers nunca foi tão fácil com a Inovar Locações. Uma franquia que inova a cada ano que passa e que oferece Containers para armazenamento, habitação e banheiros, com foco em Obras, Reformas, Indústria, Comércio, Eventos e Agropecuária.">
+        <meta property="og:image" content="{{url('img/capa_franqueado')}}/{{$franqueado->url_capa}}">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+    @elseif(isset($equipamento))
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Inovar Locações">
+        <meta property="og:url" content="{{url()}}/{{$equipamento->catequip->url_nome}}/{{$equipamento->url_site}}">
+        <meta property="og:title" content="{{$equipamento->nome}}">
+        <meta property="og:description" content="{!! $equipamento->descricao !!}">
+        <meta property="og:image" content="{{url('img/capa')}}/{{$equipamento->url_imagem}}">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+    @else
+        <title>Inovar Locações | Franquia, Locação e Aluguel de Containers</title>
+        <meta name="description" content="Locar Containers nunca foi tão fácil com a Inovar Locações. Uma franquia que inova a cada ano que passa e que oferece Containers para armazenamento, habitação e banheiros, com foco em Obras, Reformas, Indústria, Comércio, Eventos e Agropecuária.">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Inovar Locações">
+        <meta property="og:url" content="inicio">
+        <meta property="og:title" content="Inovar Locações | Franquia, Locação e Aluguel de Containers">
+        <meta property="og:description" content="Locar Containers nunca foi tão fácil com a Inovar Locações. Uma franquia que inova a cada ano que passa e que oferece Containers para armazenamento, habitação e banheiros, com foco em Obras, Reformas, Indústria, Comércio, Eventos e Agropecuária.">
+        <meta property="og:image" content="">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+    @endif
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <title>Inovar Locações | Franquia, Locação e Aluguel de Containers</title>
+
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -77,7 +99,7 @@
                     </li>
                 @endif
                 <li class="page-scroll">
-                    <a href="http://www.inovarlocacoes.com/nossas-unidades" target="_blank">Nossas Unidades</a>
+                    <a href="{{route('unidades')}}">Nossas Unidades</a>
                 </li>
 
                 <li class="page-scroll">
@@ -111,7 +133,7 @@
                         <br>Distrito Industrial II<br>
                         Uberaba - MG<br />
                         (34)3314.8702 | (34)3325.8700</p>
-                    <a href="http://www.inovarlocacoes.com/nossas-unidades" target="_blank" class="btn btn-default">Veja mais unidades</a>
+                    <a href="{{url('unidades')}}" class="btn btn-default">Veja mais unidades</a>
                 </div>
                 <div class="footer-col col-md-4">
                     <h3>Redes Sociais</h3>
@@ -194,47 +216,44 @@
                     </div>
                 </form>
                 <!-- Sucesso -->
-               <!-- <div id="divSucessoAmigo" class="sucesso-modal tab-pane tab-absolute">
-                    <div class="text-center">
-                        <p>Anúncio enviado com sucesso!<br><br> Aproveite e veja outros anúncios</p>
-                        <div id="btnFecharDenuncie" data-dismiss="modal" class="center-button btn-fechar-denuncie">
-                            <a href="#" class="btn btn-zap">Fechar</a>
-                        </div>
-                    </div>
-                </div>
+                <!-- <div id="divSucessoAmigo" class="sucesso-modal tab-pane tab-absolute">
+                     <div class="text-center">
+                         <p>Anúncio enviado com sucesso!<br><br> Aproveite e veja outros anúncios</p>
+                         <div id="btnFecharDenuncie" data-dismiss="modal" class="center-button btn-fechar-denuncie">
+                             <a href="#" class="btn btn-zap">Fechar</a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="modal-footer text-center">
+                 Ao enviar, você concorda com os <a href="#" target="_blank">Termos de Uso</a> e a <a href="" target="_blank">Política de Privacidade</a> do Sempre da negócio.
+             </div> -->
             </div>
-            <div class="modal-footer text-center">
-                Ao enviar, você concorda com os <a href="#" target="_blank">Termos de Uso</a> e a <a href="" target="_blank">Política de Privacidade</a> do Sempre da negócio.
-            </div> -->
         </div>
     </div>
-</div>
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
+    <!-- jQuery -->
+    <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-<!-- jQuery -->
-<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+    <script src="{{asset('js/contact_me.js')}}"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-<!-- Contact Form JavaScript -->
-<script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
-<script src="{{asset('js/contact_me.js')}}"></script>
-
-<!-- Theme JavaScript -->
-<!--<script src="{{asset('js/freelancer.min.js')}}"></script> -->
-<script src="{{asset('js/freelancer.js')}}"></script>
+    <!-- Theme JavaScript -->
+    <!--<script src="{{asset('js/freelancer.min.js')}}"></script> -->
+    <script src="{{asset('js/freelancer.js')}}"></script>
 </body>
 
 </html>

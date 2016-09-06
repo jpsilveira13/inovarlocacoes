@@ -1332,6 +1332,52 @@ h1.franq-loca{
     .hotsite-bg-fundo .mb50{
         margin-bottom: 25px;
     }
+    /* css equipamento responsivo */
+    .contentNomeProduto .foto{
+        -webkit-animation: efeitoEquipamento 1.5s linear;
+        animation: efeitoEquipamento 1.5s linear;
+        border: 12px solid #FFF;
+        -webkit-box-shadow: 3px 3px 9px -3px #000;
+        box-shadow: 3px 3px 9px -3px #000;
+        width: 289px;
+        height: 264px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        position: inherit;
+    }
+
+    .contentNomeProduto .foto img{
+        width: 256px!important;
+        height: 242px!important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .contentNomeProduto h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contentBarraVejaMais{
+        margin: 0 0 30px 0;
+        padding:  0;
+        height: 108px;
+
+    }
+
+    .contentBarraVejaMais .label{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .contentBarraVejaMais .select{
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+
 
 
 }

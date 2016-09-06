@@ -38,7 +38,8 @@
                                     {{$unidade->telefone}}
                                 </div>
                                 <div class="franquia-endereco">
-                                    {{$unidade->endereco}}
+
+                                    @if($unidade->cidade_id != 13){{$unidade->endereco}}@endif
                                 </div>
                             </div>
                         </a>
