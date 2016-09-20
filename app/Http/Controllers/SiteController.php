@@ -36,16 +36,22 @@ class SiteController extends Controller
         $idCidade = $this->cidade->where('url_nome',$url_nome)->first()->id;
         $franqueado = $this->franqueado->where('cidade_id',$idCidade)->first();
         $equipamentos = $this->equipamento->take(12)->orderBy(DB::raw('RAND()'))->get();
+        $estados =  $this->estado->get();
         return view('site.hotsite', [
             'title' => 'inovarlocacoes.com.br | A maior locadora de equipamentos do Brasil.',
             'franqueado' => $franqueado,
-            'equipamentos' => $equipamentos
+            'equipamentos' => $equipamentos,
+            'estados' => $estados
         ]);
     }
 
     public function sobre(){
 
         return view('site.sobre');
+    }
+
+    public function contato(){
+        return view('site.contato');
     }
 
     public function unidades(){
@@ -117,6 +123,45 @@ class SiteController extends Controller
                     'success' => true
                 ));
             }
+
+        }
+    }
+
+    public function formHotsite(){
+        $inputData = Input::get('formData');
+
+        parse_str($inputData, $formFields);
+        $userData = array(
+            'contato_hotsite'   => $formFields['contato_hotsite'],
+            'nome'              =>  $formFields['nome'],
+            'email'             =>  $formFields['email'],
+            'celular'           =>  $formFields['celular'],
+            'estado'            =>  $formFields['estado'],
+            'cidade'            =>  $formFields['cidade'],
+            'origem'            =>  $formFields['origem'],
+
+
+        );
+
+        $rules = array(
+            'nome'      =>  'required',
+            'email'     =>  'required',
+        );
+
+        $validator = Validator::make($userData,$rules);
+        if($validator->fails()){
+            return Response::json(array(
+                'fail' => true,
+                'errors' => $validator->getMessageBag()->toArray()
+            ));
+        }else {
+            Mail::send('emails.contactHotsite',$userData,function($message) use ($userData){
+                $message->from('naoresponder@inovarlocacoes.com.br', 'Inovar Locações');
+
+                $message->to($userData['contato_hotsite']);
+                $message->subject($userData['nome']. ', mandou uma mensagem para você. ');
+
+            });
 
         }
     }

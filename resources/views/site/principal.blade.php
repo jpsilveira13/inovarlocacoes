@@ -153,7 +153,7 @@
                         <div class="col-md-6">
                             <div class="texto">
                                 <p class="titulo">A MAIOR LOCADORA DE CONTAINERS, EQUIPAMENTOS E FERRAMENTAS DO BRASIL</p>
-                                <p>Seja um franqueado da Maior Locadora de Containers do Brasil.&nbsp;São mais de 39 franqueados em 17 estados, onde já atendemos mais de 28 mil clientes.</p>
+                                <p>Seja um franqueado da Maior Locadora de Containers do Brasil.&nbsp;.</p>
                             </div>
                             <div class="contentBotao wobble-horizontal">
                                 <div>

@@ -103,10 +103,10 @@
                 </li>
 
                 <li class="page-scroll">
-                    <a href="http://www.inovarlocacoes.com/sobre-a-inovar" target="_blank">Sobre nós</a>
+                    <a href="#">Sobre nós</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="http://www.inovarlocacoes.com/atendimento" target="_blank">Contato</a>
+                    <a href="#">Contato</a>
                 </li>
             </ul>
         </div>
@@ -253,6 +253,8 @@
 
     <!-- Theme JavaScript -->
     <!--<script src="{{asset('js/freelancer.min.js')}}"></script> -->
+
+    <script src="{{asset('js/jquery.mask.min.js')}}"></script>
     <script src="{{asset('js/freelancer.js')}}"></script>
 </body>
 

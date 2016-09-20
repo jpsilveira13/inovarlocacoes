@@ -20,8 +20,10 @@ Route::get('/email',[
     'uses' => 'SiteController@sendEmailTest'
 
 ]);
-
+Route::post('/contato-hotsite','SiteController@formHotsite');
 Route::post('/form-franqueado','SiteController@formFranqueado');
+
+Route::get('/contato','SiteController@contato');
 
 Route::get('/unidade/{url_nome}', 'SiteController@hotsite');
 Route::get('/','EquipController@index');

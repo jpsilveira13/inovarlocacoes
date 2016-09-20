@@ -49,6 +49,12 @@ $(document).ready(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+    var masks = ['(00) 00000-0000', '(00) 0000-00009'];
+    $('#telefone').mask(masks[1], {onKeyPress:
+        function(val, e, field, options) {
+            field.mask(val.length > 14 ? masks[0] : masks[1], options) ;
+        }
+    });
     $('#trocaEstado').on('change', function (e) {
         var estado_id = e.target.value;
         console.log(estado_id);
@@ -69,7 +75,9 @@ $(document).ready(function () {
                 var len = data.length;
                 var cont = true;
                 if(!len && cont){
-                    html+= "<h1 class='text-center center-block'>Sua pesquisa retornou vazio</h1>";
+                    html+= "<div class='col-md-12'><h1 class='texto-unidade text-center'>Não existe unidades em seu estado! Seja o primeiro!<br /> Acessa o site logo abaixo e saiba como.</h1><br />";
+                    html+="<a href='http://www.inovarfranquias.com.br' target='_blank' class='center-block btn btn-primary btn-lg'>Inovar Franquias</a></div>";
+
                     cont = false;
                 }
                 for(var i = 0;i < len;i++){
@@ -105,10 +113,35 @@ $(document).ready(function () {
                // $('#successMessage').empty();
             }
             if(data.success) {
-
+                $('#resposta').css('display','block');
                 formFranqueado.empty();
                 $('.hide-body').empty();
               //  $('#divSucessoAmigo').css('display','block');
+            } //success
+        }); //done
+    });
+    $( "#formLigacao" ).submit(function( event ) {
+        var formLigacao = $('#formLigacao');
+        event.preventDefault();
+        var $form = $( this ),
+            data = $form.serialize(),
+            url = "/contato-hotsite";
+
+        var posting = $.post( url, { formData: data } );
+
+        posting.done(function( data ) {
+            if(data.fail) {
+                console.log('aqui');
+                $.each(data.errors, function( index, value ) {
+                    $('text-error').show('fast');
+                });
+                // $('#successMessage').empty();
+            }
+            if(data.success) {
+                console.log('2');
+                $('#respostaContato').css('display','block');
+                formLigacao.empty();
+              ;
             } //success
         }); //done
     });

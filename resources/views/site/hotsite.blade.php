@@ -61,51 +61,63 @@
                     <h2 class="duvidas">Está com dúvidas</h2>
                     <div class="boxform">
                         <div class="informacao-form">Preencha o formulário abaixo e vamos entrar em contato com você. Selecione a cidade para qual deseja a locação.</div>
-                        <form class="form-horizontal" action="#" id="formLigacao">
+                        <form class="form-horizontal" id="formLigacao">
+                            <input type="hidden" value="comercial@inovarlocacoes.com.br" name="contato_hotsite" />
                             <div class="form-group">
                                 <label for="nome" class="col-sm-2 col-xs-2 control-label">Nome:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <input type="nome" required class="form-control input" id="inputEmail3" placeholder="Seu Nome">
+                                    <input type="text" name="nome" required class="form-control input" id="inputEmail3" placeholder="Seu Nome">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email" class="col-sm-2 col-xs-2 control-label">Email:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <input type="email" class="input form-control" id="inputEmail3" placeholder="Seu Email">
+                                    <input type="email" name="email" class="input form-control" id="inputEmail3" placeholder="Seu Email">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="celular" class="col-sm-2 col-xs-2 control-label">Celular:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <input type="text" class="input form-control" id="inputEmail3" placeholder="">
+                                    <input  type="text" name="celular" class="input form-control" id="inputEmail3" placeholder="Informe seu número">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="estado" class="col-sm-2 col-xs-2 control-label">Estado:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <select class="input form-control" id="inputEmail3">
-                                        <option>Teste</option>
+                                    <select class="input form-control" id="inputEmail3" name="estado">
+                                        <option value="">Seleciona sua opção</option>
+                                        @foreach($estados as $estado)
+                                            <option value="{{$estado->uf}}">{{$estado->nome}}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="cidade" class="col-sm-2 col-xs-2 control-label">Cidade:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <select class="input form-control" id="inputEmail3">
-                                        <option>cidade</option>
-                                    </select>
+                                    <input  type="text" name="cidade" class="input form-control" id="inputEmail3" placeholder="Informe sua cidade">
+
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="Origem" class="col-sm-2 col-xs-2 control-label">Origem:</label>
                                 <div class="col-sm-10 col-xs-10">
-                                    <select class="input form-control" id="inputEmail3">
+                                    <select name="origem" class="input form-control" id="inputEmail3">
                                         <option value="">Seleciona uma opção</option>
                                         <option value="Facebook">Facebook</option>
                                         <option value="Google">Google</option>
                                         <option value="Jornais e Revistas">Jornais e Revistas</option>
                                         <option value="ABF">ABF</option>
                                     </select>
+                                </div>
+                            </div>
+                            <div class="text-center">
+
+                                <button id="btnContato" type="submit" class="transicaoPadrao transparenciaFracaHover float-shadow2">Enviar</button>
+                            </div>
+                            <div id="respostaContato" class="row">
+                                <div class="col-md-12">
+                                    <p class="bg-success">Mensagem Enviada com sucesso! Logo Entraremos em contato</p>
                                 </div>
                             </div>
                         </form>
@@ -177,7 +189,7 @@
                 <p>Entre em contato conosco</p>
                 <div class="container">
                     <form  id="formContactFranq">
-                        <input type="hidden" value="samotinho@gmail.com" name="email_franqueado">
+                        <input type="hidden" value="{{$franqueado->user->email}}" name="email_franqueado">
                         <input type="hidden" value="{{$franqueado->user->name}}" name="nome_franqueado" />
                         <div class="row">
                             <div class="col-md-6">
@@ -198,7 +210,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email">DIGITE SEU TELEFONE (OBRIGATÓRIO)</label>
-                                    <input required type="text" name="telefone" class="form-control input" id="telefone" />
+                                    <input required name="telefone" type="text" class="form-control input" maxlength="15" id="telefone" />
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -228,6 +240,11 @@
                             </div>
                         </div>
                     </form>
+                    <div id="resposta" class="row">
+                        <div class="col-md-12">
+                            <p class="bg-success">Mensagem Enviada com sucesso! Logo Entraremos em contato</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

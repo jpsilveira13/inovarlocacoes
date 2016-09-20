@@ -38,8 +38,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="50" style="background-color:#BCBCBC; margin:0px;"><tbody><tr><td height="331" valign="top">
 
             <table width="90%" border="0" align="center" cellpadding="50" style="background-color:#FFFFFF;"><tbody><tr><td>
-                        <a style="display: block;text-align: center;margin-bottom: 20px" target="_blank" href="{{ url() }}"><img src="http://www.novo.inovarlocacoes.com.br/img/logoPretaModal.png" title="Inovar Locações"  width="250px"></a>
-
+                        <a style="display: block;text-align: center;margin-bottom: 20px" target="_blank" href="{{ url() }}"><img src="http://www.inovarlocacoes.com.br/img/logoPretaModal.png" title="Inovar Locações"  width="250px"></a>
 
                         <p>Olá, {{$nome_franqueado}}.</p>
                         <p><strong>{{$nome}}</strong>, entrou em contato!</p><br />

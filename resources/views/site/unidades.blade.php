@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="franquia-endereco">
 
-                                    @if($unidade->cidade_id != 13){{$unidade->endereco}}@endif
+                                    @if($unidade->cidade_id != 13){{$unidade->endereco}}@else &nbsp; @endif
                                 </div>
                             </div>
                         </a>
