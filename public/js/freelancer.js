@@ -49,12 +49,33 @@ $(document).ready(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+
     var masks = ['(00) 00000-0000', '(00) 0000-00009'];
     $('#telefone').mask(masks[1], {onKeyPress:
         function(val, e, field, options) {
             field.mask(val.length > 14 ? masks[0] : masks[1], options) ;
         }
     });
+
+    $('a.numero-telefone').livequery(function () {
+        $(this).on('click',function(e){
+            e.preventDefault();
+
+            var numero = $(this).attr('data-msg-telefone');
+            var id = $(this).attr('data-unidade-id');
+            $(this).text(numero);
+            console.log(id);
+            $.ajax({
+                type: "POST",
+                url: "/get-contadortel",
+                dataType: 'html',
+                data: ({id:id})
+            });
+
+        });
+    });
+
+
     $('#trocaEstado').on('change', function (e) {
         var estado_id = e.target.value;
         console.log(estado_id);
@@ -83,9 +104,13 @@ $(document).ready(function () {
                 for(var i = 0;i < len;i++){
                     console.log(data[i].cidade.url_nome);
                     html+= '<div class="item-franquia mb18 col-xs-6  col-sm-6 col-md-4 float-shadow2">';
-                    html+='<a href="/unidade/'+data[i].cidade.url_nome+'">';
                     html+='<h2>'+data[i].cidade.nome+' - '+data[i].estado.uf+'</h2>';
-                    html+='<div class="box-franqueado"><div class="franquia-telefone">'+data[i].telefone+' </div><div class="franquia-endereco">'+data[i].endereco+'</div></div></a></div>';
+                    html+='<div class="box-franqueado text-center">' +
+                        '<div class="franquia-telefone"><a href="#" data-msg-telefone="'+data[i].telefone+'" data-unidade-id="'+data[i].id+'" class="numero-telefone">' +
+
+                        '<span class="glyphicon glyphicon glyphicon-phone-alt"></span> ver telefone </a></div>' +
+                        '<div class="franquia-endereco">'+data[i].endereco+'</div></div>';
+                    html+='<div class="text-center mt12 mb12"> <a href="/unidade/'+data[i].cidade.url_nome+'"><button class="call-us btn btn-primary"><span class="glyphicon glyphicon-eye-open"></span> Ver Hotsite</button></a></div></div>'
 
                 }
                 listaFranqueado.append(html);
@@ -95,6 +120,7 @@ $(document).ready(function () {
         });
 
     });
+
     $( "#formContactFranq" ).submit(function( event ) {
         var formFranqueado = $('#formContactFranq');
         event.preventDefault();

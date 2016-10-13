@@ -135,6 +135,39 @@
             @endforeach
         </div>
     </div>
+
+    <section id="clientes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Nossos Clientes</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 bg-cinza">
+                <div class="container itens">
+                    <div class="col-md-3 col-sm-6">
+                        <img class="img-responsive" src="{{url('img/cocacolacliente.png')}}" alt="Coca Cola" title="Coca Cola" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="{{url('img/clienteambev.jpg')}}" alt="Ambev" title="Ambev" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="{{url('img/hondalogocliente.png')}}" alt="Honda" title="Honda" />
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <img src="{{url('img/cafe3coracoescliente.png')}}" alt="Café 3 corações" title="Café 3 corações" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="pd-section-portfolio">
         <div class="container">
@@ -171,40 +204,6 @@
             </div>
         </div>
     </section>
-
-    <section id="clientes">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Nossos Clientes</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 bg-cinza">
-                <div class="container itens">
-                    <div class="col-md-3 col-sm-6">
-                        <img class="img-responsive" src="{{url('img/cocacolacliente.png')}}" alt="Coca Cola" title="Coca Cola" />
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <img src="{{url('img/clienteambev.jpg')}}" alt="Ambev" title="Ambev" />
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <img src="{{url('img/hondalogocliente.png')}}" alt="Honda" title="Honda" />
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <img src="{{url('img/cafe3coracoescliente.png')}}" alt="Café 3 corações" title="Café 3 corações" />
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
-
-
     <!-- Contact Section -->
     <!--
     <section id="contact">

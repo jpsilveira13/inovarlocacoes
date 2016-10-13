@@ -55,7 +55,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
+    @yield('cssnoticia')
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -66,6 +66,14 @@
 </head>
 
 <body id="page-top" class="index">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.7&appId=190387111301918";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <!-- area botao -->
 <div class="contentBtLigamosParaVoce">
     <a href="#ligamosVoce" data-target="#ligamosVoce" data-toggle="modal" title="entrar em contato">
@@ -81,7 +89,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="#page-top"><img src="{{url('img/logoTopo.png')}}"/></a>
+            <a class="navbar-brand" href="{{url('/')}}"><img src="{{url('img/logoTopo.png')}}"/></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -94,19 +102,16 @@
                     <li class="page-scroll">
                         <a href="#equipamentos">Equipamentos</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Seja um franqueado</a>
-                    </li>
                 @endif
                 <li class="page-scroll">
                     <a href="{{route('unidades')}}">Nossas Unidades</a>
                 </li>
 
                 <li class="page-scroll">
-                    <a href="#">Sobre nós</a>
+                    <a href="#">A Inovar</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#">Contato</a>
+                    <a href="{{url('contato')}}">Contato</a>
                 </li>
             </ul>
         </div>
@@ -139,7 +144,7 @@
                     <h3>Redes Sociais</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/inovarlocacoesbr" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/inovarlocacoesoficial" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         <li>
                             <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
@@ -161,6 +166,7 @@
                         <a href="http://www.portaldofranchising.com.br/franquia-inovar-locacoes-construcao" target="_blank"> <img class="responsive" src="{{url('img/seloABF.png')}}" />
                         </a>
                     </div>
+                    <a href="http://www.inovarfranquias.com.br" target="_blank" class="btn btn-default">Seja um franqueado</a>
                 </div>
             </div>
         </div>
@@ -237,25 +243,23 @@
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
+</div>
+<!-- jQuery -->
+<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
 
-    <!-- jQuery -->
-    <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
-    <script src="{{asset('js/contact_me.js')}}"></script>
-
-    <!-- Theme JavaScript -->
-    <!--<script src="{{asset('js/freelancer.min.js')}}"></script> -->
-
-    <script src="{{asset('js/jquery.mask.min.js')}}"></script>
-    <script src="{{asset('js/freelancer.js')}}"></script>
+<!-- Contact Form JavaScript -->
+<script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+<script src="{{asset('js/contact_me.js')}}"></script>
+<script src="{{asset('js/jquery.mask.min.js')}}"></script>
+<script src="{{asset('js/jquery.livequery.min.js')}}"></script>
+@yield('jsnoticia')
+<script src="{{asset('js/freelancer.js')}}"></script>
 </body>
 
 </html>

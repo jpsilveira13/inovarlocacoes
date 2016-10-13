@@ -28,6 +28,7 @@ class AuthController extends Controller
      *
      * @return void
      */
+    protected  $redirectTo = "admin/home";
     public function __construct()
     {
         $this->middleware('guest', ['except' => 'getLogout']);
@@ -59,6 +60,8 @@ class AuthController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            '',
+            '',
             'password' => bcrypt($data['password']),
         ]);
     }

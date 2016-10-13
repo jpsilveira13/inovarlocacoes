@@ -818,6 +818,13 @@ fieldset[disabled] .btn-success.active {
     margin-top: 13px;
 }
 
+.mt12{
+    margin-top: 12px;
+}
+
+.mb12{
+    margin-bottom: 12px;
+}
 .mt8{
     margin-top: 8px;
 }
@@ -1224,14 +1231,23 @@ h1.franq-loca{
     width: 100%;
 }
 
-#formContactFranq {
+#formContactFranq, #formContact {
      max-width: 850px;
      margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
  }
 
-#formContactFranq label{
+.mt15{
+    margin-top: 15px!important;
+}
+
+.contato-estilo input{
+    padding: 12px 2%!important;
+    border-radius: 0!important;
+}
+
+#formContactFranq label, #formContact label{
     text-align: left;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -1239,7 +1255,7 @@ h1.franq-loca{
     font-family: 'Oswald',sans-serif;
 }
 
-#formContactFranq .input{
+#formContactFranq .input, #formContact .input{
 
     padding: 2px 2%;
     font-family: 'Oswald', sans-serif;
@@ -1247,7 +1263,7 @@ h1.franq-loca{
     color: #2C3E50;
     border: 1px solid #2C3E50;
 }
-/* css unidades */
+
 
 .bg-escuro{
     background-color: #2C3E50;

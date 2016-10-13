@@ -23,6 +23,8 @@ class Franqueado extends Model
         'url_capa',
         'url_bg',
         'mapa',
+        'cont_tel',
+        'cont_hotsite',
         'user_id',
         'tipo_id',
 

@@ -145,6 +145,7 @@ return [
         inovarlocacoes\Providers\EventServiceProvider::class,
         inovarlocacoes\Providers\RouteServiceProvider::class,
 
+
     ],
 
     /*

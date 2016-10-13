@@ -36,6 +36,8 @@ class SiteController extends Controller
         $idCidade = $this->cidade->where('url_nome',$url_nome)->first()->id;
         $franqueado = $this->franqueado->where('cidade_id',$idCidade)->first();
         $equipamentos = $this->equipamento->take(12)->orderBy(DB::raw('RAND()'))->get();
+        $franqueado->cont_hotsite = $franqueado->cont_hotsite+1;
+        $franqueado->save();
         $estados =  $this->estado->get();
         return view('site.hotsite', [
             'title' => 'inovarlocacoes.com.br | A maior locadora de equipamentos do Brasil.',
@@ -164,5 +166,21 @@ class SiteController extends Controller
             });
 
         }
+    }
+
+    public function contadorTelefone(){
+        $id =  Input::get('id');
+        $contTel = $this->franqueado->find($id);
+        $contTel->cont_tel = $contTel->cont_tel+1;
+        $contTel->save();
+    }
+
+    public function relatorio(){
+        $relatorios = $this->franqueado->orderBy('cont_tel','desc')->get();
+        return view('site.relatorio',compact('relatorios'));
+    }
+
+    public function areaLogin(){
+        return view('admin.login');
     }
 }
