@@ -22,12 +22,61 @@ Route::get('/email',[
 ]);
 //area admin
 
-Route::get('/admin/login', 'SiteController@areaLogin');
+//area login
 
-Route::get('/admin/home', 'AdminController@index');
-Route::get('/admin/videos','AdminController@videoAula');
-Route::get('/admin/manuais', 'ArquivoController@getArquivos');
-Route::get('/admin/noticia/{url_noticia}', 'NoticiaController@getNoticia');
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
+
+// Registration routes...
+Route::get('auth/register', 'Auth\AuthController@getRegister');
+Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+
+Route::get('/admin/noticia/{url_noticia}', 'NoticiaController@pegaNoticia');
+//gerenciamento admin
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth', 'where'=>['id'=>'[0-9]+']],function(){
+
+    Route::get('/home',['as'=>'home', 'uses'=> 'AdminController@index']);
+
+    Route::get('/videos',['as'=>'videos', 'uses'=> 'AdminController@videoAula' ]);
+    Route::get('/manuais',['as'=>'manuais', 'uses'=> 'ArquivoController@getArquivos' ]);
+
+
+    Route::group(['prefix' => 'gerencia'],function(){
+
+//Grupo noticias
+        Route::group(['prefix' => 'noticias'],function() {
+            Route::get('/', ['as' => 'noticias', 'uses' => 'NoticiaController@totalNoticia']);
+            Route::get('/criar', ['as' => 'noticias.create', 'uses' => 'NoticiaController@novaNoticia']);
+
+            Route::post('/store', ['as' => 'noticias.store', 'uses' => 'NoticiaController@salvarNoticia']);
+            Route::get('excluir/{id}', ['as' => 'noticias.delete', 'uses' => 'NoticiaController@deletaNoticia']);
+            Route::get('editar/{id}', ['as' => 'noticias.edit', 'uses' => 'NoticiaController@editarNoticia']);
+            Route::post('update/{id}', ['as' => 'noticias.update', 'uses' => 'NoticiaController@updateNoticia']);
+        });
+        Route::group(['prefix' => 'usuarios'],function() {
+            Route::get('/', ['as' => 'usuarios', 'uses' => 'AdminController@totalUsuario']);
+
+            Route::get('excluir/{id}', ['as' => 'usuarios.delete', 'uses' => 'AdminController@deletaUsuario']);
+
+        });
+        Route::group(['prefix' => 'arquivos'],function() {
+            Route::get('/', ['as' => 'arquivos', 'uses' => 'ArquivoController@totalNoticia']);
+            Route::get('/criar', ['as' => 'arquivos.create', 'uses' => 'ArquivoController@novoArquivo']);
+
+            Route::post('/store', ['as' => 'arquivos.store', 'uses' => 'ArquivoController@salvarArquivo']);
+            Route::get('excluir/{id}', ['as' => 'arquivos.delete', 'uses' => 'ArquivoController@deletaArquivo']);
+            Route::get('editar/{id}', ['as' => 'arquivos.edit', 'uses' => 'ArquivoController@editarNoticia']);
+            Route::post('update/{id}', ['as' => 'arquivos.update', 'uses' => 'ArquivoController@updateNoticia']);
+        });
+    });
+
+});
+
+;
+
 
 Route::post('/contato-hotsite','SiteController@formHotsite');
 Route::post('/form-franqueado','SiteController@formFranqueado');

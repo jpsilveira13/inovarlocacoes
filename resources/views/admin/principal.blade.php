@@ -21,7 +21,7 @@
                     @foreach($noticias as $noticia)
 
                         <div class="item <?php if($i == 0){echo 'active';}?>">
-                            <a href="{{'/admin/noticia'}}/{{$noticia->url_site}}"><img src="{{url('img/noticia')}}/{{$noticia->url_image}}" /></a>
+                            <a href="{{'/admin/noticia'}}/{{$noticia->url_site}}"><img src="{{url('banner')}}/{{$noticia->url_image}}" /></a>
                             <div class="carousel-caption">
                                 <h3>{{$noticia->titulo}}</h3>
 
@@ -55,7 +55,7 @@
             </div>
         </a>
         <a href="http://inovarlocacoes.com/webmail" target="_blank">
-            <div class="col-xs-6 col-md-3">
+            <div class="col-xs-6 col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body easypiechart-panel">
                         <h4>Email</h4>
@@ -66,7 +66,7 @@
             </div>
         </a>
         <a href="#">
-            <div class="col-xs-6 col-md-3">
+            <div class="col-xs-6 col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body easypiechart-panel">
                         <h4>Proloc</h4>
@@ -76,15 +76,15 @@
                 </div>
             </div>
         </a>
-        <div class="col-xs-6 col-md-3">
+        <!--<div class="col-xs-6 col-md-3">
             <div class="panel panel-default">
                 <div class="panel-body easypiechart-panel">
-                    <h4>Visitors</h4>
+                    <h4></h4>
                     <div class="easypiechart" id="easypiechart-red" data-percent="27" ><span class="percent">27%</span>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div><!--/.row-->
 
 @endsection

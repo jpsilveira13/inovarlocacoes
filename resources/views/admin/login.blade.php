@@ -186,6 +186,16 @@
     </style>
 </head>
 <body>
+@if (count($errors) > 0)
+
+        <strong >Whoops!</strong> Houve um erro!<br><br>
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+@endif
+
 <form  action="{{ url('/auth/login') }}"  method="POST" class='login-form'>
     {!! csrf_field() !!}
     <div class="logo-img"></div>
@@ -196,7 +206,7 @@
             </svg>
         </label>
 
-        <input  id="login" class='lf--input' name="login" placeholder='Informe o login' required="" value="{{old('login')}}" type='text'>
+        <input  id="login" class='lf--input' name="email" placeholder='Informe o login' required="" value="{{old('email')}}" type='text'>
     </div>
     <div class="flex-row">
         <label class="lf--label" for="password">
