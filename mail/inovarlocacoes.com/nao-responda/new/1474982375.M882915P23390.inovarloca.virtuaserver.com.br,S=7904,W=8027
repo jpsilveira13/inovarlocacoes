@@ -1,0 +1,123 @@
+Return-Path: <wg_comercial@yahoo.com>
+Delivered-To: nao-responda@inovarlocacoes.com
+Received: from inovarloca.virtuaserver.com.br
+	by inovarloca.virtuaserver.com.br (Dovecot) with LMTP id cROTNOdx6ldeWwAA2Li/Qg
+	for <nao-responda@inovarlocacoes.com>; Tue, 27 Sep 2016 10:19:35 -0300
+Return-path: <wg_comercial@yahoo.com>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Tue, 27 Sep 2016 10:19:35 -0300
+Received: from nm43-vm5.bullet.mail.bf1.yahoo.com ([216.109.114.236]:33417)
+	by inovarloca.virtuaserver.com.br with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.87)
+	(envelope-from <wg_comercial@yahoo.com>)
+	id 1bosIJ-0006VZ-Mj
+	for nao-responda@inovarlocacoes.com; Tue, 27 Sep 2016 10:19:35 -0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1474982587; bh=kfbS0IqVmHqzJjvbXnUFIayffJ9ndmLRzIsTIaHL3xs=; h=Date:From:Reply-To:To:Subject:References:From:Subject; b=F8naVWfxJawiq8Cy/pEkoMyjzVO8w0R0FS8pyfJIvcmRu2ryrjvbfCjZUE3uf10jurw+9IBXZMyrRapDfPYETcNwAxupozJ+JqmV2KE+m98gK45rvo6fBAt+sjKwZROBXWoOcer41uF6TyAG3Z/g2Bbah00gh92LwvG8IYkXZawTIjz0r6FiVxty6WPRSwMIkPREDZ4pyvoi1iBw992ngfxD5wUlbM5oAQ5+SqDetWioilExXpJIFy1TJPzGK7FSXa7zmhXVgR/7aj6oy0S2aV+rp2W4O1h5J/CBzf6YfcQLtNX2AisyR9dGcBto8ujUqviV/RBwK0swh1n0y3kNZw==
+Received: from [98.139.170.180] by nm43.bullet.mail.bf1.yahoo.com with NNFMP; 27 Sep 2016 13:23:07 -0000
+Received: from [98.139.212.200] by tm23.bullet.mail.bf1.yahoo.com with NNFMP; 27 Sep 2016 13:23:07 -0000
+Received: from [127.0.0.1] by omp1009.mail.bf1.yahoo.com with NNFMP; 27 Sep 2016 13:23:07 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 481837.14923.bm@omp1009.mail.bf1.yahoo.com
+X-YMail-OSG: cxiGxfUVM1m.alq1UgrjBAV2MlUPTLBhBdIyRiCdJ5pef04mDrZSResBmSbM8Zo
+ xGPKxO5YDr.TTDmuxy_9wQnpCyR0Hy67UuTrZVevF4lib9GVE8qjmxA.ow5SQ06c8JCKDqzPQGoL
+ WEO3UJZ0LgqMxYMqwFhS9gIQ8bwnU7faL0RBvRUYTmNFfvKWngMGegmoLRgxUHCbmBKw5_B8syYM
+ 1.EvGzDQjenbYtJVNhFW6MUGDX4uY4j538.SPOk.YdL1w0DZMLvFxVB7bdHgRH9xncGUob7Ek5jh
+ I8ESKDbjRtsA9Ojw9JcOLyg70iteRLbBNvgaW8Hf9KiY_xy.2pnAcPZIDQ0w9OPV7wogMREZisxA
+ 63xPiuRN9nQIQk2iiA68VSrUAYhjVbLWCQgej3LYfMNTvBf9Z68NlGhTqUhFz4h5.IT8nGaJxkWH
+ C4NfZnKAzvOxGxDpOft8rqNC_qlH1UXyq7U.uQqa1uQQHncW4RREI_r3C33rkIcXGWvwmtV0Ql7P
+ 2N84-
+Received: from jws106219.mail.bf1.yahoo.com by sendmailws102.mail.bf1.yahoo.com; Tue, 27 Sep 2016 13:23:07 +0000; 1474982587.081
+Date: Tue, 27 Sep 2016 13:23:06 +0000 (UTC)
+From: wg comercial <wg_comercial@yahoo.com>
+Reply-To: wg comercial <wg_comercial@yahoo.com>
+To: Paulo Inovar <arqpaulorrdias@gmail.com>, 
+	=?UTF-8?Q?Mateus_Coutinho_Inovar_Maca=C3=A9?= <mateus.coutinho@nov.com>, 
+	IVAN INOVAR <novafriburgo@inovarlocacoes.com.br>, 
+	Inovar Campos Dos Goytacazes <inovar.campos1@gmail.com>, 
+	=?UTF-8?Q?Ivan_Inovar_Loca=C3=A7=C3=B5e?= <ivandcouto@gmail.com>, 
+	=?UTF-8?Q?Edimar_Batista_Curty_-_Inovar_Loca=C3=A7=C3=B5es?= <nao-responda@inovarlocacoes.com>
+Message-ID: <1925303719.5441728.1474982586840@mail.yahoo.com>
+Subject: =?UTF-8?Q?Presta=C3=A7=C3=A3o_de_servi=C3=A7os_=E2=86=92_WG?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5441727_17370630.1474982586835"
+References: <1925303719.5441728.1474982586840.ref@mail.yahoo.com>
+Content-Length: 4692
+
+------=_Part_5441727_17370630.1474982586835
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Prezados;
+Estamos entrando em contato para verificar se existe alguma necessidade dos=
+ nossos servi=C3=A7os.
+Trabalhamos com=C2=A0caldeiraria pesada, usinagem, tubula=C3=A7=C3=A3o indu=
+strial, constru=C3=A7=C3=A3o de skids e cestas pela DNV,constru=C3=A7=C3=B5=
+es de vasos certificados pela NR13. pintura industrial e el=C3=A9trica.
+Desde j=C3=A1 nos colocamos a inteira disposi=C3=A7=C3=A3o.=C2=A0Atenciosam=
+ente;
+
+=C3=81gatha Couto / Wender Gilson=C2=A0W G Constru=C3=A7=C3=B5es e Montagen=
+sTel: +55 22 2765-8214
+
+
+|   |
+|   |=20
+ |
+
+
+------=_Part_5441727_17370630.1474982586835
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"color:#000; background-color:#fff; f=
+ont-family:Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font=
+-size:16px"><div style=3D"outline: none 0px; display: table; width: 962px; =
+padding-top: 12px; padding-left: 0px; font-size: 13px;" id=3D"yui_3_16_0_ym=
+19_1_1474979765572_12518"><div style=3D"display: table-cell; width: auto; w=
+ord-wrap: break-word;" id=3D"yui_3_16_0_ym19_1_1474979765572_12519"><div id=
+=3D"yui_3_16_0_ym19_1_1474979765572_12520"><div id=3D"yui_3_16_0_ym19_1_147=
+4979765572_12521"><div style=3D"font-size: 16px;" id=3D"yui_3_16_0_ym19_1_1=
+474979765572_12522"><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1474979765572_=
+12523">Prezados;</div><div style=3D"margin: 4px 26px 0px 27px; word-wrap: b=
+reak-word; font-size: 13px;" id=3D"yui_3_16_0_ym19_1_1474979765572_12524"><=
+div style=3D"display: table; width: 909px; padding-top: 12px; padding-left:=
+ 0px; background-color: inherit;" id=3D"yui_3_16_0_ym19_1_1474979765572_125=
+25"><div style=3D"display: table-cell; width: auto; word-wrap: break-word;"=
+ id=3D"yui_3_16_0_ym19_1_1474979765572_12526"><div id=3D"yui_3_16_0_ym19_1_=
+1474979765572_12527"><div id=3D"yui_3_16_0_ym19_1_1474979765572_12528"><div=
+ style=3D"font-size: 16px;" id=3D"yui_3_16_0_ym19_1_1474979765572_12529"><d=
+iv id=3D"yui_3_16_0_ym19_1_1474979765572_12530"><br id=3D"yui_3_16_0_ym19_1=
+_1474979765572_12531"></div><div style=3D"outline: none 0px; display: table=
+; width: 909px; padding-top: 12px; padding-left: 0px; background-color: inh=
+erit;" id=3D"yui_3_16_0_ym19_1_1474979765572_12532"><div style=3D"display: =
+table-cell; width: auto; word-wrap: break-word;" id=3D"yui_3_16_0_ym19_1_14=
+74979765572_12533"><div id=3D"yui_3_16_0_ym19_1_1474979765572_12534"><div i=
+d=3D"yui_3_16_0_ym19_1_1474979765572_12535"><div id=3D"yui_3_16_0_ym19_1_14=
+74979765572_12536"><div dir=3D"ltr" id=3D"yui_3_16_0_ym19_1_1474979765572_1=
+2537"><span style=3D"background-color: inherit;" id=3D"yui_3_16_0_ym19_1_14=
+74979765572_12538">Estamos entrando em contato para verificar se existe alg=
+uma necessidade dos nossos servi=C3=A7os.<br id=3D"yui_3_16_0_ym19_1_147497=
+9765572_12539"></span>Trabalhamos com&nbsp;<span style=3D"font-family: Helv=
+etica, sans-serif;" id=3D"yui_3_16_0_ym19_1_1474979765572_12540">caldeirari=
+a pesada, usinagem, tubula=C3=A7=C3=A3o industrial, constru=C3=A7=C3=A3o de=
+ skids e cestas pela DNV,constru=C3=A7=C3=B5es de vasos certificados pela N=
+R13. pintura industrial e el=C3=A9trica.<br id=3D"yui_3_16_0_ym19_1_1474979=
+765572_12541">Desde j=C3=A1 nos colocamos a inteira disposi=C3=A7=C3=A3o.</=
+span></div></div></div></div></div></div></div></div></div></div></div></di=
+v></div></div></div></div></div><div></div><div id=3D"yui_3_16_0_ym19_1_147=
+4979765572_12549">&nbsp;</div><div class=3D"signature" id=3D"yui_3_16_0_ym1=
+9_1_1474979765572_12551"><div>Atenciosamente;</div><div id=3D"yui_3_16_0_ym=
+19_1_1474979765572_12550"><br><br><span style=3D"font-weight:bold;font-styl=
+e:italic;color:rgb(76, 118, 162);">=C3=81gatha Couto / Wender Gilson&nbsp;<=
+/span></div><div id=3D"yui_3_16_0_ym19_1_1474979765572_12553"><span style=
+=3D"font-size:medium;font-weight:bold;font-style:italic;color:rgb(76, 118, =
+162);" id=3D"yui_3_16_0_ym19_1_1474979765572_12554">W G Constru=C3=A7=C3=B5=
+es e Montagens</span></div><div id=3D"yui_3_16_0_ym19_1_1474979765572_12555=
+"><span style=3D"font-size:medium;font-weight:bold;font-style:italic;color:=
+rgb(76, 118, 162);">Tel: +55 22 2765-8214</span></div><div id=3D"yui_3_16_0=
+_ym19_1_1474979765572_12556"><br></div><div id=3D"yui_3_16_0_ym19_1_1474979=
+765572_12557"><br></div><div><table cellpadding=3D"0" cellspacing=3D"0" ali=
+gn=3D"left"><tbody><tr><td width=3D"45" height=3D"15">   </td> </tr><tr><td=
+>   </td><td><br></td></tr></tbody></table></div></div></div></body></html>
+------=_Part_5441727_17370630.1474982586835--

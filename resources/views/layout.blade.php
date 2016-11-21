@@ -113,6 +113,9 @@
                 <li class="page-scroll">
                     <a href="{{url('contato')}}">Contato</a>
                 </li>
+                <li class="page-scroll">
+                    <a class="btn btn-success" href="{{url('portaldofranqueado')}}">Franqueado</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

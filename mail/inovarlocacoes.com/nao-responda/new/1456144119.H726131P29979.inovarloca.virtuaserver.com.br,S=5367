@@ -1,0 +1,99 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Mon, 22 Feb 2016 09:28:39 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86)
+	id 1aXpbT-0007nS-MN
+	for nao-responda@inovarlocacoes.com; Mon, 22 Feb 2016 09:28:39 -0300
+X-Failed-Recipients: portugalorlando@hotmai.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1456144119-eximdsn-710691697
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1aXpbT-0007nS-MN@inovarloca.virtuaserver.com.br>
+Date: Mon, 22 Feb 2016 09:28:39 -0300
+
+--1456144119-eximdsn-710691697
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  portugalorlando@hotmai.com
+    The mail server could not deliver mail to portugalorlando@hotmai.com.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1456144119-eximdsn-710691697
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;portugalorlando@hotmai.com
+Status: 5.0.0
+
+--1456144119-eximdsn-710691697
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [191.178.36.248] (port=49335 helo=USER-PC)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1aXpbT-0007nI-13; Mon, 22 Feb 2016 09:28:39 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Campos_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: portugalorlando@hotmai.com
+Date: 22 Feb 2016 09:27:57 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-Antivirus: avast! (VPS 160222-0, 22/02/2016), Outbound message
+X-Antivirus-Status: Clean
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5oYUlub3Zh
+ckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250
+LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6ogZXN0w6EgY29uY29ycmVuZG8g
+YSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxhbWVudG8gZSB2YWxpZGUgc2V1IGN1cG9t
+IG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250
+LXNpemU6IDI0cHQ7Jz4gPGEgaHJlZj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250
+YWluZXJkZXByZW1pb3MvJz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJk
+ZXByZW1pb3MvIDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0
+eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gMjExLCAyMjEsIDIzMSwgMjQx
+LCAyNTEuIDwvc3Bhbj4gPGJyPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9u
+dC1zaXplOiAxMnB0Oyc+IEVtYWlsIGF1dG9tw6F0aWNvIG7Do28gcmVzcG9uZGEuIDwvc3Bhbj4g
+PGJyPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMHB0OyBm
+b250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNv
+bG9yOiByZ2IoMzQsIDM0LCAzNCk7Jz5BdGVuY2lvc2FtZW50ZSwgPC9zcGFuPjxicj48c3BhbiBj
+bGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxNHB0OyBmb250LWZhbWlseTogJnF1
+b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMjU1LCAx
+OTIsIDApOyc+PGI+Q2FtcG9zPC9iPjwvc3Bhbj48YnI+PHNwYW4gY2xhc3M9J01zb05vcm1hbCcg
+c3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9udC1mYW1pbHk6ICZxdW90O1RhaG9tYSZxdW90Oywm
+cXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDM0LCAzNCwgMzQpOyc+PGI+KDIyKSA5
+OTc3Ni02NDAwIHwgKDIyKSA5OTkwNS00NzA2PC9iPjwvc3Bhbj48YnI+PHNwYW4gY2xhc3M9J01z
+b05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9udC1mYW1pbHk6ICZxdW90O1RhaG9t
+YSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDI1NSwgMTkyLCAwKTsn
+PjxiPiZsZHF1bztOT1NTQSBNSVNTJkF0aWxkZTtPOiA8L2I+PC9zcGFuPjxzcGFuIGNsYXNzPSdN
+c29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDEwLjVwdDsgZm9udC1mYW1pbHk6ICZxdW90O1Rh
+aG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDM0LCAzNCwgMzQp
+Oyc+Q29udHJpYnVpciBwYXJhIG8gcHJvZ3Jlc3NvIGRlIG5vc3NvcyBjbGllbnRlcywgY29tIGlu
+b3ZhJmNjZWRpbDsmYXRpbGRlO28gZSBwcm9maXNzaW9uYWxpc21vLCBidXNjYW5kbyBjYWRhIHZl
+eiBtYWlzIGF0ZW5kZXIgbWVsaG9yIHBhcmEgc2VydmlyIHNlbXByZS48L3NwYW4+PGJyPjxpbWcg
+c3JjPSdodHRwOi8vdW5pZGFkZXMucHJvbG9jc3lzdGVtLmNvbS5ici9hc3NpbmF0dXJhLnBuZycg
+Lz4NCjxiciAvPjxiciAvPg0KPGhyIHN0eWxlPSdib3JkZXI6bm9uZTsgY29sb3I6IzkwOTA5MDsg
+YmFja2dyb3VuZC1jb2xvcjojQjBCMEIwOyBoZWlnaHQ6IDFweDsgd2lkdGg6IDk5JTsnIC8+DQo8
+dGFibGUgc3R5bGU9J2JvcmRlci1jb2xsYXBzZTpjb2xsYXBzZTtib3JkZXI6bm9uZTsnPg0KCTx0
+cj4NCgkJPHRkIHN0eWxlPSdib3JkZXI6bm9uZTtwYWRkaW5nOjBweCAxNXB4IDBweCA4cHgnPg0K
+CQkJPGEgaHJlZj0iaHR0cHM6Ly93d3cuYXZhc3QuY29tL2FudGl2aXJ1cyI+DQoJCQkJPGltZyBi
+b3JkZXI9MCBzcmM9Imh0dHA6Ly9zdGF0aWMuYXZhc3QuY29tL2VtYWlscy9hdmFzdC1tYWlsLXN0
+YW1wLnBuZyIgYWx0PSJBdmFzdCBsb2dvIiAvPg0KCQkJPC9hPg0KCQk8L3RkPg0KCQk8dGQ+DQoJ
+CQk8cCBzdHlsZT0nY29sb3I6IzNkNGQ1YTsgZm9udC1mYW1pbHk6IkNhbGlicmkiLCJWZXJkYW5h
+IiwiQXJpYWwiLCJIZWx2ZXRpY2EiOyBmb250LXNpemU6MTJwdDsnPg0KCQkJCUVzdGUgZW1haWwg
+Zm9pIGVzY2FuZWFkbyBwZWxvIEF2YXN0IGFudGl2w61ydXMuDQoJCQkJPGJyPjxhIGhyZWY9Imh0
+dHBzOi8vd3d3LmF2YXN0LmNvbS9hbnRpdmlydXMiPnd3dy5hdmFzdC5jb208L2E+DQoJCQk8L3A+
+DQoJCTwvdGQ+DQoJPC90cj4NCjwvdGFibGU+DQo8YnIgLz4NCg==
+
+--1456144119-eximdsn-710691697--

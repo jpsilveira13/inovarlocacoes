@@ -50,6 +50,7 @@ $(document).ready(function () {
         }
     });
 
+    
     var masks = ['(00) 00000-0000', '(00) 0000-00009'];
     $('#telefone').mask(masks[1], {onKeyPress:
         function(val, e, field, options) {
@@ -171,4 +172,6 @@ $(document).ready(function () {
             } //success
         }); //done
     });
+
+
 });

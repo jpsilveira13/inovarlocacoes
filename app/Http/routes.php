@@ -20,11 +20,13 @@ Route::get('/email',[
     'uses' => 'SiteController@sendEmailTest'
 
 ]);
+
+Route::get('mapa','SiteController@mapa');
 //area admin
 
 //area login
 
-Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::get('/portaldofranqueado', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
@@ -60,6 +62,11 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth', 'where'=>['id'=>'[0-9
             Route::get('/', ['as' => 'usuarios', 'uses' => 'AdminController@totalUsuario']);
 
             Route::get('excluir/{id}', ['as' => 'usuarios.delete', 'uses' => 'AdminController@deletaUsuario']);
+            Route::get('vermais/{id}',['as' => 'usuarios.log','uses'=> 'AdminController@logEventosUsuario']);
+
+        });
+        Route::group(['prefix' => 'logs'],function() {
+            Route::get('/', ['as' => 'logs', 'uses' => 'EventoController@index']);
 
         });
         Route::group(['prefix' => 'arquivos'],function() {

@@ -1,0 +1,4691 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201604 will be lost/reset.
+# Last config file used to build this data file was /home/inovarlocacoes/tmp/awstats/awstats.inovarlocacoes.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2021                
+POS_TIME 2709                
+POS_VISITOR 101960              
+POS_DAY 177381              
+POS_DOMAIN 3784                
+POS_LOGIN 4894                
+POS_ROBOT 5049                
+POS_WORMS 5869                
+POS_EMAILSENDER 6000                
+POS_EMAILRECEIVER 6143                
+POS_SESSION 178339              
+POS_SIDER 178554              
+POS_FILETYPES 6278                
+POS_DOWNLOADS 6676                
+POS_OS 82368               
+POS_BROWSER 82808               
+POS_SCREENSIZE 86236               
+POS_UNKNOWNREFERER 86310               
+POS_UNKNOWNREFERERBROWSER 87159               
+POS_ORIGIN 87981               
+POS_SEREFERRALS 88128               
+POS_PAGEREFS 88296               
+POS_SEARCHWORDS 89060               
+POS_KEYWORDS 89254               
+POS_MISC 2371                
+POS_ERRORS 89350               
+POS_CLUSTER 4750                
+POS_SIDER_404 89502               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160501000244 2163 526532 14869799206663
+FirstTime 20160401000844
+LastTime 20160430235927
+LastUpdate 20160501090503 2163 0 2162 0 0
+TotalVisits 1441                
+TotalUnique 1181                
+MonthHostsKnown 0                   
+MonthHostsUnknown 2128                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 925 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 372 1951 239038270 306 869 36195911
+1 324 1177 126351427 268 1035 47699818
+2 950 1517 194175848 979 1961 73546525
+3 444 649 56861067 1443 2072 33324535
+4 337 634 36553610 1247 1901 45000802
+5 327 896 47310344 1424 1898 27706838
+6 359 1201 89029805 1007 1973 59628892
+7 389 1987 217889910 1041 1858 50850394
+8 540 5069 687260839 776 1810 44682959
+9 671 8745 1205322047 257 976 82642706
+10 727 9984 1359597273 379 1193 64556745
+11 570 6058 767847224 292 1117 134612770
+12 519 5640 776390278 240 964 104252790
+13 949 8367 1051131323 216 862 51004284
+14 775 9359 1207500872 285 1045 59441210
+15 762 9525 1313608102 553 1357 89155248
+16 734 8810 1200715608 583 1570 104317111
+17 646 4977 697769607 326 999 92998267
+18 458 3127 440438894 238 983 90149765
+19 371 2908 400585912 222 1156 66052576
+20 421 3642 428785038 295 952 81903864
+21 532 4235 572329959 264 874 49212782
+22 406 2907 365868502 376 1035 70587389
+23 455 3184 395079988 454 972 45018613
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 58
+us 7637 15192 1032287055
+br 3826 85756 12328414862
+fr 812 850 165797834
+cn 457 3173 187321980
+nl 39 55 988025
+de 36 88 3173490
+lr 29 59 795891
+pl 21 21 1142508
+ru 21 134 3691549
+th 20 20 1291741
+hk 18 18 524588
+ro 11 13 266449
+gb 10 38 1282981
+ua 10 14 343989
+ch 8 11 192948
+se 8 14 400465
+kr 8 8 474144
+ca 7 10 433692
+ee 6 8 285772
+cl 6 76 5452408
+ar 6 79 5212216
+jp 4 158 24947307
+it 4 27 1132238
+bz 3 3 84307
+pt 3 29 3811514
+dk 0 1 55667
+vn 2 2 7014
+es 1 2 505052
+ir 1 1 45069
+bg 0 1 5653
+mx 2 183 52759112
+mt 1 76 12348705
+kh 1 1 59268
+ec 0 15 406098
+rs 2 78 12430812
+kz 2 2 104335
+cz 1 2 64921
+cr 2 82 12464118
+fi 0 1 4675
+be 0 1 471971
+ph 2 78 5274464
+ae 2 2 120360
+ie 1 5 194087
+pk 0 7 119542
+cv 0 1 281452
+ao 0 17 433381
+co 0 1 1265253
+za 0 10 219836
+mz 0 14 772109
+ve 0 1 55667
+md 1 1 59268
+by 1 1 0
+uy 0 1 1794177
+py 0 1 1794177
+id 1 1 45061
+in 0 76 2375542
+vg 2 2 118536
+pa 3 28 1036412
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+bot[\s_+:,\.\;\/\\-] 12528 598560814 20160430233854 169
+googlebot 6551 212791412 20160430235907 45
+robot 977 80719859 20160430233022 12
+bingpreview 674 109895576 20160430150916 0
+slurp 421 7585881 20160430210432 54
+no_user_agent 202 15890358 20160430131430 1
+spider 197 4335100 20160430171823 110
+google[_+\s]web[_+\s]preview 153 24584661 20160407131932 0
+unknown 131 4585 20160430211353 131
+[\s_+:,\.\;\/\\-]bot 93 59138711 20160425182821 0
+googlebot\-image 93 19295603 20160430215246 0
+php 71 203058255 20160430204600 0
+scanner 9 50121 20160430085159 0
+msnbot\-media 3 195655 20160430070112 0
+netcraft 2 59268 20160406221121 0
+crawl 2 118536 20160419053417 0
+curl 1 0 20160426164508 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+gif 1253 3834735 0 0
+xls 1 40000 0 0
+pdf 128 635564 0 0
+svg 1 222910 0 0
+woff 1024 75636080 0 0
+eot 125 8619990 0 0
+jpg 10862 9126565462 0 0
+html 1801 91591732 0 0
+docx 1 1660292 0 0
+php 9239 169170178 0 0
+txt 4 72368 0 0
+png 15596 2529442582 0 0
+ttf 849 110072736 0 0
+xlsx 1 27137 0 0
+css 26396 834458880 0 0
+js 39268 925391101 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1730
+/order-macrobid-discreetly.pdf 96 0 531930
+/betnovate-generico-comprar-en-espana.pdf 48 0 156009
+/venta-bethanechol-sin-receta.pdf 10 0 32676
+/cheap-aceclofenac-junior.pdf 10 0 40400
+/venta-doliprane-barcelona.pdf 10 0 36610
+/price-for-neorecormon-dose-pack.pdf 8 0 22408
+/gynera-generico-mejor-precio.pdf 7 0 35623
+/comprar-metrogyl-dg-online-barata.pdf 7 0 13685
+/klavox-price-in-canada.pdf 7 0 20517
+/biseptol-medicine-price.pdf 6 0 22062
+/donde-puedo-comprar-evorel.pdf 6 0 21414
+/buy-arcoxia-10-mg.pdf 6 0 15459
+/price-femring-brands.pdf 6 0 26892
+/algix-online-lowest-price.pdf 6 0 16608
+/will-someone-write-my-paper-for-me.pdf 6 0 25176
+/tetraciclina-tadalafil-precio-colombia.pdf 6 0 19864
+/comprar-omeprazole-en-san-juan.pdf 5 0 20210
+/magnus-piracetam-precio-argentina.pdf 5 0 16006
+/bimatoprost-precio-sanborns.pdf 5 0 18815
+/term-paper-about-quit-india-movement.pdf 5 0 16425
+/barato-pristiq-yahoo.pdf 5 0 15160
+/sell-academic-paper.pdf 5 0 22450
+/comprar-movalis-la-plata.pdf 5 0 14880
+/dissertation-chapter-on-hotel-rwanda-about-genocide.pdf 5 0 34607
+/make-my-essay-on-the-master-for-me-cheap.pdf 5 0 27545
+/flumazenil-barato-chile.pdf 5 0 13065
+/chloroquine-getquit.pdf 5 0 23990
+/write-for-me-health-care-costs-research-paper-now-online.pdf 5 0 19785
+/buy-aclasta-usa-online.pdf 5 0 26340
+/comprar-fluocinolone-gibraltar.pdf 5 0 20930
+/buy-aceclofenac-melbourne-australia.pdf 5 0 27325
+/scabisan-price-cut.pdf 5 0 20410
+/comprar-una-podofilox.pdf 5 0 18225
+/comprar-crinone-contrareembolso-en-espana.pdf 5 0 14600
+/make-paper-on-highway-for-me-cheap-online.pdf 5 0 17530
+/price-of-daflon-pills.pdf 5 0 20425
+/buy-prestarium-online-forum.pdf 5 0 25739
+/price-of-orungal-pack.pdf 5 0 27000
+/buy-zolmist-at-store.pdf 5 0 24650
+/levamisole-buy-online-india.pdf 5 0 14190
+/purchase-11-september-in-english-article-review.pdf 5 0 23590
+/order-vivanza-tabletas.pdf 5 0 23360
+/do-my-research-proposal-on-my-mother-never-dies-claire-castillon-for-safe-online.pdf 5 0 14260
+/warticon-price-at-target.pdf 5 0 28735
+/cheap-meliane-quick-delivery.pdf 5 0 21265
+/buy-cataflam-new-zealand-online.pdf 5 0 24250
+/comprar-fucithalmic-con-paypal.pdf 5 0 17505
+/comprar-coveram-por-telefono-en-espana.pdf 5 0 17925
+/comprar-una-eprex.pdf 5 0 22380
+/order-clomid-high.pdf 4 0 10660
+/seasonique-price-pharmacy.pdf 4 0 14084
+/price-diurizone.pdf 4 0 14492
+/shop-colchicine-buy.pdf 4 0 22040
+/buy-ivermectin-dominican-republic.pdf 4 0 15016
+/cheap-apetamin-p-tesco.pdf 4 0 19296
+/where-to-buy-biaxin-in-the-uk.pdf 4 0 21096
+/best-price-avana-20-mg.pdf 4 0 14764
+/comprar-klavox-por-internet-de-forma-segura.pdf 4 0 16836
+/donde-comprar-tetracycline-generico.pdf 4 0 20556
+/do-queen-of-atlantis-sarah-rees-brennan-dissertation-abstract-for-cheap.pdf 4 0 20912
+/cheap-dalacin-c-uses.pdf 4 0 23012
+/precio-duphaston-argentina-2016.pdf 4 0 17704
+/price-of-hydrochlorothiazide-in-ireland.pdf 4 0 14504
+/precio-estradiol-valerate-mexico-df.pdf 4 0 21860
+/cheap-furazolidone-medicamento.pdf 4 0 12996
+/make-for-me-david-copperfield-adapted-for-young-readers-paper-for-safe.pdf 4 0 26200
+/precio-sotalol-con-receta-espana.pdf 4 0 17772
+/compra-doxiciclina-capital-federal.pdf 4 0 18281
+/buy-isotrexin-without-consultation-uk.pdf 4 0 16784
+/wp-content/plugins/contact-form-7/license.txt 4 0 72368
+/buy-seasonique-uk.pdf 4 0 13828
+/co-efferalgan-canadian-price.pdf 4 0 20752
+/buy-pyrantel-safely.pdf 4 0 18360
+/how-to-keep-our-environment-clean-dissertation.pdf 4 0 23614
+/comprar-ranexa-internet.pdf 4 0 16848
+/target-brand-betaderm-review.pdf 4 0 14139
+/comprar-ursosan-buenos-aires.pdf 4 0 20375
+/onde-comprar-fludrocortisone.pdf 4 0 11612
+/target-brand-salofalk.pdf 4 0 14676
+/make-my-electronics-media-dissertation-chapter.pdf 4 0 13152
+/promethazine-cheapest-uk.pdf 4 0 15900
+/critical-thinking-on-knowledge-management-ppt.pdf 4 0 23328
+/consider-the-lobster-analysis-essay.pdf 4 0 26940
+/comprar-norethindrone-a-contrareembolso.pdf 4 0 12216
+/buy-norethindrone-online-in-australia.pdf 4 0 15512
+/buy-aclasta-online-with-paypal.pdf 4 0 15716
+/i-can-help-writing-your-research-paper.pdf 4 0 17100
+/comprar-methimazole-generico-por-telefono.pdf 4 0 18820
+/essay-punishment-vs-discipline.pdf 4 0 14102
+/donde-comprar-ursosan-en-zaragoza-sin-receta.pdf 4 0 17557
+/case-study-on-dharma-and-karma.pdf 4 0 33124
+/levocetirizine-purchase-reviews.pdf 4 0 20844
+/comprar-estreva-barato-online.pdf 4 0 19300
+/compra-acnotin.pdf 4 0 21104
+/make-dissertation-hypothesis-on-cadbury-chocolate-for-me.pdf 4 0 26358
+/compra-podofilox-on-line.pdf 4 0 21990
+/precio-elocom-colombia.pdf 4 0 23928
+/buy-pure-amisulpride.pdf 4 0 10700
+/can-i-buy-melatonin-in-spain.pdf 4 0 13548
+/where-can-i-get-mectizan-in-canada.pdf 4 0 24784
+/precio-mectizan-doctor-simi.pdf 4 0 15876
+/do-for-me-creative-writing-on-say-no-to-polythene-bags.pdf 4 0 21205
+/do-the-betrayal-essay-for-safe-online.pdf 3 0 10680
+/argumentative-essay-about-inflation-in-pakistan-pdf.pdf 3 0 12438
+/order-generic-paracetamol-from-canada.pdf 3 0 8646
+/buy-l-thyroxine-without-consultation-uk.pdf 3 0 8205
+/twenty-years-at-hull-house-thesis-statement.pdf 3 0 24804
+/write-presentation-on-delhi-election-for-me.pdf 3 0 16734
+/cheap-synthroid-reliable.pdf 3 0 10353
+/how-to-write-a-critical-thinking-essay.pdf 3 0 15417
+/deniban-price-at-walgreens.pdf 3 0 10587
+/buy-daflon-junior.pdf 3 0 10158
+/term-paper-on-shares-and-debentures.pdf 3 0 18768
+/buy-real-retin-a.pdf 3 0 11523
+/king-speech-dissertation-proposal.pdf 3 0 11799
+/where-to-buy-progesterone-in-australia.pdf 3 0 9660
+/florinef-price-comparison-usa.pdf 3 0 11685
+/where-to-get-oxybutynin.pdf 3 0 13482
+/tesco-pharmacy-skelaxin-prices.pdf 3 0 11985
+/price-of-fluocinolone-500-mg.pdf 3 0 7965
+/stieva-a-venta-libre-argentina.pdf 3 0 14115
+/purchase-aromasin-last.pdf 3 0 9843
+/buy-cytoxan-online-in-uk.pdf 3 0 14172
+/cheap-probenecid-reacoes.pdf 3 0 8172
+/buy-topamax-uk.pdf 3 0 14244
+/price-brufen-tabletas.pdf 3 0 16239
+/barato-dermovate-wikipedia.pdf 3 0 11325
+/buy-permethrin-online-japan.pdf 3 0 11307
+/condylox-cheap.pdf 3 0 9252
+/cheap-kenalog-dosage.pdf 3 0 9498
+/precio-rimonabant-online.pdf 3 0 8865
+/isotretinoin-best-price-uk.pdf 3 0 10398
+/comprar-ursofalk-venezuela.pdf 3 0 11388
+/cravit-price-at-rite-aid.pdf 3 0 17559
+/cheap-gynera-express-delivery.pdf 3 0 12379
+/inderal-barato-madrid.pdf 3 0 12291
+/comprar-rigevidon-en-madrid.pdf 3 0 8631
+/estradot-price-per-pill-walgreens.pdf 3 0 8484
+/progynon-price-boots.pdf 3 0 13092
+/do-my-literature-review-about-breast-cancer-patient-for-me-cheap.pdf 3 0 17163
+/buy-vermox-tesco.pdf 3 0 10033
+/comprar-ventolin-de-farmacia.pdf 3 0 10749
+/purchase-pentasa-in-new-zealand.pdf 3 0 8115
+/computers-and-humans-essays.pdf 3 0 18084
+/cheaper-version-of-ranexa.pdf 3 0 12137
+/retail-price-for-aloe-vera-gel.pdf 3 0 9567
+/student-nurse-reflective-essay.pdf 3 0 24564
+/comprar-sucralfate-receta.pdf 3 0 11082
+/order-canadian-nimodipine.pdf 3 0 13545
+/buy-fucithalmic-ontario.pdf 3 0 10488
+/epogen-price-costco.pdf 3 0 13494
+/distalgesic-baratos-sin-receta.pdf 3 0 14493
+/tufts-university-research-paper-navigator.pdf 3 0 21438
+/buy-fluticasone-ointment-safely-online.pdf 3 0 9615
+/purchase-jumex-from-canada.pdf 3 0 10224
+/make-for-me-research-paper-about-what-is-memory.pdf 3 0 11523
+/very-cheap-ratio-acyclovir.pdf 3 0 17217
+/precio-zoloft-dr-simi.pdf 3 0 13632
+/buy-truvada.pdf 3 0 13938
+/mebendazole-cheap-uk.pdf 3 0 15072
+/comprar-endometrin-en-san-juan-argentina.pdf 3 0 4866
+/buy-champix-store.pdf 3 0 17163
+/buy-aerius-australia-paypal.pdf 3 0 11255
+/where-to-purchase-voltfast.pdf 3 0 15483
+/travoprost-price-in-saudi-arabia.pdf 3 0 8661
+/buy-clobex-turkey.pdf 3 0 13947
+/can-i-buy-estrogel-over-the-counter-in-uk.pdf 3 0 10059
+/do-my-dissertation-proposal-about-water-pollution-pdf-for-me.pdf 3 0 12135
+/bactroban-tabletas-precio-mexico.pdf 3 0 12015
+/write-my-dissertation-introduction-on-my-favorite-sport-badminton.pdf 3 0 12047
+/purchase-homework-on-listening-and-speaking-skills.pdf 3 0 18393
+/best-price-generic-doliprane-online.pdf 3 0 12030
+/order-aromasin-tablets-100mg.pdf 3 0 9165
+/purchase-nimegen-comp.pdf 3 0 12690
+/precio-dalacin-c-guatemala.pdf 3 0 8268
+/panadol-oral-price.pdf 3 0 9459
+/compra-progynon-en-madrid.pdf 3 0 8328
+/cheap-genuine-nitrofurantoin.pdf 3 0 15437
+/buy-a-research-paper-cheap.pdf 3 0 9909
+/cheap-generic-triderm-erfahrungen.pdf 3 0 14712
+/buy-permethrin-brampton.pdf 3 0 11808
+/comprar-zupar-chile-sin-receta.pdf 3 0 11937
+/make-now-a-nonfiction-book-argumentative-essay-for-cheap.pdf 3 0 19785
+/brand-name-benadryl-prices.pdf 3 0 12372
+/precio-cyprostol-generico.pdf 3 0 15165
+/cheap-imiquimod-generic-100mg.pdf 3 0 16174
+/buy-name-brand-progynova-online.pdf 3 0 14952
+/betamethasone-price-in-france.pdf 3 0 11832
+/buy-amikacin-australia-paypal.pdf 3 0 9204
+/buy-perlutex-in-uae.pdf 3 0 8115
+/can-buy-levocetirizine-uk.pdf 3 0 11139
+/order-estrace-brands.pdf 3 0 13005
+/price-crotamiton-remedio.pdf 3 0 15963
+/bethanechol-venta-sin-receta-argentina.pdf 3 0 7929
+/essay-about-suitcase-kid.pdf 3 0 19722
+/albenza-price-per-tablet.pdf 3 0 10185
+/cheap-avana-walmart.pdf 3 0 9810
+/buy-apetamin-p-netherlands.pdf 3 0 13749
+/agarol-precio-por-unidad.pdf 3 0 14157
+/paraphrasing-graphic-organizer.pdf 3 0 10593
+/flumazenil-precio-mas-barato.pdf 3 0 9679
+/buy-ketorolaco-uk-boots.pdf 3 0 10425
+/prostate-cancer-essay-paper.pdf 3 0 21792
+/comprar-biseptol-jerez.pdf 3 0 16296
+/buy-distalgesic-singapore.pdf 3 0 12529
+/buy-how-to-promote-travel-and-tourism-in-india-coursework-online.pdf 3 0 18309
+/canada-slimex-buy.pdf 3 0 16608
+/to-order-amikacin.pdf 3 0 8076
+/protopic-ointment-precio-barranquilla.pdf 3 0 13302
+/digoxina-price-in-us.pdf 3 0 11934
+/buy-pennsaid-in-new-zealand.pdf 3 0 15657
+/cafergot-que-precio-tiene.pdf 3 0 11484
+/comprar-vibramycin-chile-sin-receta.pdf 3 0 13755
+/comprar-salbutamol-48-horas.pdf 3 0 13839
+/cheap-brand-depakine-chrono.pdf 3 0 13668
+/where-to-buy-good-estrogel.pdf 3 0 14232
+/gay-marriage-obama-homework.pdf 3 0 15693
+/spirulina-price-in-kuwait.pdf 3 0 13500
+/buy-domperidone-in-cvs.pdf 3 0 9884
+/cheap-mirena-dosage.pdf 3 0 11175
+/buy-supradyn-rite-aid.pdf 3 0 15999
+/comprar-jumex-generico-en-farmacias.pdf 3 0 16002
+/order-some-reductil.pdf 3 0 14835
+/compra-allopurinol-generico-online.pdf 3 0 15402
+/can-buy-ergotamine-uk.pdf 3 0 15939
+/buy-synalar-online-in-canada.pdf 3 0 12636
+/buy-retinoic-acid-20-mg-uk.pdf 3 0 15183
+/comprar-sumial-sin-receta-en-espana.pdf 3 0 17661
+/mezym-barato-mexico.pdf 3 0 15609
+/cheap-vivitrol-reacoes.pdf 3 0 12822
+/buy-glucophage-from-usa.pdf 3 0 13545
+/buy-estrogel-new-zealand-online.pdf 3 0 12792
+/buy-quality-diprosone-online.pdf 3 0 12828
+/indometacin-precio-colombia-mercadolibre.pdf 3 0 5157
+/price-of-pyrantel-brand.pdf 3 0 16023
+/donde-comprar-revia-argentina.pdf 3 0 15818
+/descuento-doxiciclina-yahoo.pdf 3 0 14571
+/order-rigevidon-from-boots.pdf 3 0 11544
+/buy-zineryt-sample.pdf 3 0 14130
+/precio-delestrogen-farmacias-del-ahorro.pdf 3 0 9675
+/cash-price-for-kapikachhu.pdf 3 0 14059
+/champix-que-precio-tiene-en-colombia.pdf 3 0 13248
+/cheap-agarol-compendium.pdf 3 0 9219
+/what-to-write-your-research-paper-on.pdf 3 0 21621
+/epoetin-alfa-get-quit-program.pdf 3 0 15894
+/make-for-me-essay-on-communion-town-sam-thompson-for-safe.pdf 3 0 14862
+/purchase-report-about-demand-forecasting-pdf-for-cheap.pdf 3 0 10848
+/buy-protopic-ointment-in-london.pdf 3 0 13854
+/make-dissertation-proposal-about-psoriasis.pdf 3 0 9945
+/mobile-phone-should-be-allowed-in-school-essay.pdf 3 0 20061
+/comprar-indometacin-internet-seguro.pdf 3 0 7983
+/comprar-airol-honduras.pdf 3 0 11037
+/careprost-precio-y-cantidad.pdf 3 0 11502
+/comprar-primolut-n-seguro-en-espana.pdf 3 0 14835
+/purchase-climara-online-with-prescription.pdf 3 0 12393
+/paper-about-greenhouse-gases.pdf 3 0 11121
+/buy-patanol-new-york-city.pdf 3 0 9505
+/emla-reduced-price.pdf 3 0 10665
+/order-generic-norvasc-by-phone.pdf 3 0 8535
+/comprar-betaderm-contrareembolso-espana.pdf 3 0 12774
+/buy-climara-online-in-australia.pdf 3 0 14709
+/buy-aerius-in-australia.pdf 3 0 10716
+/order-clobex-safely-online.pdf 3 0 12606
+/risperdal-generico-espana-precio.pdf 3 0 16020
+/academic-paper-writing-services.pdf 3 0 20928
+/condylox-canada-price-blog.pdf 2 0 9556
+/buy-brand-aviane-online-canada.pdf 2 0 10816
+/generic-bactroban-price.pdf 2 0 12082
+/buy-elocom-fast-delivery.pdf 2 0 10080
+/buy-generic-atridox-from-india-online.pdf 2 0 9448
+/write-for-me-article-review-about-fluid-mechanics-online.pdf 2 0 10928
+/buy-prednisolone-online-europe.pdf 2 0 7258
+/make-my-case-study-about-sailing-for-me-cheap-online.pdf 2 0 10810
+/can-you-get-methimazole.pdf 2 0 6638
+/buy-probenecid-new-zealand-online.pdf 2 0 11786
+/help-on-essay.pdf 2 0 13082
+/buy-pennsaid-40-mg-online.pdf 2 0 8206
+/mysoline-price-at-costco.pdf 2 0 10908
+/order-prometrium-from-china.pdf 2 0 9370
+/buy-progynova-in-store.pdf 2 0 11074
+/gentamicin-eye-drops-tablets-price.pdf 2 0 9124
+/figs-vines-and-roses-joy-m-lilley-critical-thinking.pdf 2 0 12684
+/purchase-computer-privacy-case-study-for-cheap.pdf 2 0 14460
+/write-thesis-on-sports-pdf-for-me-online.pdf 2 0 12814
+/buy-condylox-south-africa.pdf 2 0 11184
+/purchase-genuine-aclasta-online.pdf 2 0 4788
+/can-you-buy-amoksiklav-walmart-canada.pdf 2 0 8820
+/daivobet-buy-online-india.pdf 2 0 11992
+/cheapest-elocon-cream-online-uk.pdf 2 0 12260
+/resume-writing-services-online.pdf 2 0 8802
+/buy-robaxin-ontario.pdf 2 0 7666
+/buy-hydrochlorothiazide-cheap-online.pdf 2 0 7326
+/can-buy-lidocaine-walgreens.pdf 2 0 6714
+/critical-essay-harrison-bergeron.pdf 2 0 17622
+/comprar-peritol-barato.pdf 2 0 6426
+/otomax-price-in-singapore.pdf 2 0 9802
+/buy-flucort-legal.pdf 2 0 9246
+/purchase-almetec-guideline.pdf 2 0 11310
+/make-now-eportfolio-term-paper-for-cheap-online.pdf 2 0 10520
+/fucicort-cost-target.pdf 2 0 7829
+/well-defined-thesis-statement.pdf 2 0 11542
+/estrogel-generico-precio-en-colombia.pdf 2 0 7518
+/comprar-diclofenac-gel-barato-sin-receta.pdf 2 0 8306
+/buy-nimegen-europe.pdf 2 0 6382
+/effexor-precio-tijuana.pdf 2 0 6902
+/price-vivelle-dot-qatar.pdf 2 0 9282
+/buy-omifin.pdf 2 0 7472
+/preductal-generico-costa-rica.pdf 2 0 7994
+/cheap-cravit-online-overnight-shipping.pdf 2 0 11278
+/xtane-discount-prices.pdf 2 0 7570
+/price-generic-fiorinal-500-mg.pdf 2 0 10638
+/precio-betnovate-en-argentina.pdf 2 0 5994
+/price-mesigyna-thailand.pdf 2 0 10516
+/do-my-ready-player-one-ernest-cline-report-for-safe-online.pdf 2 0 6180
+/glumetza-canada-buy-online.pdf 2 0 6164
+/order-prometrium-buy.pdf 2 0 8448
+/can-buy-clavamox-uk.pdf 2 0 11720
+/aceclofenac-price-japan.pdf 2 0 8830
+/buy-diversity-in-india-enriches-life-dissertation-chapter.pdf 2 0 13562
+/venta-de-fucithalmic-por-internet-en-chile.pdf 2 0 10392
+/comprar-careprost-generico-en-espana-contrareembolso.pdf 2 0 9824
+/research-paper-writing-service-cheap.pdf 2 0 9524
+/target-pharmacy-levamisole-price.pdf 2 0 11592
+/cheapest-pharmacy-for-lioresal.pdf 2 0 10214
+/essay-proofreading-and-editing.pdf 2 0 9426
+/buy-essay-no-plagiarism.pdf 2 0 14366
+/harmonet-generico-mejor-precio.pdf 2 0 5228
+/compra-indometacin-generico.pdf 2 0 8546
+/vivelle-dot-new-price.pdf 2 0 8534
+/pathway-to-success-essay.pdf 2 0 9793
+/comprar-spironolactone-generico-urgente.pdf 2 0 8380
+/buy-nitrofurantoin-from-amazon.pdf 2 0 6006
+/can-i-buy-scabisan-online-in-canada.pdf 2 0 9702
+/cheap-asacol-hong-kong.pdf 2 0 10152
+/retacnyl-price-dubai.pdf 2 0 8304
+/precio-cipro-panama.pdf 2 0 11034
+/price-check-zomig.pdf 2 0 10204
+/venta-ramipril-uruguay.pdf 2 0 11362
+/order-elimite-fass.pdf 2 0 9252
+/order-essay-about-shylock-victim-now.pdf 2 0 7140
+/albenza-pills-purchase.pdf 2 0 9844
+/buy-alendronate-korea.pdf 2 0 5560
+/purchase-peritol-uk.pdf 2 0 9060
+/order-prescription-champix.pdf 2 0 10296
+/comprar-glivec-farmacia-espana.pdf 2 0 5986
+/order-real-panadol-online.pdf 2 0 5960
+/order-depakine-chrono-from-usa.pdf 2 0 9248
+/buy-zolmist-boots-chemist.pdf 2 0 10164
+/honor-killing-report.pdf 2 0 10698
+/purchase-vermox-online-in-india.pdf 2 0 7180
+/buy-amoxicilina-in-canada-online.pdf 2 0 7096
+/cheap-novolog-120-mg.pdf 2 0 10640
+/aceclofenac-best-price-uk.pdf 2 0 7648
+/comprar-primolut-n-en-jaen.pdf 2 0 7274
+/where-can-you-get-crotamiton.pdf 2 0 5604
+/precio-diprosone-monterrey.pdf 2 0 8452
+/do-for-me-essay-on-the-body-shop-now.pdf 2 0 13210
+/cheap-xamiol-polo.pdf 2 0 6908
+/buy-progesterone-hong-kong.pdf 2 0 9820
+/make-qmjhl-coursework-for-me.pdf 2 0 7654
+/cheap-spironolactone-from-canada-online.pdf 2 0 6272
+/order-elocom-online-uk.pdf 2 0 8422
+/custom-the-silver-chair-admission-essay-for-safe.pdf 2 0 14530
+/purchase-cheap-research-paper-about-novartis-glivec-case-study.pdf 2 0 8096
+/make-my-silence-is-golden-dissertation-methodology-for-me-cheap-online.pdf 2 0 10002
+/thesis-statements-on-abortion-pro-choice.pdf 2 0 11916
+/write-your-economics-paper.pdf 2 0 9506
+/cheap-ursosan-kit.pdf 2 0 7197
+/klipal-price-without-insurance.pdf 2 0 9578
+/symbicort-buy-online.pdf 2 0 7118
+/price-for-amoxicillin-20mg.pdf 2 0 10102
+/buy-benicar-5mg-uk.pdf 2 0 5432
+/price-of-seroflo-tablets.pdf 2 0 8706
+/essay-writing-service-review.pdf 2 0 9350
+/novynette-generic-price-at-walmart.pdf 2 0 9298
+/venta-albendazol-magnus.pdf 2 0 8730
+/where-can-i-buy-dicloflex-in-the-uk.pdf 2 0 8346
+/canada-lasix-cheap.pdf 2 0 8336
+/store-reductil-buy.pdf 2 0 8420
+/homework-about-religio-medici-thomas-browne.pdf 2 0 9470
+/cost-clomid-buy.pdf 2 0 5472
+/buy-albendazol-drug.pdf 2 0 9418
+/sirdalud-cheap-uk.pdf 2 0 10512
+/travatan-best-price-australia.pdf 2 0 9554
+/vaniqa-precio-con-receta.pdf 2 0 5642
+/donde-comprar-estrogen-peru.pdf 2 0 6000
+/buy-mezym-australia-paypal.pdf 2 0 5338
+/perlutex-venta-libre-buenos-aires.pdf 2 0 5404
+/buy-permethrin-for-less.pdf 2 0 7608
+/buy-silymarin-london.pdf 2 0 11492
+/where-can-i-get-ebixa.pdf 2 0 7218
+/high-quality-article-writing-service.pdf 2 0 13632
+/stromectol-herbal-precio.pdf 2 0 6266
+/where-to-buy-real-elomet.pdf 2 0 5630
+/do-guide-dogs-essay-now.pdf 2 0 10619
+/buy-periactin-canada-online.pdf 2 0 7682
+/buy-cheap-norlevo-online-uk.pdf 2 0 5378
+/venta-de-rifampicin-online-en-argentina.pdf 2 0 8516
+/acnotin-price-at-walgreens.pdf 2 0 6180
+/price-mezym-compendium.pdf 2 0 9078
+/buy-vesicare-from-canada.pdf 2 0 7902
+/paraphrasing-worksheets.pdf 2 0 12599
+/precio-de-chloroquine-en-farmacias-espanolas.pdf 2 0 7174
+/precio-dermovate-bogota.pdf 2 0 6474
+/order-canadian-amoxiclav.pdf 2 0 10202
+/precio-eldepryl-inkafarma.pdf 2 0 10694
+/buy-levitra-las-vegas.pdf 2 0 7720
+/buy-lotriderm-london-over-counter.pdf 2 0 12112
+/urivoid-price-johannesburg.pdf 2 0 7370
+/can-you-buy-levamisole-over-the-counter.pdf 2 0 8478
+/best-price-for-ivermectin-10mg.pdf 2 0 6988
+/case-study-on-ferrets.pdf 2 0 7800
+/write-discussion-section-research-paper-apa.pdf 2 0 13780
+/cheap-creon-with-mastercard.pdf 2 0 7148
+/buy-curacne-online-from-mexico.pdf 2 0 9328
+/boswellia-preco-barato.pdf 2 0 9052
+/precio-oficial-probenecid-en-farmacia.pdf 2 0 7504
+/custom-dissertation-introduction-on-advantages-and-disadvantages-of-living-abroad-for-cheap.pdf 2 0 13840
+/life-under-the-sea-report.pdf 2 0 6774
+/walgreens-pharmacy-toprol-price.pdf 2 0 6184
+/your-essay-writer.pdf 2 0 13388
+/cheap-nimegen-with-free-shipping.pdf 2 0 7178
+/cheap-corvitol-forum.pdf 2 0 6794
+/generic-lanoxin-online-cheap.pdf 2 0 8114
+/canada-omeprazole-buy-online.pdf 2 0 8856
+/do-my-anxiety-and-its-effects-thesis-proposal-for-safe-online.pdf 2 0 15158
+/price-for-novolog-750-mg.pdf 2 0 9198
+/order-avana-zamiennik.pdf 2 0 10338
+/milurit-price-in-thailand.pdf 2 0 10520
+/cheapest-antabuse-in-canada.pdf 2 0 5410
+/price-for-yaz-in-canada.pdf 2 0 5628
+/purchase-epogen-drug.pdf 2 0 5238
+/cheap-progynon-online.pdf 2 0 6464
+/order-norethindrone-comp.pdf 2 0 8694
+/purchase-doxiciclina-online-reviews.pdf 2 0 6596
+/price-of-estrogen-tablets.pdf 2 0 9124
+/someone-to-write-my-essay.pdf 2 0 10154
+/price-of-salofalk-medicine.pdf 2 0 6190
+/make-now-sir-gawain-movie-review.pdf 2 0 12670
+/comprar-nexium-chile.pdf 2 0 6952
+/order-agarol-pills-online.pdf 2 0 7960
+/buy-klipal-online-with-paypal.pdf 2 0 9746
+/price-of-champix-pack.pdf 2 0 8728
+/where-to-buy-quinine-in-the-uk.pdf 2 0 6054
+/price-tentex-australia.pdf 2 0 7200
+/climara-comprar-barcelona.pdf 2 0 8184
+/solupred-price-in-the-usa.pdf 2 0 7190
+/cheap-ursodiol.pdf 2 0 10918
+/essay-on-war-in-iraq.pdf 2 0 11634
+/buy-niaspan-superdrug.pdf 2 0 5424
+/buy-diclofenac-prep.pdf 2 0 8476
+/astonin-venta-en-chile.pdf 2 0 6662
+/buy-coveram-nz.pdf 2 0 11290
+/buy-clobex-edinburgh.pdf 2 0 10134
+/venta-robaxin-sin-receta.pdf 2 0 5410
+/buy-xtane-750-mg.pdf 2 0 8338
+/thyrax-duotab-price-with-insurance.pdf 2 0 5814
+/order-cyproheptadine-uk.pdf 2 0 9490
+/can-i-buy-probenecid-in-hong-kong.pdf 2 0 7544
+/pharmacy-buy-periactin.pdf 2 0 8716
+/research-paper-about-high-school-musical.pdf 2 0 11198
+/best-place-buy-postinor.pdf 2 0 7642
+/buy-scabisan-generic.pdf 2 0 6428
+/precio-elocon-cream-costa-rica.pdf 2 0 9018
+/pharmacy-buy-bonviva.pdf 2 0 6726
+/drontal-purchase-assistance.pdf 2 0 5292
+/venta-de-travatan-en-lima.pdf 2 0 10756
+/comprar-vastarel-de-150-mg.pdf 2 0 7172
+/buy-real-gimalxina.pdf 2 0 7924
+/daivobet-walgreens-price.pdf 2 0 9596
+/cheap-nimegen-gold-coast.pdf 2 0 6816
+/toradol-price-comparisons.pdf 2 0 10564
+/comprar-travatan-envio-24h.pdf 2 0 7088
+/lactulose-price-at-publix.pdf 2 0 10816
+/can-you-buy-flector-over-the-counter-in-canada.pdf 2 0 7662
+/comprar-arcoxia-madrid.pdf 2 0 9130
+/cheap-ciplactin-in-australia.pdf 2 0 9052
+/order-depakine-chrono-usa.pdf 2 0 10250
+/pristiq-barato-contrareembolso.pdf 2 0 8362
+/online-benadryl-uk-cheap.pdf 2 0 5638
+/buy-fluticasone-ointment-dosage.pdf 2 0 5528
+/buy-pantocid-400-mg-orally-in-a-single-dose.pdf 2 0 7818
+/aerius-price-review.pdf 2 0 6642
+/buy-brand-duomox-online-canada.pdf 2 0 6314
+/comprar-temovate-por-internet-espana.pdf 2 0 9264
+/medical-personal-statement-writing-service.pdf 2 0 16020
+/buy-orungal-lloyds-pharmacy.pdf 2 0 6550
+/purchase-formoterol-canada.pdf 2 0 5600
+/comprar-promethazine-vina-del-mar.pdf 2 0 10824
+/price-of-sirdalud-with-insurance.pdf 2 0 8362
+/discount-salbutamol-buy.pdf 2 0 10840
+/cheap-progestogel-overnight.pdf 2 0 6658
+/microgynon-price-in-london.pdf 2 0 5198
+/compra-xamiol-capital-federal.pdf 2 0 7995
+/cheap-biofenac-canada-pharmacy.pdf 2 0 7254
+/buy-vimax-in-bangkok.pdf 2 0 7424
+/glumetza-purchase-canada.pdf 2 0 8074
+/cheap-apranax-uk.pdf 2 0 9680
+/barato-tricor-online.pdf 2 0 6550
+/online-essay-editing-service.pdf 2 0 9570
+/price-flucort-contraindicaciones.pdf 2 0 6464
+/research-paper-on-oil-spillage.pdf 2 0 10806
+/cheap-anticol-co-uk.pdf 2 0 8982
+/make-hackers-essay-for-me.pdf 2 0 14576
+/research-paper-about-dilemma-of-youth-in-pakistan.pdf 2 0 11692
+/where-can-you-get-lucetam-in-canada.pdf 2 0 10376
+/cheap-solaraze-tablets-for-sale.pdf 2 0 11460
+/venta-thyrax-madrid.pdf 2 0 6678
+/rimonabant-price-in-sa.pdf 2 0 6666
+/literature-review-on-the-case-for-a-creator.pdf 2 0 9608
+/order-melatonin-online-usa.pdf 2 0 10138
+/redomex-price-rite-aid.pdf 2 0 8190
+/price-of-accutane-duo.pdf 2 0 8726
+/price-parkemed-bangkok.pdf 2 0 7019
+/precio-locacid-farmacia-barcelona.pdf 2 0 7052
+/generic-tenofovir-for-sale-cheap.pdf 2 0 5828
+/where-to-buy-digoxina-cheap.pdf 2 0 10830
+/buying-flumazenil-online.pdf 2 0 5546
+/iressa-precio-soles.pdf 2 0 6355
+/generico-glivec-precio.pdf 2 0 9948
+/pedido-cravit-yahoo.pdf 2 0 6640
+/precio-clamoxyl-5-mg-venezuela.pdf 2 0 10484
+/hydrochlorothiazide-precio-inkafarma.pdf 2 0 10140
+/slimona-to-buy.pdf 2 0 9530
+/custom-clothes-we-wear-article-review-now.pdf 2 0 11742
+/buy-ponstan-mexico.pdf 2 0 9846
+/price-of-kamagra-jelly-at-walmart.pdf 2 0 9154
+/comprar-ranolazine-cordoba-argentina.pdf 2 0 9246
+/purchase-fucicort-emagrece.pdf 2 0 9374
+/buy-progestogel-uk.pdf 2 0 7704
+/buy-pyrantel-wiki.pdf 2 0 11682
+/buy-generic-oradexon-from-india-online.pdf 2 0 6998
+/precio-en-farmacia-de-artane-20-mg.pdf 2 0 8478
+/sumial-precio.pdf 2 0 6270
+/sell-literature-review-paper.pdf 2 0 7682
+/precio-en-farmacia-de-mirapex.pdf 2 0 10034
+/buy-zyloric-from-canada.pdf 2 0 10000
+/buy-vantin-hong-kong.pdf 2 0 6472
+/help-on-research-paper.pdf 2 0 11408
+/fluconazole-price-australia.pdf 2 0 6352
+/critical-thinking-about-vicki-covington.pdf 2 0 10870
+/make-my-narnia-article-for-me.pdf 2 0 13148
+/buy-spirulina-las-vegas.pdf 2 0 9876
+/order-saroten-online-usa.pdf 2 0 6004
+/buy-canadian-meprobamate.pdf 2 0 5542
+/order-slimex-from-canada.pdf 2 0 8796
+/cheap-warticon-by-mail.pdf 2 0 11086
+/comprar-zyloric-urgente.pdf 2 0 12300
+/venta-de-indometacin-en-tenerife.pdf 2 0 9146
+/where-can-i-buy-postinor-tablets.pdf 2 0 5742
+/crinone-farmacia-ahumada-precio.pdf 2 0 7186
+/where-to-buy-peritol-in-toronto.pdf 2 0 6756
+/ursosan-purchase-assistance.pdf 2 0 10220
+/precio-delestrogen-farmacia-andorra.pdf 2 0 10422
+/canadian-pharmacy-lioresal-price.pdf 2 0 8790
+/acnotin-barato-espana.pdf 2 0 8634
+/price-aromasin-us.pdf 2 0 10992
+/generic-pentoxifilina-buy.pdf 2 0 7060
+/comprar-metronidazole-gel-generico-barato.pdf 2 0 5322
+/buy-lactulose-london-over-counter.pdf 2 0 6370
+/buy-gimalxina-us-pharmacy.pdf 2 0 7974
+/ending-of-king-lear-essay.pdf 2 0 10612
+/buy-zincovit-china.pdf 2 0 9256
+/cheap-invega-uk-only.pdf 2 0 10162
+/robert-james-report.pdf 2 0 17274
+/comprar-tenofovir-generico-en-espana.pdf 2 0 7630
+/price-for-asacolon.pdf 2 0 9598
+/cheap-alternatives-to-amoksiklav.pdf 2 0 12442
+/buy-biseptol-mastercard.pdf 2 0 9672
+/precio-voltaren-gel-caracas.pdf 2 0 8826
+/curacne-price-walmart.pdf 2 0 7072
+/pentrexyl-price-nz.pdf 2 0 7454
+/purchase-deniban-cena.pdf 2 0 7538
+/can-i-buy-dexamethasone-at-walgreens.pdf 2 0 8468
+/where-can-i-get-norlevo-in-singapore.pdf 2 0 7268
+/comprar-benadryl-barato-espana.pdf 2 0 7946
+/buy-clopidogrel-online-new-zealand.pdf 2 0 9358
+/can-i-buy-ergotamine-over-the-counter-in-uk.pdf 2 0 11214
+/itraconazole-price-in-london.pdf 2 0 11292
+/norethisterone-price-brisbane.pdf 2 0 6290
+/auto-essay-writer.pdf 2 0 9660
+/buy-hydromet-in-stores.pdf 2 0 6850
+/write-article-review-about-john-muir-for-safe.pdf 2 0 10252
+/order-seronil-otc.pdf 2 0 11858
+/atarax-price-at-rite-aid.pdf 2 0 11230
+/online-proofreading-tool.pdf 2 0 10960
+/cheap-mirapexin-made-in-usa.pdf 2 0 7772
+/effects-of-generation-gap-essay.pdf 2 0 11866
+/master-thesis-writing-help.pdf 2 0 9388
+/order-fusidic-acid-tabletas.pdf 2 0 5582
+/warticon-prescription-price.pdf 2 0 8452
+/custom-course-work-about-iran-iraq-war.pdf 2 0 9852
+/climara-price-australia.pdf 2 0 7416
+/celestoderm-purchase-assistance.pdf 2 0 10208
+/purchase-zineryt-online-australia.pdf 2 0 10230
+/primolut-n-price-coupon.pdf 2 0 9350
+/order-gracial-compendium.pdf 2 0 7948
+/venta-cialis-jelly-lima-peru.pdf 2 0 8040
+/donde-comprar-ketrel-venezuela.pdf 2 0 10932
+/meridia-price-in-usa.pdf 2 0 10488
+/shoppers-drug-mart-serevent-price.pdf 2 0 6968
+/order-problem-solving-about-journalism-as-a-profession.pdf 2 0 7970
+/lloyds-pharmacy-order-bonviva.pdf 2 0 8182
+/write-my-essay-about-jainism-for-cheap-online.pdf 2 0 9294
+/cheap-advair-overnight.pdf 2 0 7296
+/precio-pergotime-farmacia-andorra.pdf 2 0 8308
+/kamagra-polo-buy-nz.pdf 2 0 10130
+/order-book-review-on-solid-waste-management-pdf-for-safe.pdf 2 0 9788
+/zineryt-price-in-canada.pdf 2 0 7845
+/buy-nimegen-chicago.pdf 2 0 11092
+/cheap-agarol-guidelines.pdf 2 0 8236
+/co-amoxiclav-price-in-bahrain.pdf 2 0 5814
+/cheap-betaderm-high.pdf 2 0 11586
+/comprar-alipas-por-internet-de-forma-segura.pdf 2 0 9222
+/where-to-buy-eltroxin-in-canada-walmart.pdf 2 0 6310
+/target-canada-aloe-vera-gel.pdf 2 0 7412
+/buy-provera-400-mg-orally-in-a-single-dose.pdf 2 0 9148
+/venta-voltaren-gel-sin-receta-chile.pdf 2 0 8604
+/homework-about-william-t-vollmann.pdf 2 0 11406
+/comprar-kwell-barcelona-sin-receta.pdf 2 0 9344
+/cheap-genuine-flumazenil-uk.pdf 2 0 6138
+/purchase-celestoderm-kit.pdf 2 0 12170
+/buy-albendazole-online-24-hours.pdf 2 0 8368
+/comprar-hydromet-miami.pdf 2 0 10296
+/canada-deniban-buy.pdf 2 0 10316
+/norlevo-price-in-mercury-drug.pdf 2 0 7124
+/price-canaural-cvs-pharmacy.pdf 2 0 10354
+/write-my-essay-org.pdf 2 0 7022
+/thyrax-buy-online-europe.pdf 2 0 8168
+/buy-minesse-in-germany.pdf 2 0 7186
+/comprar-vivitrol-no-brasil.pdf 2 0 7392
+/lialda-price-montreal.pdf 2 0 7180
+/cheap-order-rural-areas-of-india-research-paper.pdf 2 0 13706
+/comprar-microgynon-generico-seguro.pdf 2 0 8282
+/orungal-order.pdf 2 0 7724
+/bonviva-price-usa.pdf 2 0 8722
+/price-of-naltrexone-in-dubai.pdf 2 0 7358
+/venta-de-clavamox-sin-receta.pdf 2 0 10044
+/pimecrolimus-generico-compra-on-line.pdf 2 0 7806
+/buy-klacid-berlin.pdf 2 0 8694
+/precio-del-apetamin-p-en-farmacias.pdf 2 0 10886
+/buy-microgynon-1mg-tablets.pdf 2 0 6134
+/lasix-venta-telefonica.pdf 2 0 11828
+/buy-pantozol-leicester.pdf 2 0 8304
+/write-baruch-spinoza-report-for-safe.pdf 2 0 10998
+/venta-de-estrogen-generico.pdf 2 0 9955
+/buy-ponstan-from-mexico.pdf 2 0 7144
+/eve-harris-article-review.pdf 2 0 9464
+/buy-clozapine-online-hong-kong.pdf 2 0 8184
+/comprar-pentasa-sin-receta-en-espana.pdf 2 0 7832
+/cheap-qualaquin-ireland.pdf 2 0 5720
+/alipas-generico-colombia-precio.pdf 2 0 9658
+/fucithalmic-price-in-sa.pdf 2 0 9148
+/purchase-citodon-from-australia.pdf 2 0 7340
+/price-for-desyrel.pdf 2 0 6944
+/wellbutrin-barato-en-chile.pdf 2 0 8624
+/ordering-aldactazine-from-canada.pdf 2 0 6904
+/scholarship-essay-help.pdf 2 0 9610
+/purchase-fucithalmic-online.pdf 2 0 10864
+/comprar-pamelor-generico-no-brasil.pdf 2 0 6900
+/cheap-climara-pharmaceuticals.pdf 2 0 7520
+/comprar-ursofalk-madrid-sin-receta.pdf 2 0 5384
+/lumigan-buy-online-europe.pdf 2 0 9242
+/buy-vermox-dubai.pdf 2 0 7340
+/cheap-ranitidine-online-reviews.pdf 2 0 10182
+/cheap-piracetam-mexico.pdf 2 0 7692
+/crotamiton-price-per-tablet.pdf 2 0 8810
+/apa-style-paraphrasing.pdf 2 0 13262
+/buy-isotrexin-canada.pdf 2 0 10516
+/sell-personal-narrative-essay.pdf 2 0 10668
+/write-my-chess-presentation-for-me.pdf 2 0 10803
+/buy-levamisole-at-store.pdf 2 0 10002
+/donde-comprar-pergotime.pdf 2 0 5780
+/write-my-admission-essay.pdf 2 0 12812
+/buy-medrol-hong-kong-expat.pdf 2 0 7690
+/order-generic-amoxiclav-online.pdf 2 0 9128
+/comprar-biofenac-original-contrareembolso.pdf 2 0 11688
+/nalorex-generic-price.pdf 2 0 10888
+/gracial-online-order-canada.pdf 2 0 7680
+/buy-ditropan-doses.pdf 2 0 8448
+/william-lyon-mackenzie-king-term-paper.pdf 2 0 11216
+/cheap-pergotime-ireland.pdf 2 0 8918
+/estrace-cream-kit-price.pdf 2 0 7090
+/buy-apranax-online-overnight-delivery.pdf 2 0 8173
+/do-my-essay-about-death-and-rebirth-for-me.pdf 2 0 12150
+/dissertation-hypothesis-on-bubbles.pdf 2 0 7726
+/buy-nurofen-hawaii.pdf 2 0 11078
+/where-can-i-buy-real-eltroxin.pdf 2 0 5934
+/order-revia-from-canada.pdf 2 0 9200
+/cheap-vivelle-dot-on-line.pdf 2 0 5424
+/buy-pyrantel-medicamento.pdf 2 0 7818
+/amoxiclav-canada-cheapest.pdf 2 0 5832
+/cheap-truvada-generico.pdf 2 0 5348
+/order-nurofen-dosage.pdf 2 0 9534
+/combantrin-1-buy-online-usa.pdf 2 0 6092
+/buy-volfenac-online-india.pdf 2 0 8242
+/cheap-creon-substitute.pdf 2 0 8290
+/can-you-buy-dormidina-in-mexico.pdf 2 0 10320
+/buy-tegretol-brampton.pdf 2 0 8182
+/price-dalacin-c-vomiting.pdf 2 0 6214
+/buy-furazolidone-vancouver.pdf 2 0 9150
+/comprar-ramipril-receta.pdf 2 0 11650
+/buy-cabergoline-netherlands.pdf 2 0 8628
+/clavaseptin-canada-purchase.pdf 2 0 9054
+/cheap-pripsen-dosage.pdf 2 0 10940
+/where-to-get-atopica-in-toronto.pdf 2 0 7330
+/buy-amisulpride-from-india.pdf 2 0 9322
+/write-report-about-a-greyhound-of-a-girl-for-me-cheap.pdf 2 0 7932
+/best-price-on-zolmitriptan.pdf 2 0 8234
+/buy-legit-vaniqa.pdf 2 0 8288
+/custom-a-road-accident-i-witnessed-creative-writing-now.pdf 2 0 9254
+/where-buy-mebendazole.pdf 2 0 9538
+/essay-on-the-orchard-of-lost-souls-nadifa-mohamed.pdf 2 0 10904
+/where-can-you-get-amikacin.pdf 2 0 11404
+/cheap-niaspan-50-mg.pdf 2 0 9794
+/price-harmonet.pdf 2 0 10514
+/venta-de-vesicare-en-farmacias.pdf 2 0 7300
+/can-you-buy-maxidex-over-the-counter-in-canada.pdf 2 0 8108
+/triphala-precio-arequipa.pdf 2 0 10104
+/a-wedding-party-i-recently-attended-creative-writing.pdf 2 0 6766
+/order-furazolidone-generic.pdf 2 0 6942
+/buy-prescription-biaxin.pdf 2 0 10176
+/where-can-i-buy-parkemed-for-cheap.pdf 2 0 11674
+/precio-oficial-synthroid-en-farmacia.pdf 2 0 10834
+/betamethasone-price-with-prescription.pdf 2 0 11642
+/buy-hydromet-chicago.pdf 2 0 6492
+/precio-provera-de-100.pdf 2 0 10334
+/buy-eltroxin-korea.pdf 2 0 10426
+/gracial-price-cut.pdf 2 0 6532
+/endometrin-drug-price-uk.pdf 2 0 10896
+/price-diprosone-wikipedia.pdf 2 0 9270
+/ketorolaco-tabletas-precio.pdf 2 0 8910
+/buy-genuine-celestoderm-online.pdf 2 0 7532
+/buy-biaxin-in-dubai.pdf 2 0 12194
+/buy-apetamin-p-online-cheap-uk.pdf 2 0 5736
+/do-for-me-dissertation-chapter-about-awareness-of-health-and-hygiene-now.pdf 2 0 9718
+/order-vidalta-from-canadian-pharmacy.pdf 2 0 5214
+/gothic-tale-student-essays.pdf 2 0 13108
+/precio-pastilla-diltiazem-ointment-argentina.pdf 2 0 7098
+/buy-cheap-valbazen-next-day-delivery.pdf 2 0 8190
+/buy-granisetron-in-australia.pdf 2 0 7030
+/where-buy-isotrexin.pdf 2 0 8438
+/order-motilium-polo.pdf 2 0 6604
+/cyprostol-pharmacy-price.pdf 2 0 10606
+/comprar-dermovate-en-madrid-en-mano.pdf 2 0 10220
+/order-xylocaine-vidal.pdf 2 0 7458
+/comprar-triderm-venezuela.pdf 2 0 11344
+/buy-retacnyl-turkey.pdf 2 0 8374
+/cheap-patanol-nz.pdf 2 0 5988
+/seretide-que-precio-tiene.pdf 2 0 7590
+/buy-cod-efferalgan-holland.pdf 2 0 7852
+/elomet-cheapest-uk.pdf 2 0 5430
+/can-you-buy-meliane-over-the-counter-in-australia.pdf 2 0 10774
+/curacne-cash-price.pdf 2 0 10748
+/cheap-apetamin-p-au.pdf 2 0 9192
+/solaraze-price-in-india.pdf 2 0 7700
+/cheap-real-elocom-online.pdf 2 0 4836
+/venta-vastarel-en-mano-madrid.pdf 2 0 6536
+/buy-microgynon-blog.pdf 2 0 8583
+/help-with-academic-writing.pdf 2 0 7146
+/precio-propecia-generico-espana.pdf 2 0 9230
+/best-price-mirtazapine-online.pdf 2 0 10552
+/buy-cyclogest-generico.pdf 2 0 7068
+/store-to-buy-vesparax.pdf 2 0 9364
+/telfast-price-kroger.pdf 2 0 5450
+/buy-omeprazole-australia.pdf 2 0 7514
+/buy-tryptizol-uae.pdf 2 0 7238
+/price-ampicillin-junior.pdf 2 0 7362
+/order-pancrelipase-pills-online.pdf 2 0 10856
+/pharmacy-buy-mirapex-usa.pdf 2 0 7612
+/license.txt 2 0 39090
+/triamcinolone-cheap.pdf 2 0 8616
+/purchase-pamelor-south-africa.pdf 2 0 5718
+/careprost-uk-buy.pdf 2 0 10190
+/venta-de-estrogen-sin-receta-en-argentina.pdf 2 0 6678
+/online-dexamethasone-cheapest.pdf 2 0 7266
+/cheap-genuine-chloroquine.pdf 2 0 5610
+/albenza-venta-tijuana.pdf 2 0 6894
+/price-clarus-wikipedia.pdf 2 0 6666
+/benicar-pills-purchase.pdf 2 0 8374
+/price-of-asacol-medicine.pdf 2 0 7894
+/comprar-bethanechol-barata-en-espana.pdf 2 0 6984
+/order-now-dissertation-hypothesis-about-borderless-world-for-cheap-online.pdf 2 0 13606
+/cheapest-rifampicin-uk.pdf 2 0 8700
+/lidocaine-farmacia-chile-precio.pdf 2 0 7926
+/do-for-me-single-parenthood-essay-for-cheap.pdf 2 0 5916
+/order-belara-online-australia.pdf 2 0 5178
+/buy-meliane-lloyds.pdf 2 0 7700
+/cheap-podophyllotoxin-kit.pdf 2 0 11520
+/buy-clomid-au.pdf 2 0 5634
+/sinequan-prices-costco.pdf 2 0 6440
+/cheap-synthroid-for.pdf 2 0 5614
+/order-primperan-online-japan.pdf 2 0 7022
+/lotriderm-get-quit-program.pdf 2 0 6124
+/where-to-get-betacap-in-singapore.pdf 2 0 11418
+/cheap-wholesale-levitra.pdf 2 0 9984
+/price-stieva-a-zamiennik.pdf 2 0 5684
+/dna-methylation-research-papers.pdf 2 0 10710
+/buy-aygestin-from-australia.pdf 2 0 10518
+/low-price-antaxone.pdf 2 0 10404
+/places-to-buy-quinine.pdf 2 0 9266
+/thesis-writers.pdf 2 0 6728
+/hindu-marriage-act-report.pdf 2 0 10914
+/price-stemetil-junior.pdf 2 0 10890
+/cheap-periactin-indicacao.pdf 2 0 8600
+/generico-aviane-mas-barato.pdf 2 0 9588
+/can-i-order-salofalk-online.pdf 2 0 6732
+/careprost-purchase-cheap.pdf 2 0 5764
+/how-to-get-sibutramine-in-canada.pdf 2 0 6988
+/safe-online-skelaxin-orders.pdf 2 0 7262
+/purchase-doxiciclina-nz.pdf 2 0 8076
+/precio-caja-albenza.pdf 2 0 8857
+/buy-generic-harmonet-in-usa.pdf 2 0 7918
+/can-you-buy-postinor-walmart-canada.pdf 2 0 11040
+/cheap-clomid-20-mg.pdf 2 0 6060
+/buy-novolog-generic-online.pdf 2 0 9954
+/buy-depakine-chrono-manchester.pdf 2 0 9674
+/cheap-daivobet-wiki.pdf 2 0 6826
+/case-study-about-friedrich-nietzsche.pdf 2 0 13770
+/creative-writing-on-robotics-pdf.pdf 2 0 16108
+/generic-clobex-price-walmart.pdf 2 0 8500
+/comprar-probalan-peru.pdf 2 0 9046
+/cheap-spirulina-pills-canada.pdf 2 0 5322
+/propecia-price-turkey.pdf 2 0 7765
+/order-alwar-report-for-cheap-online.pdf 2 0 9730
+/naltrexone-price-per-pill.pdf 2 0 8364
+/cheap-florinef-brisbane.pdf 2 0 6628
+/quero-comprar-podophyllotoxin.pdf 2 0 7992
+/levonelle-price-per-pill-cvs.pdf 2 0 5958
+/where-to-buy-depakine-chrono-in-south-africa.pdf 2 0 6930
+/store-to-buy-solupred.pdf 2 0 6672
+/make-my-essay-on-c-john-coombes-now.pdf 2 0 13372
+/doxylamine-price-perth.pdf 2 0 8802
+/buy-supradyn-glasgow.pdf 2 0 7904
+/online-robaxin-uk-cheap.pdf 2 0 8424
+/rifampicin-price-sydney.pdf 2 0 10464
+/target-pharmacy-tarivid.pdf 2 0 9168
+/best-custom-writing-website.pdf 2 0 9598
+/red-panda-research-paper.pdf 2 0 8346
+/hydrocortisone-barato-chile.pdf 2 0 7076
+/make-my-media-and-communication-research-paper-for-me-cheap.pdf 2 0 12338
+/half-price-doliprane.pdf 2 0 8532
+/make-now-book-building-process-thesis-proposal-for-cheap.pdf 2 0 11962
+/comprar-solupred-por-internet-de-forma-segura.pdf 2 0 6596
+/lyclear-generico-precio-en-colombia.pdf 2 0 5744
+/pharmacy-doxylamine-buy.pdf 2 0 6344
+/buy-l-thyroxine-ebay.pdf 2 0 8640
+/mejonkvrouwe-de-mauleon-homework.pdf 2 0 10578
+/price-for-rifadin.pdf 2 0 11030
+/purchase-pergotime-safely-online.pdf 2 0 6084
+/venta-acnotin-generico-chile.pdf 2 0 5902
+/comprar-cipro-por-unidades.pdf 2 0 9098
+/buy-arcoxia-hawaii.pdf 2 0 6028
+/cheap-dicloberl-alternative.pdf 2 0 8372
+/buy-terramicina-vancouver-bc.pdf 2 0 6442
+/buy-eltroxin-online-singapore.pdf 2 0 11396
+/price-pripsen-online.pdf 2 0 8240
+/buy-generic-estradiol-in-usa.pdf 2 0 7932
+/write-my-power-quality-improvement-essay.pdf 2 0 10588
+/precio-go-lotrisone.pdf 2 0 9514
+/florinef-price-usa.pdf 2 0 12730
+/make-review-on-ecommerce-website-for-cheap-online.pdf 2 0 6590
+/buy-clarus-at-walmart.pdf 2 0 12038
+/generico-mais-barato-do-ergotamine.pdf 2 0 9598
+/buy-betamethasone-interaction.pdf 2 0 10474
+/cheapest-generic-nootropil-uk.pdf 2 0 10202
+/where-to-get-xtane.pdf 2 0 9140
+/comprar-zithromax-en-internet.pdf 2 0 10671
+/primolut-n-cost-target.pdf 2 0 8378
+/dalacin-c-price-kroger.pdf 2 0 9482
+/elocom-venta-en-bogota.pdf 2 0 8252
+/comprar-cyclogest-sin-receta-en-argentina.pdf 2 0 7268
+/order-ventolin-from-boots.pdf 2 0 6840
+/dissertation-topics-in-education.pdf 2 0 15676
+/order-inderal-south-africa.pdf 2 0 11198
+/order-milurit-kit.pdf 2 0 7214
+/cod-efferalgan-generic-price-uk.pdf 2 0 7972
+/price-of-trivastal-drug.pdf 2 0 8556
+/order-mirtazapine-europe.pdf 2 0 10774
+/where-to-get-pramipexole-in-singapore.pdf 2 0 7622
+/report-about-peltier-effect.pdf 2 0 5990
+/make-report-about-athena-the-wise-joan-holub-for-safe.pdf 2 0 6640
+/comprar-terramicina-seguro-en-espana.pdf 2 0 8638
+/buy-naltrexone-legally-online.pdf 2 0 11932
+/pedido-zomig-precio.pdf 2 0 11516
+/atarax-price-spain.pdf 2 0 6324
+/puedo-comprar-rimonabant-sin-receta.pdf 2 0 11466
+/primolut-n-buy-fast.pdf 2 0 6588
+/levocetirizine-price-in-mercury.pdf 2 0 5912
+/good-site-buy-essay.pdf 2 0 9556
+/five-paragraph-autobiographical-essay.pdf 2 0 7770
+/price-omeprazole-buy.pdf 2 0 6724
+/english-my-second-language-essay.pdf 2 0 9162
+/cheap-asacol-tabletas.pdf 2 0 6058
+/descuento-allopurinol-usos.pdf 2 0 11306
+/cheap-tetracycline-prices.pdf 2 0 9860
+/buy-toprol-hong-kong.pdf 2 0 10170
+/order-generic-furazolidone-online-canada.pdf 2 0 9338
+/price-of-omifin-duo-ireland.pdf 2 0 7606
+/cheap-alternative-to-ketorolac.pdf 2 0 10798
+/comprar-coveram-de-confianza.pdf 2 0 9364
+/make-book-review-on-life-500-words.pdf 2 0 10736
+/purchase-levonelle-quit.pdf 2 0 6864
+/buy-supradyn-online-hong-kong.pdf 2 0 11142
+/elocon-cream-price-in-new-york.pdf 2 0 11940
+/healthy-school-lunches-report.pdf 2 0 10248
+/precio-bethanechol-reino-unido.pdf 2 0 7402
+/buy-aygestin-25-mg.pdf 2 0 6060
+/comprar-provera-en-andorra-sin-receta.pdf 2 0 6848
+/custom-research-paper-on-online-stock-trading-for-safe.pdf 2 0 10374
+/emla-price-spain.pdf 2 0 5646
+/invega-generic-price.pdf 2 0 9804
+/where-can-you-buy-mirtazapine.pdf 2 0 11102
+/cheap-promethazine-from-canada-online.pdf 2 0 12110
+/comprar-mirapex-pago-contrareembolso.pdf 2 0 6938
+/buy-progestogel-edmonton-alberta.pdf 2 0 7382
+/progynova-mais-barato-internet.pdf 2 0 8652
+/purchase-sirdalud-singapore.pdf 2 0 6228
+/buy-cheap-drontal.pdf 2 0 7092
+/where-to-get-perindopril-in-singapore.pdf 2 0 8256
+/cheap-hydrochlorothiazide-generic-100mg.pdf 2 0 5596
+/cheap-toradol-united-states.pdf 2 0 9060
+/write-term-paper-about-the-story-of-zahra-hanan-al-shaykh-for-safe.pdf 2 0 6632
+/purchase-flumazenil-fass.pdf 2 0 6874
+/comprar-clobex-generico-contrareembolso-espana.pdf 2 0 10316
+/precio-benadryl-farmacia-andorra.pdf 2 0 7752
+/order-microgynon-in-canada.pdf 2 0 9090
+/price-olmetec-side.pdf 2 0 6004
+/buy-saroten-high.pdf 2 0 11254
+/do-causes-and-effects-of-divorce-annotated-bibliography-for-cheap.pdf 2 0 10238
+/average-price-inderal.pdf 2 0 7924
+/cheap-rimonabant-uk-forum.pdf 2 0 5980
+/pay-people-to-write-papers.pdf 2 0 9454
+/buy-clobetasol-delivery.pdf 2 0 8672
+/order-tirosint-from-china.pdf 2 0 11352
+/where-can-you-get-tecta.pdf 2 0 7618
+/purchase-your-family-tree-article-review-now.pdf 2 0 13730
+/can-you-get-seasonique-in-canada.pdf 2 0 6270
+/imiquimod-canada-cheap.pdf 2 0 6982
+/misoprostol-best-buy.pdf 2 0 8360
+/apranax-price-saudi-arabia.pdf 2 0 6750
+/tesco-pharmacy-lasix-prices.pdf 2 0 6294
+/make-for-me-homework-on-movie-piracy-for-safe-online.pdf 2 0 10519
+/ranexa-purchase.pdf 2 0 8246
+/buy-stemetil-now.pdf 2 0 10542
+/cheap-fusidic-acid-co-uk.pdf 2 0 12258
+/can-you-get-vantin.pdf 2 0 6426
+/target-brand-of-indometacin.pdf 1 0 5054
+/buy-zovirax-in-germany.pdf 1 0 4386
+/descuento-alipas-similares.pdf 1 0 5206
+/coursework-writing.pdf 1 0 7116
+/buy-argumentative-essay-about-rise-to-rebellion-for-safe-online.pdf 1 0 4629
+/buy-lmx-4-starter-pack.pdf 1 0 4164
+/nexium-precio-en-honduras.pdf 1 0 3411
+/pantocid-pharmacy-prices.pdf 1 0 4591
+/comprar-ponstan-mas-barato.pdf 1 0 3471
+/price-eltroxin-750-mg.pdf 1 0 3836
+/buy-florinef-leeds.pdf 1 0 2884
+/purchase-amoxicilina-safely-online.pdf 1 0 4719
+/revia-price-in-france.pdf 1 0 2541
+/purchase-invega-tablet.pdf 1 0 3652
+/cheap-clofazimine-from-usa.pdf 1 0 3495
+/price-antabuse-ireland.pdf 1 0 3415
+/xamiol-get-quit-plan.pdf 1 0 3940
+/retail-price-of-amoxicilina.pdf 1 0 4730
+/where-to-buy-ciplactin.pdf 1 0 6317
+/bactrim-price-in-greece.pdf 1 0 4013
+/price-for-florinef-750-mg.pdf 1 0 3352
+/cheap-distalgesic-online-usa.pdf 1 0 5766
+/purchase-airol-pct.pdf 1 0 5239
+/zithromax-price-in-quebec.pdf 1 0 4079
+/gift-for-thesis-chair.pdf 1 0 6749
+/introduction-dissertation-sur-le-voyage.pdf 1 0 4455
+/cheap-generic-protopic-ointment-with-free-shipping.pdf 1 0 5573
+/compra-pentrexyl-mexico.pdf 1 0 5826
+/cheap-accutane-emagrece.pdf 1 0 3672
+/price-sporanox-compendium.pdf 1 0 4295
+/best-essay-website.pdf 1 0 3355
+/buy-clamoxyl-reviews.pdf 1 0 4432
+/canaural-get-quit-plan.pdf 1 0 4955
+/cheap-travatan-that-works.pdf 1 0 2636
+/costco-price-for-harmonet.pdf 1 0 3211
+/zovirax-price-in-jordan.pdf 1 0 5210
+/write-essay-about-the-call-of-the-wild-now.pdf 1 0 3061
+/delestrogen-price-johannesburg.pdf 1 0 3691
+/price-panadol-cyprus.pdf 1 0 3658
+/buy-sibutramine-in-store.pdf 1 0 2968
+/cheap-dicloberl-pct.pdf 1 0 3813
+/bimatoprost-brand-name-and-price.pdf 1 0 2890
+/make-thesis-about-best-teacher-for-cheap.pdf 1 0 4045
+/purchase-piracetam-online.pdf 1 0 4635
+/can-you-buy-xopenex-in-hong-kong.pdf 1 0 4821
+/order-tegretol-from-usa.pdf 1 0 4562
+/sirdalud-price-johannesburg.pdf 1 0 5402
+/generico-eprex-mas-barato.pdf 1 0 3170
+/buying-minesse-online-safe.pdf 1 0 5592
+/buy-noroclav-legally-online.pdf 1 0 3324
+/generic-primperan-to-buy.pdf 1 0 4619
+/buy-brand-dicyclomine-australia.pdf 1 0 5615
+/buy-online-accutane-usa.pdf 1 0 4467
+/make-course-work-about-nhs-constitution-for-me.pdf 1 0 4688
+/price-of-super-avana-drug.pdf 1 0 4741
+/make-for-me-argumentative-essay-about-the-dukes-children-for-cheap-online.pdf 1 0 5429
+/order-xyzal-wiki.pdf 1 0 2886
+/canaural-vimax-precio.pdf 1 0 4342
+/write-your-essay-discount-code.pdf 1 0 6404
+/purchase-mesigyna-compendium.pdf 1 0 5563
+/buy-ramipril-400-mg-online.pdf 1 0 3898
+/essay-about-chushingura.pdf 1 0 5923
+/price-atopica-pct.pdf 1 0 3334
+/cheap-uk-combantrin-1-suppliers.pdf 1 0 3131
+/where-to-get-medrol-in-toronto.pdf 1 0 4954
+/where-can-i-buy-misoprostol-over-the-counter.pdf 1 0 3099
+/how-to-get-bactroban.pdf 1 0 3407
+/buy-ranexa-in-england.pdf 1 0 5522
+/buy-fucicort-uses.pdf 1 0 4436
+/buy-meprobamate-generic-online.pdf 1 0 5344
+/lasix-best-price.pdf 1 0 3859
+/price-for-nimesulide-prescription.pdf 1 0 5803
+/best-price-fluconazole-generic.pdf 1 0 2762
+/comprar-glumetza-la-paz-bolivia.pdf 1 0 2545
+/neurobion-tablet-price.pdf 1 0 2756
+/order-generic-elavil-online.pdf 1 0 4934
+/cheap-zolmist-generic-100mg.pdf 1 0 5622
+/order-t-ject-discreetly.pdf 1 0 5439
+/order-celestoderm-compendium.pdf 1 0 2915
+/purchase-condyline-pills.pdf 1 0 4034
+/where-to-buy-cheap-pentasa.pdf 1 0 3708
+/buy-lantus-kuwait.pdf 1 0 4187
+/write-my-report-about-the-italian-ann-radcliffe-now.pdf 1 0 4594
+/writing-a-thesis-paper.pdf 1 0 7448
+/cheap-nalorex-side-effects.pdf 1 0 5736
+/where-to-buy-boswellia-over-the-er.pdf 1 0 4349
+/stromectol-cheap-price.pdf 1 0 3773
+/order-tretinoin-cena.pdf 1 0 2996
+/order-benicar-from-uk.pdf 1 0 4020
+/do-my-thesis-statement-about-how-i-spent-my-summer-vacation-for-class-2-online.pdf 1 0 4307
+/order-berodual-with-mastercard.pdf 1 0 3885
+/analysis-of-eveline-essays.pdf 1 0 5271
+/buy-fluticasone-ointment-vancouver-bc.pdf 1 0 4859
+/buy-antabuse-usa.pdf 1 0 5461
+/klavox-venta-en-peru.pdf 1 0 4638
+/comprar-resochin-temuco.pdf 1 0 5023
+/portaldofranqueado/downloads/manifesto-servico.xls 1 0 40000
+/ursodiol-oral-price.pdf 1 0 3835
+/comprar-slimex-on-line-en-espana.pdf 1 0 4746
+/make-essay-about-world-tiger-day-for-cheap.pdf 1 0 3433
+/comprar-deltasone-rapido.pdf 1 0 3891
+/depakine-chrono-price-watsons.pdf 1 0 3774
+/indometacin-price-in-usa.pdf 1 0 4690
+/buying-aclasta-online-safe.pdf 1 0 3508
+/price-eprex-vomiting.pdf 1 0 5435
+/hydroxyzine-price.pdf 1 0 3455
+/evorel-generico-donde-comprar.pdf 1 0 4999
+/donde-comprar-theophylline-tenerife.pdf 1 0 5512
+/cheap-quick-dormidina.pdf 1 0 5359
+/price-progeffik-online.pdf 1 0 4072
+/buy-valbazen-in-england.pdf 1 0 5256
+/can-you-buy-belara-in-the-uk.pdf 1 0 3457
+/ergotamine-price-japan.pdf 1 0 4835
+/septrin-price-in-singapore.pdf 1 0 5570
+/buy-ursodiol-hk.pdf 1 0 5439
+/anti-nuclear-power-essay.pdf 1 0 5711
+/nalorex-price-pharmacy.pdf 1 0 3287
+/order-irbesartan-forum.pdf 1 0 3555
+/cheap-brand-timolol-100mg.pdf 1 0 3625
+/buy-thyrax-duotab-vidal.pdf 1 0 3190
+/book-review-on-challenges-of-pakistan.pdf 1 0 5556
+/buying-papers-online.pdf 1 0 4537
+/buy-topicaine-ebay.pdf 1 0 5274
+/write-my-essay-about-the-wild-party-for-safe.pdf 1 0 3296
+/order-remeron-nz.pdf 1 0 2674
+/order-skelaxin-mexico.pdf 1 0 4222
+/pentasa-price-uk.pdf 1 0 4629
+/buy-periactin-new-zealand.pdf 1 0 5339
+/can-i-buy-diprosone-tablets.pdf 1 0 3376
+/executive-resume-writing-services-nyc.pdf 1 0 6938
+/buy-zoloft-online-from-usa.pdf 1 0 3034
+/buy-omifin-online-overnight-delivery.pdf 1 0 5431
+/estradiol-valerate-buy-in-canada.pdf 1 0 2807
+/femring-order-uk.pdf 1 0 4217
+/do-my-students-and-social-service-course-work-for-safe.pdf 1 0 3095
+/price-memantine-costco.pdf 1 0 3464
+/cvs-pharmacy-prices-reductil.pdf 1 0 2835
+/order-dissertation-abstract-about-steps-to-christ-now.pdf 1 0 7782
+/generic-propecia-best-place-to-buy.pdf 1 0 3717
+/the-road-accident-essay.pdf 1 0 6374
+/comprar-triphala-fiable.pdf 1 0 4087
+/cheap-itraconazole-quick-delivery.pdf 1 0 4453
+/lloyds-pharmacy-buy-pennsaid.pdf 1 0 5052
+/order-belara-doses.pdf 1 0 3943
+/buy-vitamin-c-dr-fox.pdf 1 0 4404
+/levamisole-canada-shop-track-order.pdf 1 0 3368
+/admission-essay-about-the-electoral-college-system.pdf 1 0 4616
+/cheapest-elomet-australia.pdf 1 0 3976
+/order-tirosint-comp.pdf 1 0 3171
+/price-of-cod-efferalgan-500-mg-walmart.pdf 1 0 5201
+/college-application-essay-writers.pdf 1 0 2999
+/order-sucralfate-from-india.pdf 1 0 3149
+/purchase-real-neurobion-online.pdf 1 0 4562
+/melatonin-comprar-barcelona.pdf 1 0 4093
+/revia-tablets-buy.pdf 1 0 3902
+/generic-vaniqa-buy-online.pdf 1 0 4151
+/purchase-spiriva-guidelines.pdf 1 0 4170
+/price-of-condyline-at-target.pdf 1 0 5313
+/buy-40-mg-invega.pdf 1 0 3792
+/order-celestoderm-from-usa.pdf 1 0 3102
+/write-my-report-about-seven-c-s-of-effective-communication-for-cheap.pdf 1 0 6351
+/buy-bimatoprost-los-angeles.pdf 1 0 4297
+/buy-coursework-online.pdf 1 0 4272
+/cheap-estelle-35-new-zealand.pdf 1 0 4202
+/comprar-asacol-farmacia-sin-receta.pdf 1 0 4052
+/half-price-myfortic.pdf 1 0 2779
+/store-to-buy-vasoplex.pdf 1 0 5417
+/rigevidon-buy-online-ireland.pdf 1 0 5207
+/comprar-progynova-antofagasta.pdf 1 0 4424
+/pedido-de-daivobet.pdf 1 0 3184
+/buy-prednisolone-calgary.pdf 1 0 3739
+/cheap-aplenzin-generic-online.pdf 1 0 3611
+/walmart-price-for-l-thyroxine.pdf 1 0 4377
+/dermovate-price-rite-aid.pdf 1 0 5633
+/buy-diltiazem-ointment-au.pdf 1 0 2730
+/order-aygestin-dose-pack-online.pdf 1 0 3638
+/price-of-eutirox-in-south-africa.pdf 1 0 5865
+/hydromet-average-price.pdf 1 0 2683
+/slimona-price-list.pdf 1 0 3636
+/comprar-pamelor-24h.pdf 1 0 2734
+/estradot-pill-price-in-south-africa.pdf 1 0 4593
+/retacnyl-price-canada.pdf 1 0 4355
+/compare-and-contrast-essay-on-washington-and-dubois.pdf 1 0 4723
+/essays-to-buy.pdf 1 0 4909
+/comprar-locoid-argentina-sin-receta.pdf 1 0 5225
+/patanol-barata-comprar.pdf 1 0 3821
+/cheap-climara-40-mg.pdf 1 0 3453
+/buy-tegretol-online-safely.pdf 1 0 4328
+/generic-benicar-buy.pdf 1 0 5076
+/compra-clarinase-jovenes.pdf 1 0 3494
+/acnotin-online-best-price.pdf 1 0 3379
+/buy-arcoxia-indicacao.pdf 1 0 3421
+/can-you-get-paxil-at-walgreens.pdf 1 0 3831
+/music-in-my-life-term-paper.pdf 1 0 3874
+/purchase-diflucan-guidelines.pdf 1 0 4457
+/order-clomid-over-the-counter.pdf 1 0 5418
+/order-pamelor-from-boots.pdf 1 0 5195
+/essay-about-communication-skill.pdf 1 0 6499
+/buy-postinor-edmonton-alberta.pdf 1 0 3960
+/purchase-resochin-uk.pdf 1 0 3554
+/volfenac-price-germany.pdf 1 0 3938
+/price-generic-dexamethasone-500-mg.pdf 1 0 5698
+/buy-otomax-20-mg.pdf 1 0 3413
+/order-lactulose-australia.pdf 1 0 3498
+/arcoxia-generic-price-at-walmart.pdf 1 0 4771
+/best-price-generic-flumazenil.pdf 1 0 4429
+/buy-astonin-new-zealand-online.pdf 1 0 4094
+/purchase-aceclofenac-mexico.pdf 1 0 4686
+/buy-coveram-in-london.pdf 1 0 4651
+/buy-kof-tea-online-in-uk.pdf 1 0 4628
+/best-price-generic-xamiol.pdf 1 0 2674
+/price-of-generic-prednisolone-without-insurance.pdf 1 0 4013
+/can-you-buy-curacne-over-the-counter-in-australia.pdf 1 0 4378
+/buy-reglan-dublin.pdf 1 0 3936
+/cheap-pantocid-tesco.pdf 1 0 4900
+/research-paper-buy.pdf 1 0 7021
+/cost-xyzal-buy.pdf 1 0 5315
+/buy-zithromax-nz.pdf 1 0 4957
+/where-can-i-get-dormidina-in-singapore.pdf 1 0 3750
+/price-movalis-in-canada.pdf 1 0 4341
+/venta-careprost-original.pdf 1 0 3791
+/course-work-about-flood-upsr.pdf 1 0 6886
+/buy-levamisole-cheapest-price.pdf 1 0 4588
+/buy-isotrex-400-mg-online.pdf 1 0 2719
+/buy-40-mg-cialis-super-active.pdf 1 0 3192
+/aclasta-prescription-price.pdf 1 0 4190
+/essay-on-ferran-adria.pdf 1 0 8504
+/order-estradiol-valerate-canada-pharmacy.pdf 1 0 4393
+/deniban-price-toronto.pdf 1 0 2983
+/ambition-essay-for-kids.pdf 1 0 4890
+/invega-price-dubai.pdf 1 0 4035
+/warticon-get-quit-plan.pdf 1 0 5351
+/sinequan-price-down.pdf 1 0 4934
+/cheap-generic-fluocinolone-next-day-delivery.pdf 1 0 3983
+/price-seretide-costco.pdf 1 0 5398
+/write-for-me-tenses-essay-for-safe-online.pdf 1 0 5921
+/do-greater-health-gods-way-stormie-omartian-essay-now.pdf 1 0 3947
+/buy-biseptol-at-store.pdf 1 0 3412
+/comprar-urocit-k-amazon.pdf 1 0 2615
+/prescription-price-diltiazem-cream.pdf 1 0 2892
+/buy-ursosan-online-with-prescription.pdf 1 0 2569
+/postinor-buy-in-canada.pdf 1 0 4211
+/comprar-norvasc-generico-en-espana-contrareembolso.pdf 1 0 4336
+/buy-pentrexyl-at-walgreens.pdf 1 0 4935
+/buy-gentamicin-belfast.pdf 1 0 5908
+/cheap-piracetam-rezeptfrei.pdf 1 0 5497
+/portaldofranqueado/downloads/apresentacao-da-rede-inovar.docx 1 0 1660292
+/dicloberl-price-canada.pdf 1 0 5232
+/cheap-pyrantel-in-mexico.pdf 1 0 2748
+/cheap-duodopa-in-uk.pdf 1 0 2821
+/cheap-pamelor-on-line.pdf 1 0 2764
+/reductil-lowest-price.pdf 1 0 5974
+/best-price-for-laroxyl-10mg.pdf 1 0 3932
+/buy-quinine-us.pdf 1 0 2800
+/does-target-canada-sell-eltroxin.pdf 1 0 5479
+/venta-synthroid-mexico.pdf 1 0 5218
+/generic-vitamin-c-for-cheap.pdf 1 0 3909
+/buy-elavil-by-the-pill.pdf 1 0 2688
+/make-my-coursework-about-eddy-current-brakes-for-safe.pdf 1 0 6787
+/cheap-ursodiol-last.pdf 1 0 3053
+/price-phenergan-500-mg-walmart.pdf 1 0 4954
+/cheap-rigevidon-mexico.pdf 1 0 4818
+/comprar-acomplia-online-madrid.pdf 1 0 4178
+/order-xtane-emagrece.pdf 1 0 2951
+/can-you-buy-fusidic-acid-in-ireland.pdf 1 0 4239
+/buy-estrogel-at-shoppers-drug-mart.pdf 1 0 3816
+/order-sinequan-from-mexico.pdf 1 0 3843
+/make-my-article-about-my-dreams.pdf 1 0 4891
+/trimetazidine-price-mercury-drug.pdf 1 0 3914
+/toprol-pill-price-in-south-africa.pdf 1 0 4140
+/comprar-symbicort-sin-receta-medica.pdf 1 0 4812
+/sibutramine-price-in-thailand.pdf 1 0 4312
+/comprar-astonin-contrareembolso-espana.pdf 1 0 3726
+/biofenac-buy-online-pharmacy.pdf 1 0 3174
+/comprar-norvasc-online-en-espana-contrareembolso.pdf 1 0 2750
+/write-my-contingent-contract-homework-online.pdf 1 0 4076
+/order-revia-contraindicaciones.pdf 1 0 3860
+/cheap-biodramina-guideline.pdf 1 0 2898
+/can-i-buy-mectizan-over-the-counter.pdf 1 0 3108
+/cheap-hydrocortisone-pills-free-shipping.pdf 1 0 3658
+/best-place-to-buy-gamabenceno-plus-online.pdf 1 0 3628
+/dissertation-proposal-about-snipers.pdf 1 0 6405
+/cvs-pharmacy-griseofulvin-price.pdf 1 0 2878
+/purchase-trittico-drug.pdf 1 0 3071
+/can-you-buy-novolog-in-the-uk.pdf 1 0 5293
+/buying-colchicina-online.pdf 1 0 4160
+/mirapex-price-review.pdf 1 0 4810
+/lactulose-buy-uk.pdf 1 0 3142
+/can-you-purchase-biseptol-over-the-counter.pdf 1 0 4788
+/parkemed-price-with-insurance.pdf 1 0 3331
+/can-you-buy-ursofalk-over-counter.pdf 1 0 2991
+/generic-dalacin-c-online-buy.pdf 1 0 3374
+/buy-condyline-nottingham.pdf 1 0 3920
+/buy-dicloberl-at-walgreens.pdf 1 0 3510
+/comprar-ergotamine-de-farmacia.pdf 1 0 3890
+/cheap-diprosone-pills-for-sale.pdf 1 0 5359
+/buy-estrace-cream-uae.pdf 1 0 3368
+/purchase-neurobion-comp.pdf 1 0 5341
+/precio-pastilla-biofenac-argentina.pdf 1 0 3979
+/do-my-valkyrie-rising-ingrid-paulson-admission-essay.pdf 1 0 5295
+/priceline-pharmacy-coveram.pdf 1 0 3150
+/cheap-vivelle-dot-for-sale-online.pdf 1 0 5202
+/best-custom-essay-website.pdf 1 0 9105
+/buy-neurobion-kit.pdf 1 0 3175
+/buy-cyprostol-au.pdf 1 0 3965
+/buy-real-bonviva.pdf 1 0 5031
+/average-price-atridox.pdf 1 0 2982
+/precio-ergotamine-peru.pdf 1 0 4568
+/help-writing-college-paper.pdf 1 0 6693
+/pentagesic-price-decrease.pdf 1 0 5622
+/descuento-ebixa-efectos.pdf 1 0 3374
+/physical-well-being-critical-thinking.pdf 1 0 5220
+/low-price-amoksiklav.pdf 1 0 5362
+/buy-xamiol-in-usa.pdf 1 0 5016
+/do-my-gun-should-be-banned-research-paper-now.pdf 1 0 8419
+/buy-ospamox-in-the-us.pdf 1 0 4493
+/cheap-epoetin-alfa-brand.pdf 1 0 4896
+/meprobamate-purchase-australia.pdf 1 0 5481
+/dissertation-writing-services-reviews.pdf 1 0 4659
+/price-metrogyl-dg-south-africa.pdf 1 0 4070
+/purchase-generic-latisse-mastercard.pdf 1 0 5422
+/buy-misoprostol-las-vegas.pdf 1 0 3260
+/order-fluticasone-ointment-cheap.pdf 1 0 4678
+/order-proair-overnight.pdf 1 0 4390
+/que-precio-tiene-risperdal.pdf 1 0 2657
+/lotrisone-buy.pdf 1 0 2787
+/can-you-buy-emla-at-shoppers-drug-mart.pdf 1 0 4243
+/article-about-an-article-example.pdf 1 0 3357
+/cheap-amikacin-alternatives-uk.pdf 1 0 5139
+/primolut-n-purchase-canada.pdf 1 0 5219
+/do-my-dissertation-abstract-on-the-nitrogen-cycle-for-me.pdf 1 0 4157
+/online-assignment-writing-help.pdf 1 0 3564
+/buy-volfenac-generico.pdf 1 0 3722
+/bentyl-price-target.pdf 1 0 4122
+/price-for-fludrocortisone-at-walmart.pdf 1 0 4544
+/se-puede-comprar-en-la-tenofovir.pdf 1 0 4551
+/promethazine-price-in-kuwait.pdf 1 0 2972
+/pharmacy-has-cheapest-trittico.pdf 1 0 2764
+/do-term-paper-about-how-i-spent-my-last-birthday-now.pdf 1 0 4964
+/comprar-careprost-envio-rapido.pdf 1 0 3145
+/farmacia-precio-de-elocom.pdf 1 0 4650
+/buy-noroxin-online-mexico.pdf 1 0 2630
+/order-generic-astonin-online.pdf 1 0 3247
+/make-my-dissertation-results-on-fight-club-chuck-palahniuk-now-online.pdf 1 0 6701
+/where-can-i-buy-dicyclomine-answers.pdf 1 0 2689
+/buy-fucicort-from-mexico-online.pdf 1 0 4350
+/can-i-buy-meridia.pdf 1 0 5085
+/buy-betamethasone-shop.pdf 1 0 2754
+/buy-scabisan-fast-delivery.pdf 1 0 3615
+/is-it-safe-to-buy-l-thyroxine.pdf 1 0 2658
+/misoprostol-for-cheap.pdf 1 0 5045
+/buy-actigall-amsterdam.pdf 1 0 3974
+/buy-itraconazole-northern-ireland.pdf 1 0 4687
+/make-my-book-review-about-brideshead-revisited-evelyn-waugh-for-cheap-online.pdf 1 0 5009
+/xyzal-roche-price.pdf 1 0 3733
+/discount-eprex-buy.pdf 1 0 4142
+/cheap-neurobion-comp.pdf 1 0 2899
+/estradot-mais-barato-no-brasil.pdf 1 0 2570
+/cheap-asacol-reviews.pdf 1 0 2827
+/argumentative-essay-on-the-book-of-common-prayer-and-administration-of-the.pdf 1 0 4453
+/betaderm-y-precio.pdf 1 0 2685
+/cheapest-pharmacy-condyline.pdf 1 0 4883
+/precio-metrogyl-dg-online.pdf 1 0 2758
+/buy-now-dissertation-methodology-about-daniel-kahneman-for-cheap.pdf 1 0 4200
+/comprar-clomid-sin-tarjeta-credito.pdf 1 0 4837
+/cheap-generic-allopurinol-online.pdf 1 0 3869
+/price-condyline-cena.pdf 1 0 4589
+/canadian-pharmacy-buy-elidel.pdf 1 0 3863
+/buy-benadryl-generico.pdf 1 0 4748
+/comprar-zoloft-rapido.pdf 1 0 5253
+/promethazine-price-at-rite-aid.pdf 1 0 6316
+/cheap-pyrantel-mexico.pdf 1 0 2708
+/cheap-wholesale-travatan.pdf 1 0 6282
+/cheap-lasix-ebay.pdf 1 0 6338
+/promethazine-venta-panama.pdf 1 0 3463
+/cheap-drontal-in-usa.pdf 1 0 3952
+/buy-utrogestan-superdrug.pdf 1 0 2779
+/buy-synthroid-starter-pack-online.pdf 1 0 3921
+/euthyrox-price-in-america.pdf 1 0 4422
+/buy-synalar-uk-boots.pdf 1 0 5167
+/cheap-carbimazole-polo.pdf 1 0 3218
+/norlevo-venta-precio.pdf 1 0 5227
+/getting-advair.pdf 1 0 2748
+/price-zithromax-fass.pdf 1 0 3534
+/make-my-coursework-about-searching-for-the-sound-my-life-with-the-grateful-dead-for-me-online.pdf 1 0 5218
+/insulin-price-per-pill-walgreens.pdf 1 0 5028
+/make-my-essay-on-the-partner-john-grisham-for-me.pdf 1 0 6136
+/where-to-buy-bactroban-over-the-counter.pdf 1 0 2597
+/mectizan-online-order-canada.pdf 1 0 5019
+/where-to-buy-nimegen.pdf 1 0 4125
+/essay-on-catherine-bingley.pdf 1 0 4183
+/purchase-emla-wikipedia.pdf 1 0 4074
+/buy-mirena-starter-pack.pdf 1 0 5232
+/novo-lexin-price-kroger.pdf 1 0 5842
+/lantus-medication-price.pdf 1 0 4126
+/cheap-generic-sucralfate.pdf 1 0 2714
+/best-price-for-selegiline-10mg.pdf 1 0 5237
+/cheap-podophyllotoxin-online-canadian-pharmacy.pdf 1 0 5423
+/buy-vibramycin-usa-online.pdf 1 0 4146
+/price-for-sumial-at-cvs.pdf 1 0 3445
+/precio-ergotamine-de-50.pdf 1 0 5040
+/gynera-price-reduction-canada.pdf 1 0 2670
+/motilium-tabletas-precio.pdf 1 0 3269
+/write-literature-review-about-differences-between-two-countries-for-cheap.pdf 1 0 7290
+/purchase-article-review-on-folktales-now.pdf 1 0 4752
+/gliclazide-cheap-online.pdf 1 0 5199
+/seretide-quanto-costa.pdf 1 0 3680
+/cheap-cafergot-pharmaceuticals.pdf 1 0 4821
+/buy-symbicort-tablets-5mg.pdf 1 0 4312
+/price-of-generic-jolessa-in-canada.pdf 1 0 2816
+/comprar-dexamethasone-generico-en-espana.pdf 1 0 4501
+/agarol-farmacia-precio.pdf 1 0 4681
+/make-now-living-and-nonliving-things-research-paper-for-cheap-online.pdf 1 0 6673
+/precio-atridox-generico-mexico.pdf 1 0 3822
+/college-admission-essay-editing-services.pdf 1 0 4234
+/cheap-diclofenac-on-sale.pdf 1 0 5540
+/cheap-artane-side.pdf 1 0 5330
+/portaldofranqueado/downloads/ficha-cadastral-clientes.xlsx 1 0 27137
+/buy-novo-lexin-lloyds-pharmacy.pdf 1 0 2774
+/buy-pyrantel-online-japan.pdf 1 0 3429
+/order-avana-from-canadian-pharmacy.pdf 1 0 5413
+/generic-trittico-buy.pdf 1 0 3479
+/comprar-clozapine-pago-contra-reembolso.pdf 1 0 3597
+/cheap-cravit-pct.pdf 1 0 3321
+/discover-your-destiny-review.pdf 1 0 3941
+/cheapest-theophylline-online.pdf 1 0 3621
+/where-do-you-buy-lyclear-in-canada.pdf 1 0 3971
+/order-generic-pyrantel-online.pdf 1 0 3026
+/venta-de-vasoplex-en-lima.pdf 1 0 4864
+/peritol-buy-online-cheap.pdf 1 0 4216
+/buy-diprosone-review.pdf 1 0 4459
+/purchase-clomid-for-me.pdf 1 0 4105
+/venta-granudoxy-en-mano-madrid.pdf 1 0 3321
+/venta-carbimazole-generico.pdf 1 0 3463
+/cyproheptadine-get-quit-plan.pdf 1 0 5144
+/how-to-order-a-tirosint-dose-pack.pdf 1 0 4203
+/ampicillin-order-status.pdf 1 0 3437
+/purchase-aloe-vera-gel-drug.pdf 1 0 2964
+/zentel-price-cut.pdf 1 0 5267
+/write-literature-review-on-shorthand-for-me-cheap.pdf 1 0 3517
+/tretinoin-price-at-tesco.pdf 1 0 4207
+/tecta-prices-costco.pdf 1 0 4898
+/order-zoloft-dose-pack-online.pdf 1 0 2887
+/purchase-annotated-bibliography-on-wiley-cash.pdf 1 0 3272
+/buy-trittico-south-africa.pdf 1 0 4185
+/cheap-alternative-to-canaural.pdf 1 0 2727
+/essays-on-fashion-industry.pdf 1 0 3227
+/can-you-buy-phenergan-in-canada.pdf 1 0 3792
+/venta-de-ditropan-por-internet.pdf 1 0 2931
+/do-course-work-about-depreciation-of-indian-rupee-and-its-impact-for-me-online.pdf 1 0 3424
+/research-paper-about-success-is-realizing-one-s-dream.pdf 1 0 3619
+/comprar-remeron-rancagua.pdf 1 0 4973
+/write-for-me-coursework-on-drugs-in-afrikaans-for-safe.pdf 1 0 4410
+/order-allopurinol-junior.pdf 1 0 4319
+/buy-tenofovir-near-me.pdf 1 0 4959
+/buy-fluticasone-ointment-usa-online.pdf 1 0 4123
+/clobex-best-buy.pdf 1 0 3395
+/cheap-terramicina-new-zealand.pdf 1 0 5983
+/price-vesicare-cena.pdf 1 0 3724
+/buy-triamcinolone-oral-paste-online-forum.pdf 1 0 4923
+/purchase-eltroxin-pct.pdf 1 0 5269
+/order-genuine-eprex-online.pdf 1 0 5242
+/buy-macrobid-amazon.pdf 1 0 2899
+/purchase-xopenex-reviews.pdf 1 0 4194
+/best-price-generic-femring.pdf 1 0 2536
+/generic-macrobid-target.pdf 1 0 4555
+/comprar-diprosone-sin-receta.pdf 1 0 5307
+/lidocaine-tabletas-precio-en-mexico.pdf 1 0 4363
+/target-brand-spironolactone-review.pdf 1 0 3623
+/nexium-price-euro.pdf 1 0 3098
+/writing-thesis-service.pdf 1 0 3213
+/buy-urivoid-online-europe.pdf 1 0 2823
+/cheap-elidel-overnight-delivery.pdf 1 0 4589
+/oradexon-generico-venta-online.pdf 1 0 5294
+/nurofen-price-in-abu-dhabi.pdf 1 0 4903
+/lactulose-price-new-zealand.pdf 1 0 3494
+/buy-memantine-professional-online.pdf 1 0 2974
+/case-study-about-unusual-experience.pdf 1 0 7122
+/cheapest-oradexon-uk.pdf 1 0 3180
+/comprar-epoetin-alfa-farmacia-barcelona.pdf 1 0 4904
+/buy-ditropan-without-presc.pdf 1 0 5094
+/cafergot-comprar-en-mexico.pdf 1 0 3064
+/price-zomig-comp.pdf 1 0 5289
+/comprar-ranexa-pela-internet.pdf 1 0 3668
+/order-generic-daflon-online-usa.pdf 1 0 2779
+/buy-euthyrox-london-over-counter.pdf 1 0 4897
+/ordering-etoricoxib-from-canada.pdf 1 0 2574
+/buy-locoid-prep-online.pdf 1 0 3533
+/order-now-thesis-statement-about-the-road-less-travelled-for-cheap.pdf 1 0 3493
+/buy-podophyllotoxin-craigslist.pdf 1 0 5241
+/write-if-i-were-a-astronaut-on-mars-course-work-for-safe-online.pdf 1 0 5309
+/price-for-olmetec-750-mg.pdf 1 0 2931
+/estreva-order-online-canada.pdf 1 0 3903
+/dissertation-on-macro-economics.pdf 1 0 6851
+/generic-cafergot-buy-online.pdf 1 0 2876
+/price-lanoxin-kit.pdf 1 0 3710
+/cheap-sumamed-quick-delivery.pdf 1 0 2627
+/cheap-dalacin-c-high.pdf 1 0 2633
+/buy-zithromax-adelaide.pdf 1 0 5061
+/spiriva-canada-order.pdf 1 0 2744
+/duomox-canada-purchase.pdf 1 0 2961
+/buy-meridia-online-forum.pdf 1 0 3905
+/quinine-price-at-walmart.pdf 1 0 5295
+/primolut-n-price-no-insurance.pdf 1 0 6075
+/buy-amoxiclav-new-york-city.pdf 1 0 2491
+/comprar-stromectol-joinville.pdf 1 0 2975
+/buy-meprobamate-from-trusted-pharmacy.pdf 1 0 3483
+/cheap-brand-oradexon-100mg.pdf 1 0 4412
+/donde-comprar-crotamiton-en-japon.pdf 1 0 4596
+/buying-alipas.pdf 1 0 3491
+/fusidic-acid-precio-mexico.pdf 1 0 2608
+/precio-de-la-fucidin-en-farmacia.pdf 1 0 3625
+/chloroquine-price-uk-boots.pdf 1 0 3384
+/order-prescription-allopurinol-online.pdf 1 0 3490
+/dicloberl-venta-precio.pdf 1 0 3554
+/dexamethasone-mas-barato.pdf 1 0 5399
+/comprar-zomig-y-recoger-en-oficina-de-correos.pdf 1 0 3671
+/diclofenac-gel-barato-en-mexico.pdf 1 0 2962
+/resochin-order-online-canada.pdf 1 0 5567
+/cheap-order-research-proposal-about-csr-in-india.pdf 1 0 5699
+/cheap-bentyl-cena.pdf 1 0 4442
+/comprar-periactin-no-brasil.pdf 1 0 5167
+/precio-hydroxyzine-mexico-2016.pdf 1 0 2959
+/purchase-generic-tirosint.pdf 1 0 4510
+/purchase-omifin-guideline.pdf 1 0 4797
+/brand-name-lyclear-prices.pdf 1 0 2745
+/buy-clavaseptin-kuwait.pdf 1 0 6143
+/brand-name-misoprostol-price.pdf 1 0 2689
+/cheap-fucithalmic-polo.pdf 1 0 5479
+/purchase-periactin-guideline.pdf 1 0 3686
+/buy-cafergot-miami.pdf 1 0 5012
+/can-i-get-yaz.pdf 1 0 4620
+/help-to-write-research-paper.pdf 1 0 5757
+/price-norlevo-in-usa.pdf 1 0 4347
+/dissertation-abstract-on-love-quotes.pdf 1 0 4188
+/order-genuine-laroxyl-online.pdf 1 0 3231
+/store-aviane-buy.pdf 1 0 3129
+/buy-quinine-real.pdf 1 0 4009
+/comprar-triderm-generico-no-brasil.pdf 1 0 3316
+/order-zovirax-online-japan.pdf 1 0 4028
+/cheap-promethazine-tesco.pdf 1 0 4730
+/comprar-novolog-en-san-juan.pdf 1 0 4293
+/starlix-price-south-africa.pdf 1 0 4733
+/order-ebixa-dose-pack-online.pdf 1 0 3208
+/price-of-flucort-brand.pdf 1 0 4416
+/pantozol-buy-nz.pdf 1 0 2862
+/case-study-about-satyamev-jayate-tv-show.pdf 1 0 4875
+/buy-ergotamine-online-quick-delivery.pdf 1 0 2736
+/descuento-crotamiton-argentina.pdf 1 0 3835
+/buy-ospamox-in-bangkok.pdf 1 0 5168
+/order-condylox-canada.pdf 1 0 5005
+/comprar-amisulpride-sin-tarjeta-de-credito.pdf 1 0 2529
+/write-woman-s-day-research-paper-now.pdf 1 0 5984
+/purchase-sifrol-online-reviews.pdf 1 0 2602
+/price-for-ditropan-at-walgreens.pdf 1 0 3578
+/write-we-need-to-talk-about-kevin-lionel-shriver-essay-for-me-cheap-online.pdf 1 0 7120
+/buy-prometrium-blog.pdf 1 0 4383
+/price-zaditor-contraindicaciones.pdf 1 0 3725
+/buy-brand-remeron.pdf 1 0 5323
+/buy-mirapex-online-safely.pdf 1 0 4652
+/custom-beximco-dissertation-chapter-now.pdf 1 0 6791
+/cheap-discount-atopica.pdf 1 0 3956
+/price-of-doliprane-tablets.pdf 1 0 5396
+/generic-namenda-cheapest.pdf 1 0 3671
+/cheapest-pharmacy-for-lantus.pdf 1 0 4767
+/nimegen-price-reduction.pdf 1 0 4912
+/albendazol-canada-order.pdf 1 0 2944
+/cheap-meliane-guidelines.pdf 1 0 3804
+/buy-now-billy-graham-literature-review-for-cheap.pdf 1 0 6439
+/bachelor-thesis-behavioral-finance.pdf 1 0 4720
+/price-of-generic-alipas-in-canada.pdf 1 0 5096
+/serpina-buy-online-europe.pdf 1 0 4566
+/buy-nurofen-online-forum.pdf 1 0 4493
+/comprar-anticol-en-houston.pdf 1 0 2919
+/paraphrasing-and-summarizing-worksheets.pdf 1 0 3313
+/venta-deniban-en-chile.pdf 1 0 5508
+/where-to-buy-fucidin-in-dubai.pdf 1 0 4249
+/precio-hydrocortisone-yahoo.pdf 1 0 4597
+/early-spring-shonto-begay-essay.pdf 1 0 4893
+/cheap-brand-flumazenil-100mg.pdf 1 0 3006
+/synalar-price-london.pdf 1 0 2800
+/venta-de-gimalxina-en-chile.pdf 1 0 3319
+/comprar-distalgesic-temuco.pdf 1 0 4124
+/panadol-venta-libre-uruguay.pdf 1 0 2730
+/precio-zyloric-farmacia-andorra.pdf 1 0 4696
+/z-pak-price-turkey.pdf 1 0 4146
+/comprar-alipas-pago-contra-reembolso.pdf 1 0 2719
+/cheap-euthyrox-sale-in-england.pdf 1 0 3885
+/cheap-primolut-n-uk-online.pdf 1 0 4749
+/glumetza-precio-en-bogota.pdf 1 0 6080
+/precio-tenofovir-original-espana.pdf 1 0 3665
+/cheap-alesse-usa.pdf 1 0 4927
+/cheap-generic-champix-review.pdf 1 0 4168
+/cheap-genuine-anticol.pdf 1 0 4575
+/buy-zyloric-montreal.pdf 1 0 2923
+/buy-antaxone-400-mg-orally-in-a-single-dose.pdf 1 0 3348
+/getting-gimalxina.pdf 1 0 4801
+/buy-biseptol-online-forum.pdf 1 0 4496
+/buy-xamiol-online-from-canada.pdf 1 0 4975
+/write-a-famous-personality-dissertation-results-online.pdf 1 0 5246
+/buy-aygestin-overseas.pdf 1 0 4717
+/price-selegiline-in-dubai.pdf 1 0 5012
+/podophyllotoxin-price-giant-eagle.pdf 1 0 4548
+/buy-pyrantel-us-pharmacy.pdf 1 0 3027
+/cheap-allopurinol-uk-only.pdf 1 0 5170
+/albenza-precio-farmacia-argentina.pdf 1 0 4576
+/buy-chromolaena-odorata-book-review-now.pdf 1 0 5807
+/cheap-pentasa-hong-kong.pdf 1 0 4697
+/postinor-mais-barato-internet.pdf 1 0 4963
+/order-sumamed-overnight.pdf 1 0 3015
+/comprar-z-pak-generico-en-jaen.pdf 1 0 4175
+/septrin-order-online-canada.pdf 1 0 4766
+/comprar-estradiol-valerate-lima.pdf 1 0 4490
+/buy-atarax-europe.pdf 1 0 4736
+/bentyl-order-online-uk.pdf 1 0 3320
+/cheap-pletal-fass.pdf 1 0 5032
+/diflucan-brand-name-and-price.pdf 1 0 3965
+/buy-aknenormin-do.pdf 1 0 3704
+/make-my-shri-krishna-janmashtami-research-paper-for-cheap-online.pdf 1 0 7284
+/write-my-paper-mla.pdf 1 0 4773
+/venta-cyclosporine.pdf 1 0 4315
+/albendazol-price-in-kuwait.pdf 1 0 4527
+/alipas-preco-barato.pdf 1 0 4998
+/bata-company-movie-review.pdf 1 0 5574
+/cheap-vastarel-brand.pdf 1 0 5385
+/reflective-essays-on-assessment.pdf 1 0 4530
+/price-isotretinoin-brands.pdf 1 0 2710
+/order-estrace-by-phone.pdf 1 0 3813
+/buy-unisom-5mg-uk.pdf 1 0 5024
+/where-can-i-buy-ciplactin-for-cheap.pdf 1 0 4235
+/pharmacy-prices-dermovate.pdf 1 0 2616
+/custom-writing-help.pdf 1 0 7875
+/zyloric-price-at-tesco.pdf 1 0 4674
+/buy-revia-with-prescription.pdf 1 0 5471
+/cheap-viagra-soft-do.pdf 1 0 5256
+/cheap-clomid-new-zealand.pdf 1 0 2837
+/biodramina-generic-target.pdf 1 0 2773
+/ursodiol-pharmacy-prices.pdf 1 0 4590
+/make-my-essay-about-sports-badminton-for-me-cheap.pdf 1 0 6130
+/slimex-price-tesco.pdf 1 0 4839
+/do-travis-simmons-dissertation-results-for-me-cheap.pdf 1 0 4509
+/donde-comprar-travoprost-en-venezuela.pdf 1 0 2553
+/benefits-of-using-newspapers-for-research.pdf 1 0 5949
+/tesco-pharmacy-mebendazole-prices.pdf 1 0 4379
+/price-eltroxin-remedio.pdf 1 0 2964
+/order-generic-trimetazidine-overnight.pdf 1 0 5197
+/cialis-jelly-price-per-box.pdf 1 0 3792
+/cheap-salbutamol-fast-shipping.pdf 1 0 3898
+/get-volfenac-without-doctor.pdf 1 0 5636
+/write-my-dissertation-methodology-about-disadvantages-of-living-in-a-big-city-for-cheap.pdf 1 0 9327
+/price-cod-efferalgan-rezeptfrei.pdf 1 0 4016
+/triamcinolone-oral-paste-cost-at-target.pdf 1 0 4190
+/price-of-tab-travatan.pdf 1 0 3463
+/jolessa-price-montreal.pdf 1 0 3652
+/price-of-vesicare-uk.pdf 1 0 4296
+/descuento-nitrofurantoin-precio.pdf 1 0 3470
+/can-i-buy-clostilbegyt-online-in-canada.pdf 1 0 3518
+/write-civil-war-weapons-course-work-for-me-cheap.pdf 1 0 6055
+/precio-peritol-guatemala.pdf 1 0 3704
+/term-paper-on-artichoke-hearts.pdf 1 0 7447
+/buy-vivitrol-drug.pdf 1 0 4852
+/buy-vantin-online-ireland.pdf 1 0 5585
+/price-vasoplex-wiki.pdf 1 0 2824
+/saroten-price-mercury-drug-store.pdf 1 0 3292
+/order-generic-spirulina.pdf 1 0 3023
+/cheapest-methimazole-uk.pdf 1 0 3413
+/blog-content-writing-services.pdf 1 0 5604
+/cheap-ampicilina-overnight.pdf 1 0 5099
+/kuterid-g-price-in-saudi.pdf 1 0 3088
+/venta-de-slimex-sin-receta-en-argentina.pdf 1 0 3859
+/comprar-doxylamine-original-barato.pdf 1 0 3009
+/can-you-buy-anticol-over-the-counter-in-canada.pdf 1 0 2780
+/buy-mupirocin-online-cheap.pdf 1 0 4557
+/clarus-in-canada-where-to-buy.pdf 1 0 2708
+/ziprasidone-price-in-dubai.pdf 1 0 4220
+/orungal-to-buy-in-uk.pdf 1 0 2983
+/buy-atopica-vidal.pdf 1 0 3061
+/precio-novo-lexin-en-farmacia-sin-receta.pdf 1 0 5062
+/precio-allegra-buenos-aires.pdf 1 0 5102
+/meprobamate-generic-name-price.pdf 1 0 4269
+/comprar-klavox-24-horas.pdf 1 0 3713
+/buy-selegiline-online-australia.pdf 1 0 5587
+/buy-cyproheptadine-online-legally.pdf 1 0 5333
+/donde-comprar-clarinex-en-jalisco.pdf 1 0 3369
+/comprar-nurofen-con-seguridad.pdf 1 0 4014
+/buy-hydrochlorothiazide-us.pdf 1 0 2774
+/write-my-case-study-about-election-in-pakistan-2008-for-me.pdf 1 0 7006
+/buy-pentrexyl-dominican-republic.pdf 1 0 4143
+/cyclosporine-generic-buy.pdf 1 0 5735
+/buy-pennsaid-doses.pdf 1 0 5226
+/online-dexametasona-uk-cheap.pdf 1 0 4706
+/online-distalgesic-cheap.pdf 1 0 3598
+/order-amisulpride-compendium.pdf 1 0 3179
+/purchase-itraconazole-polo.pdf 1 0 2784
+/cheap-clinacin-in-nz.pdf 1 0 5220
+/buy-trimetazidine-online-cheap-uk.pdf 1 0 6095
+/do-for-me-review-about-doctor-who-for-cheap-online.pdf 1 0 4063
+/comprar-pyrantel-uk.pdf 1 0 4333
+/help-write-personal-statement.pdf 1 0 6060
+/write-the-storycatcher-ann-hite-movie-review-for-me-cheap.pdf 1 0 6729
+/executive-resume-writing-service-seattle.pdf 1 0 4210
+/purchase-nimesulide-wiki.pdf 1 0 3992
+/buy-daflon-in-uk.pdf 1 0 5995
+/generico-de-la-requip-precio.pdf 1 0 2815
+/buy-methimazole-canada-online.pdf 1 0 2795
+/donde-comprar-sirdalud-en-quito.pdf 1 0 2577
+/buy-theophylline-in-bangkok.pdf 1 0 4431
+/comprar-hydrocortisone-original-sin-receta.pdf 1 0 3913
+/fusidic-acid-get-quit-plan.pdf 1 0 4346
+/acomplia-farmacia-del-ahorro-precio.pdf 1 0 5407
+/cheap-ivermectin-last.pdf 1 0 5159
+/tienda-biodramina-precio.pdf 1 0 4897
+/robaxin-price-melbourne.pdf 1 0 2624
+/buy-dissertation-results-on-the-flowers-of-evil-charles-baudelaire.pdf 1 0 3696
+/cash-price-for-colchicina.pdf 1 0 3955
+/purchase-hydrochlorothiazide-usa.pdf 1 0 2860
+/do-my-thesis-about-energy-saving-to-save-planet-earth-for-cheap.pdf 1 0 5067
+/temovate-cost-target.pdf 1 0 4588
+/buy-furazolidone-nyc.pdf 1 0 4012
+/buy-bonviva-vancouver-bc.pdf 1 0 5557
+/cheap-resochin-compendium.pdf 1 0 4497
+/purchase-doliprane-5mg-tablets.pdf 1 0 5326
+/write-my-presentation-about-alanna-the-first-adventure-for-me-cheap.pdf 1 0 3235
+/puedo-comprar-pantozol-en-walgreens.pdf 1 0 4440
+/champix-buy-cheap.pdf 1 0 2827
+/buy-combantrin-1-victoria-bc.pdf 1 0 2769
+/precio-oficial-tretinoin-en-farmacia.pdf 1 0 3770
+/buy-anticol-tablet.pdf 1 0 2775
+/price-fucidin-500-mg-walmart.pdf 1 0 3502
+/metronidazole-gel-sigma-price.pdf 1 0 4741
+/perlutex-price-increase-walmart.pdf 1 0 4861
+/prescription-price-biaxin.pdf 1 0 3989
+/price-of-synalar-tablet.pdf 1 0 4484
+/write-my-customer-satisfaction-in-banking-literature-review-for-me.pdf 1 0 4927
+/buy-nalorex-no-pres.pdf 1 0 3262
+/methimazole-get-quit-plan.pdf 1 0 4864
+/cheapest-pharmacy-for-ivermectin.pdf 1 0 3395
+/methimazole-tadalafil-precio-mexico.pdf 1 0 2671
+/precio-microgynon-jovenes.pdf 1 0 3760
+/price-for-flector-prescription.pdf 1 0 5127
+/price-dicloberl-100mg-walmart.pdf 1 0 3316
+/order-amikacin-from-usa.pdf 1 0 4754
+/cheap-neurobion-prescription.pdf 1 0 2867
+/purchase-biofenac-drug.pdf 1 0 3349
+/cvs-pharmacy-ergotamine-price.pdf 1 0 5456
+/can-buy-levocetirizine-otc.pdf 1 0 5049
+/buy-supradyn-guidelines.pdf 1 0 5010
+/can-you-buy-xylocaine-over-the-counter-in-canada.pdf 1 0 3294
+/clarinex-price-montreal.pdf 1 0 3886
+/buy-berodual-glasgow.pdf 1 0 4164
+/compra-ramipril-en-capital-federal.pdf 1 0 3629
+/cheap-dexadreson-overnight-delivery.pdf 1 0 2763
+/writing-your-thesis.pdf 1 0 6562
+/purchase-genuine-estradiol-valerate-online.pdf 1 0 5533
+/order-yaz-from-canadian-pharmacy.pdf 1 0 4696
+/buy-astonin-amsterdam.pdf 1 0 3574
+/cheap-brand-nexium-100mg.pdf 1 0 3549
+/write-for-me-vip-industries-homework-for-safe.pdf 1 0 6445
+/order-generic-advair-online-overnight.pdf 1 0 3030
+/price-of-maxidex-at-walmart.pdf 1 0 2804
+/lantus-uk-prices.pdf 1 0 2735
+/levotiroxina-generico-mejor-precio.pdf 1 0 3420
+/clomid-precio-mercadolibre.pdf 1 0 4005
+/precio-olmesartan-50-mg.pdf 1 0 4233
+/buy-aldactone-eu.pdf 1 0 2662
+/quiero-comprar-lioresal-espana.pdf 1 0 5091
+/amoksiklav-in-canada-price.pdf 1 0 3198
+/purchase-careprost-tablets.pdf 1 0 4258
+/buy-celestoderm-cena.pdf 1 0 3514
+/essay-about-erin-brockovich-movie.pdf 1 0 5041
+/comprar-diltiazem-cream-bolivia.pdf 1 0 4523
+/price-of-diclofenac-gel-5mg.pdf 1 0 5672
+/order-sirdalud-canada-pharmacy.pdf 1 0 2687
+/buy-acomplia-walgreens.pdf 1 0 4482
+/cheap-estradiol-valerate-australia.pdf 1 0 5084
+/order-essay-on-american-modernism-for-safe.pdf 1 0 8071
+/buy-zovirax-us-pharmacy.pdf 1 0 4496
+/press-release-writing-service.pdf 1 0 4679
+/target-canada-pentasa.pdf 1 0 4510
+/dissertation-methodology-on-my-pet-in-afrikaans.pdf 1 0 3817
+/purchase-yaz-guideline.pdf 1 0 3047
+/order-lioresal-online-canada.pdf 1 0 4774
+/where-to-buy-urocit-k-in-dubai.pdf 1 0 4243
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+macosx6 302 19
+ios_ipad 1085 46
+winphone 299 7
+linuxubuntu 2 0
+winnt 11848 543
+win7 44983 3015
+linux 3073 144
+linuxdebian 4 4
+macosx5 1 0
+blackberry 4 4
+win8 1538 50
+winlong 751 142
+linuxandroid 14179 443
+macosx9 1336 34
+win8.1 7366 428
+unix 146 4
+java 31 5
+macosx7 167 31
+winunknown 29 29
+macosx 2591 191
+win2003 142 11
+winxp 3358 258
+ios_iphone 5600 110
+Unknown 7714 7520
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 157
+chrome46.0.2472.0 79 2
+firefox3.6 46 46
+safari9.0 4082 101
+firefox40.0 2 2
+firefox29.0 1 1
+chrome32.0.1700.102 96 4
+chrome37.0.2062.120 1 1
+chrome29.0.1600.1 5 4
+firefox25.0 1 0
+chrome10.0.648.133 2 0
+chrome28.0.1500.71 1 1
+chrome35.0.1916.153 234 1
+firefox10.0.7 96 0
+firefox6.0.2 37 17
+chrome36.0.1985.125 92 11
+chrome49.0.2623.95 77 2
+chrome46.0.2486.0 564 44
+chrome45.0.2454.94 69 2
+firefox46.0 323 29
+chrome49.0.2623.105 7400 317
+chrome42.0.2311.135 127 5
+chrome49.0.2623.87 697 19
+chrome31.0.1650.48 104 2
+chrome40.0.2214.85 4 4
+chrome50.0.2661.89 225 6
+chrome45.0.2454.101 158 4
+android 1233 22
+chrome41.0.2228.0 9 9
+chrome48.0.2564.95 733 21
+chrome42.0.2311.138 1 0
+chrome43.0.2357.93 76 2
+chrome34.0.1847.118 158 9
+msie7.0 1258 87
+chrome47.0.2526.111 408 4
+chrome50.0.2661.86 2 0
+firefox15.0.1 1 1
+firefox26.0 1 0
+chrome39.0.2171.95 18 18
+firefox2.0.0.13 2 2
+chrome49.0.2623.108 111 2
+safari8.0 797 26
+chrome41.0.2220.0 2 2
+firefox3.5.18 1 1
+chrome38.0.2125.122 78 2
+chrome39.0.2171.96 1 0
+firefox10.0.2 134 134
+chrome49.0.2623.75 2 0
+chrome44.0.2403.155 174 8
+chrome47.0.2526.83 301 8
+chrome12.0.742.100 1 0
+firefox27.0 5 5
+chrome37.0.2062.124 79 2
+opera12.02 1 1
+firefox17.0 3 3
+msie10.0 188 11
+firefox41.0 55 25
+chrome38.0.2125.102 657 23
+chrome40.0.2214.109 58 2
+opera7.03 1 0
+chrome50.0.2661.87 1497 57
+chrome44.0.2403.133 146 4
+firefox42.0 157 4
+chrome43.0.2357.124 257 14
+chrome48.0.2564.97 156 4
+chrome34.0.1847.76 304 4
+chrome44.0.2403.125 1 1
+chrome36.0.1985.97 5 5
+chrome5.0.307.11 2 2
+chrome33.0.0.0 1 0
+firefox31.0 83 5
+chrome39.0.2171.93 77 2
+opera36.0.2130.46 174 7
+msie6.0 46 46
+safari9.1 490 19
+firefox36.0 234 13
+chrome39.0.2171.71 4 4
+msie11.0 4286 276
+chrome50.0.2661.75 918 32
+chrome49.0.2623.110 19529 887
+Unknown 7565 7517
+chrome42.0.2311.111 41 0
+chrome42.0.2311.152 88 5
+chrome50.0.2661.94 285 23
+chrome33.0.1750.170 65 2
+msie 4 4
+opera9.00 1 1
+chrome38.0.1025.166 1756 0
+msie9.0 1890 784
+chrome19.0.1061.0 1 1
+safari 3762 99
+chrome32.0.1700.107 359 3
+iphone 12 0
+chrome36.0.1985.135 53 0
+mozilla 175 8
+chrome50.0.2661.66 1 0
+safari8.0.8 76 1
+firefox33.0 1 1
+safari8.0.5 730 34
+firefox44.0 202 21
+chrome48.0.2564.109 274 21
+safari7.0 317 6
+chrome28.0.1500.95 2 2
+chrome13.0.782.41 1 0
+chrome23.0.1271.97 1 1
+chrome36.0.1985.143 1474 10
+msie8.0 598 136
+firefox35.0 5 5
+chrome11.0.669.0 1 1
+chrome47.0.2526.100 76 2
+chrome33.0.1750.152 110 7
+opera26.0.1656.60 3 3
+chrome48.0.2564.106 2 0
+firefox43.0 520 37
+chrome18.0.1025.162 1 0
+chrome34.0.1847.116 3 2
+chrome35.0.1916.114 117 11
+safari9.0.3 657 11
+firefox14.0.1 86 10
+firefox20.0 2 2
+konqueror3.5 4 4
+firefox38.0 211 5
+chrome40.0.2214.93 2 2
+chrome11.0.700.3 1 1
+firefox12.0 2 0
+chrome30.0.1599.101 3 3
+firefox11.0 69 0
+chrome19.0.1055.1 1 1
+chrome46.0.2490.86 1 0
+chrome22.0.1229.79 176 6
+firefox32.0 118 4
+firefox34.0 31 31
+blackberry 4 4
+chrome48.0.2564.116 157 5
+chrome37.0.2049.0 2 2
+chrome43.0.2357.81 137 12
+safari5.0.2 1 0
+chrome46.0.2490.76 140 6
+chrome43.0.2357.121 1 0
+chrome39.0.2171.99 5 5
+opera11.50 1 1
+safari6.0.3 1 0
+firefox3.0.7 1 0
+chrome27.0.1453.90 1 0
+chrome30.0.1599.103 112 2
+safari6.0 60 0
+chrome28.0.1500.94 258 5
+chrome47.0.2526.106 81 5
+chrome34.0.1847.131 148 2
+chrome49.0.2623.112 26387 1215
+chrome30.0.1573.2 1 0
+chrome48.4.2564.88 97 5
+chrome46.0.2490.80 112 4
+firefox21.0 1 0
+chrome30.0.0.0 142 2
+chrome49.0.2623.91 159 4
+firefox45.0 7160 485
+opera12.17 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+VB_Project 20160430075834
+Mojolicious_(Perl) 20160428085820
+}__test|O:21:\ 20160423181954
+XML-RPC.NET 20160430132054
+Mozilla/5.0_(Android;_Tablet;_rv:32.0)_Gecko/32.0_Firefox/32.0 20160422092511
+Python-urllib/3.5 20160415180532
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20160419110350
+WWW-Mechanize/1.73 20160419040957
+facebookexternalhit/1.1 20160402215352
+WordPress/4.3.3;_http://www.inovarlocacoes.com 20160430235927
+visionutils/0.2 20160412183809
+WordPress/4.3.3;_http://www.ino157.55.39.158_-_-_[10/Apr/2016:11:39:58_-0300]_ 20160410094819
+Mozilla/4.0_(compatible;) 20160406212208
+semanticbot 20160428171242
+Go-http-client/1.1 20160413162501
+Mozilla/5.0_(compatible;_Google_AppsViewer;_http://drive.google.com) 20160414223210
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 16
+Apache-HttpClient/4.3.5_(java_1.5) 20160430085229
+Python-urllib/3.5 20160415180532
+Google-HTTP-Java-Client/1.17.0-rc_(gzip) 20160416082317
+VB_Project 20160430075834
+Mojolicious_(Perl) 20160428085820
+}__test|O:21:\ 20160423181954
+XML-RPC.NET 20160430132054
+WordPress/4.3.3;_http://www.inovarlocacoes.com 20160430235927
+facebookexternalhit/1.1 20160402215352
+visionutils/0.2 20160412183809
+Apache-HttpClient/4.2.5_(java_1.5) 20160413094714
+WWW-Mechanize/1.73 20160419040957
+WordPress/4.3.3;_http://www.ino157.55.39.158_-_-_[10/Apr/2016:11:39:58_-0300]_ 20160410094819
+Microsoft_Office/14.0_(Windows_NT_6.1;_Microsoft_Outlook_14.0.4760;_Pro;_ms-office;_MSOffice_14) 20160425131808
+Go-http-client/1.1 20160413162501
+semanticbot 20160428171242
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 8911 9389
+From1 0 0
+From2 5 611
+From3 12 27
+From4 4110 96522
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+bing 4 157
+google 1 454
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 13
+http://listaodaconstrucao.com 10 10
+http://burger-imperia.com 1 1
+https://www.facebook.com 1 1
+http://webmail.mastersecurityservicos.com.br/cpsess1748847663/3rdparty/roundcube/ 0 1
+http://data.webads.co.nz/snz.asp 0 1
+http://webmail.unidatanet.com.br/zimbra/ 0 1
+http://www.guys-on-fire.com/cgi/frame.cgi 0 1
+http://webmail.uolhost.com.br 0 1
+http://error.fc2.com/blog/e/404/ 0 1
+http://webmail.sanioto.com.br/cpsess4730165343/3rdparty/roundcube/ 0 1
+http://forum.smart-lotos.com/showthread.php 0 1
+http://webmail.mastersecurityservicos.com.br/cpsess2390897931/3rdparty/roundcube/ 0 1
+http://googleweblight.com 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+inovar+%c3%a7ocacoes 2
+inovar+container 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+inovar 4
+container 2
+%c3%a7ocacoes 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+206 1268 268219764
+301 4159 1028
+404 693 0
+500 148 37607
+405 1 0
+302 2130 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 141
+/containers-e-acessorios/linha-express/container-almoxarifado-express/like 2 -
+/containers-e-acessorios/page/7/like 2 -
+/containers-e-acessorios/linha-express/container-sanitario-express/like 2 -
+/containers-e-acessorios/linha-express/container-almoxarifado-express-4/like 2 -
+/wp-content/uploads/2014/11/daime2-280x280@2x.png 13 http://www.inovarlocacoes.com/
+/containers-e-acessorios/linha-standard/container-escritorio-2/like 2 -
+/wp-content/uploads/2015/08/322-130x91@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/322-container-sanitario-express/
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio-revestido/like 2 -
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio-revestido-c-wc/like 2 -
+/containers-e-acessorios/linha-express/306-container-sanitario-express/like 2 -
+/wp-content/uploads/2014/05/abf-rodape@2x.png 33 http://www.inovarlocacoes.com/nossas-unidades/
+/produto-etiqueta/wc/ 2 -
+/wp-content/uploads/2014/05/sobre-a-inovar-locacoes@2x.png 8 http://www.inovarlocacoes.com/sobre-a-inovar/
+/produto-etiqueta/cabine-dupla/ 2 -
+/produto-etiqueta/almoxarifado/ 2 -
+/produto-etiqueta/escritorio-revestido/ 2 -
+/containers-e-acessorios/acessorios/ar-condicionado-1/like 2 -
+/wp-content/uploads/2015/11/selos@2x.png 34 http://www.inovarlocacoes.com/nossas-unidades/
+/containers-e-acessorios/linha-express/andaime/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-revestido-4/like 2 -
+/wp-content/uploads/2014/11/327-130x92@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/327-container-escritorio-revestido-desmontado/
+/components/com_mailto/views/sent/metadata.xml 2 -
+/wp-content/uploads/2015/08/321-130x92@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/321-container-sanitario/
+/wp-content/uploads/2015/08/container-banheiro-duplo-280x280@2x.jpg 6 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/containers-e-acessorios/linha-standard/gerador/like 2 -
+/containers-e-acessorios/linha-standard/escora-2/like 2 -
+/wp-content/uploads/2015/11/selo_abf@2x.jpg 33 http://www.inovarlocacoes.com/nossas-unidades/
+/containers-e-acessorios/page/3/like 2 -
+/containers-e-acessorios/linha-express/324-container-escritorio-desmontado/like 2 -
+/sobre-a-inovar/like 2 -
+/containers-e-acessorios/linha-express/container-almoxarifado/like 2 -
+/containers-e-acessorios/linha-express/325-container-almoxarifado-express/like 2 -
+/wp-content/uploads/2014/05/b11@2x.jpg 4 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/containers-e-acessorios/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-revestido/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-7/like 2 -
+/containers-e-acessorios/linha-standard/container-misto/like 2 -
+/containers-e-acessorios/linha-standard/container-sanitario-6-metros/like 2 -
+/wp-content/uploads/2014/08/container-escritorio-280x280@2x.jpg 4 http://www.inovarlocacoes.com/containers-e-acessorios/page/5/
+/containers-e-acessorios/linha-standard/container-vestiario-com-eletrica-2/like 2 -
+/containers-e-acessorios/linha-express/328-container-escritorio-revestido-desmontado/like 2 -
+/produto-etiqueta/standart/ 2 -
+/wp-content/uploads/2014/04/1400979849_ContainerRed@2x.png 10 http://www.inovarlocacoes.com/
+/containers-e-acessorios/linha-express/container-almoxarifado-express-com-wc/like 2 -
+/containers-e-acessorios/linha-express/321-container-sanitario/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-revestidoalmoxarifado/like 2 -
+/containers-e-acessorios/linha-express/318-container-escritorio/like 2 -
+/wp-content/uploads/2015/08/baanheiro-inovar-12-280x280@2x.jpg 5 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/321-container-sanitario/
+/containers-e-acessorios/linha-express/container-almoxarifado-express-2/like 2 -
+/containers-e-acessorios/linha-standard/container-refeitorio-revestido-sem-eletrica/like 2 -
+/containers-e-acessorios/linha-standard/martelete/like 2 -
+/wp-content/uploads/2014/11/329-130x92@2x.png 3 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/wp-content/uploads/2014/05/6O7B9172@2x.jpg 19 http://www.inovarlocacoes.com/
+/wp-content/uploads/2014/11/325-130x92@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/325-container-almoxarifado-express/
+/containers-e-acessorios/acessorios/equipamentos-de-seguranca-epis/like 2 -
+/containers-e-acessorios/linha-standard/container-sanitario/like 2 -
+/containers-e-acessorios/linha-standard/container-almoxarifado-com-banheiro-e-eletrica/like 2 -
+/containers-e-acessorios/linha-standard/container-refeitorio-revestido-com-eletrica-2/like 2 -
+/wp-content/uploads/2014/11/daime2-600x600@2x.png 2 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/andaime/
+/wp-content/uploads/2015/08/baanheiro-inovar-12-600x600@2x.jpg 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/322-container-sanitario-express/
+/containers-e-acessorios/linha-standard/container-dormitorio-com-banheiro-chuveiro-e-eletrica/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-revestido-3/like 2 -
+/categoria-produto/linha-express/ 2 -
+/produto-etiqueta/banheiro/ 2 -
+/nossas-unidades/like 2 -
+/wp-content/uploads/2014/11/GERADOR-280x280@2x.png 11 http://www.inovarlocacoes.com/
+/containers-e-acessorios/page/6/like 2 -
+/carrinho/like 2 -
+/containers-e-acessorios/linha-express/322-container-sanitario-express/like 2 -
+/wp-content/uploads/2015/08/DSC_0229-130x86@2x.jpg 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/321-container-sanitario/
+/containers-e-acessorios/linha-express/container-escritorio-revestido-2/like 2 -
+/wp-content/uploads/2015/08/container-banheiro-duplo-600x600@2x.jpg 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/321-container-sanitario/
+/wp-content/uploads/2015/02/EX-LOW-600x600@2x.jpg 5 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/wp-content/uploads/2014/11/TETTTTTTTTTTTTTTTTTTT-280x280@2x.png 11 http://www.inovarlocacoes.com/
+/wp-content/uploads/2014/08/cont-cheiro@2x.png 4 http://www.inovarlocacoes.com/containers-e-acessorios/
+/containers-e-acessorios/linha-express/container-almoxarifado-express-3/like 2 -
+/containers-e-acessorios/linha-express/container-sanitario-2-cabines/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-3/like 2 -
+/wp-content/uploads/2014/11/MMMMMMMMMMMMMMMMM-280x280@2x.png 11 http://www.inovarlocacoes.com/
+/containers-e-acessorios/linha-express/container-escritorio-4/like 2 -
+/containers-e-acessorios/linha-express/container-almoxarifado-express-5/like 2 -
+/wp-content/uploads/2014/08/309-130x92@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/container-almoxarifado-express-2/
+/atendimento/like 2 -
+/wp-content/uploads/2014/08/DSC_0239-130x86@2x.jpg 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/327-container-escritorio-revestido-desmontado/
+/like 2 -
+/categoria-produto/linha-standard/ 2 -
+/containers-e-acessorios/linha-express/escora/like 2 -
+/wp-content/uploads/2014/11/324-130x92@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/324-container-escritorio-desmontado/
+/wp-content/uploads/2014/05/seguranca-epi2-280x280@2x.jpg 13 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/containers-e-acessorios/linha-standard/container-almoxarifado-2/like 2 -
+/wp-content/uploads/2014/04/Container-Express-301@2x.jpg 10 http://www.inovarlocacoes.com/containers-e-acessorios/
+/containers-e-acessorios/linha-express/container-escritorio-express/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-com-eletrica-e-banheiro-2/like 2 -
+/wp-content/uploads/2014/04/1400979749_map@2x.png 10 http://www.inovarlocacoes.com/
+/categoria-produto/acessorios/ 2 -
+/containers-e-acessorios/page/5/like 2 -
+/produto-etiqueta/escritorio/ 2 -
+/wp-content/uploads/2014/08/DSC_0236-280x280@2x.jpg 37 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/wp-content/uploads/2014/08/container-inovar-280x280@2x.jpg 4 http://www.inovarlocacoes.com/containers-e-acessorios/page/5/
+/wp-content/uploads/2014/04/Untitled-7@2x.jpg 8 http://www.inovarlocacoes.com/
+/containers-e-acessorios/linha-standard/container-almoxarifado-3/like 2 -
+/containers-e-acessorios/page/2/like 2 -
+/wp-content/uploads/2014/08/DSC_0239-280x280@2x.jpg 4 http://www.inovarlocacoes.com/containers-e-acessorios/page/5/
+/containers-e-acessorios/linha-express/container-escritorio-com-eletrica/like 2 -
+/produto-etiqueta/deposito/ 2 -
+/wp-content/plugins/contact-form-7/images/ajax-loader@2x.gif 6 http://www.inovarlocacoes.com/atendimento/
+/wp-content/uploads/2014/04/1400980038_growth_3D@2x.png 10 http://www.inovarlocacoes.com/
+/containers-e-acessorios/linha-standard/container-alojamento-com-eletrica/like 2 -
+/wp-content/uploads/2014/08/cont-grand@2x.jpg 66 http://www.inovarlocacoes.com/containers-e-acessorios/
+/wp-content/uploads/2014/05/container-inovar-sanitario-280x280@2x.jpg 5 http://www.inovarlocacoes.com/containers-e-acessorios/page/4/
+/containers-e-acessorios/linha-express/container-escritorio-revestido-5/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-6/like 2 -
+/wp-content/uploads/2014/05/ar-condicionado-janela3@2x.jpg 10 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/329-container-escritorio-revestido/
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio/like 2 -
+/containers-e-acessorios/linha-standard/container-almoxarifado-6-metros/like 2 -
+/wp-content/uploads/2014/11/esc-280x280@2x.png 21 http://www.inovarlocacoes.com/
+/produto-etiqueta/revestido/ 2 -
+/wp-content/uploads/2014/08/DSC_0236-600x600@2x.jpg 2 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/327-container-escritorio-revestido-desmontado/
+/wp-content/uploads/2014/08/container-banheiro-duplo-280x280@2x.jpg 4 http://www.inovarlocacoes.com/containers-e-acessorios/linha-express/container-almoxarifado-express-2/
+/containers-e-acessorios/linha-express/329-container-escritorio-revestido/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-com-eletrica-e-banheiro/like 2 -
+/www.bndes.gov.br/SiteBNDES/bndes/bndes_pt/Institucional/O_BNDES/A_Empresa/ 2 -
+/containers-e-acessorios/linha-standard/container-sanitario-masculino-e-feminino/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-revestido-com-eletrica-e-banheiro/like 2 -
+/wp-content/uploads/2014/05/PROJETO-232-130x91@2x.png 1 http://www.inovarlocacoes.com/containers-e-acessorios/linha-standard/container-almoxarifado-6-metros/
+/containers-e-acessorios/linha-standard/container-guarita/like 2 -
+/containers-e-acessorios/linha-express/container-sanitario-1-cabine/like 2 -
+/containers-e-acessorios/page/4/like 2 -
+/produto-etiqueta/sanitario/like 2 -
+/produto-etiqueta/express/ 2 -
+/containers-e-acessorios/linha-standard/container-escritorio/like 2 -
+/containers-e-acessorios/linha-standard/container-sanitario-6-metros/sanitario/ 4 -
+/produto-etiqueta/alojamento/ 2 -
+/containers-e-acessorios/linha-express/326-container-escritorio-desmontado/like 2 -
+/containers-e-acessorios/linha-standard/container-escritorio-revestido-com-eletrica/like 2 -
+/containers-e-acessorios/linha-express/327-container-escritorio-revestido-desmontado/like 2 -
+/wp-content/uploads/2015/02/EX-LOW-280x280@2x.jpg 30 http://www.inovarlocacoes.com/containers-e-acessorios/
+/containers-e-acessorios/linha-standard/compactador/like 2 -
+/containers-e-acessorios/linha-express/container-escritorio-5/like 2 -
+/wp-content/plugins/MapListPro/images/pins/default/mapmarker@2x.png 30 http://www.inovarlocacoes.com/nossas-unidades/
+/wp-content/uploads/2014/05/atendimento-inovar-locacoes@2x.png 6 http://www.inovarlocacoes.com/atendimento/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2128
+173.44.46.80 7155 7155 0 20160430235927
+195.154.237.108 727 727 158571017 20160428031151
+103.55.24.163 252 252 154536 20160430132054
+191.54.145.221 155 2049 78927170 20160419151626
+177.138.174.214 94 417 19532863 20160422113220
+104.41.157.206 86 86 3976518 20160428171242
+62.210.244.115 40 40 1890489 20160408122138
+187.66.118.104 40 185 23080699 20160418173603
+177.194.125.2 38 179 29206698 20160412170220
+66.249.88.164 36 942 146835588 20160424044732
+179.104.29.165 33 162 15558870 20160419164440
+201.4.38.21 33 439 24266299 20160401233235
+201.55.225.250 33 212 34065320 20160404182412
+177.180.116.123 30 232 43519849 20160430101048
+66.249.88.174 30 860 111849402 20160429180852
+197.231.221.211 29 59 795891 20160430224327
+177.3.158.206 29 165 28958570 20160427212126
+61.182.0.193 28 28 760802 20160401064514
+187.19.195.130 28 167 16273735 20160427114023
+66.249.88.169 26 903 154040405 20160429180853
+177.7.124.39 26 142 28188479 20160415124045
+177.131.49.50 25 151 27400364 20160429170025
+187.52.108.5 25 165 17809485 20160402082238
+201.78.219.17 24 224 26259926 20160405153208
+189.5.63.148 24 156 28613084 20160413093150
+204.79.180.130 0 1 5169 
+189.114.50.197 0 1 19106 
+65.55.212.81 0 1 22595 
+189.40.103.152 1 75 12275763 20160429235336
+177.22.161.12 1 77 12292968 20160430090004
+131.253.26.245 0 4 77072 
+91.108.183.74 3 4 89960 20160404210147
+46.166.138.161 0 1 4675 
+177.142.132.60 2 78 12426036 20160427212450
+177.47.132.116 2 78 12430812 20160414184429
+179.106.60.128 0 11 291482 
+138.122.51.153 21 132 28091575 20160413144641
+69.58.178.58 11 11 576289 20160418154151
+179.126.242.220 2 76 10803404 20160418162236
+216.163.188.223 1 1 59268 20160406142354
+213.254.241.4 1 2 74981 20160412150227
+206.16.134.24 1 1 59268 20160420084805
+66.102.8.129 0 37 6553695 
+179.104.197.147 0 2 15530 
+23.81.239.45 1 1 59268 20160411202712
+179.122.73.24 0 22 21830315 
+181.222.66.174 0 65 5033332 
+189.41.35.146 0 1 176820 
+36.110.147.79 2 101 2935289 20160428140915
+189.58.14.173 2 78 12430812 20160412170023
+189.106.224.225 2 78 12430812 20160414160113
+177.205.151.156 5 100 12785237 20160413133701
+179.126.246.149 2 91 12588014 20160407113741
+204.79.180.64 0 2 8791 
+189.45.11.115 0 2 33465 
+5.149.254.109 1 1 51661 20160415221548
+186.215.182.188 8 100 12799066 20160422101029
+179.182.196.12 2 94 12606295 20160405150327
+123.126.68.123 1 20 764725 20160421145311
+176.31.180.157 0 1 5653 
+179.155.67.92 2 77 12429537 20160424210041
+188.251.84.23 0 1 471971 
+179.126.96.19 2 78 12430812 20160414152536
+191.32.148.218 0 4 353640 
+203.151.215.130 19 19 1232473 20160413181601
+191.54.233.104 3 81 12585601 20160411150724
+73.1.196.2 2 79 12446383 20160415201241
+65.55.211.249 0 1 15930 
+186.231.124.224 1 78 13441926 20160417110131
+150.70.188.169 1 1 59268 20160425075723
+191.178.45.151 4 85 12487118 20160428072359
+189.71.225.221 0 19 6955972 
+37.48.113.81 0 1 5653 
+186.225.183.157 14 122 26115755 20160429095301
+204.79.180.74 0 5 154208 
+188.186.65.15 1 2 62003 20160430111235
+201.6.177.243 0 1 176820 
+204.79.180.129 0 2 6133 
+191.248.24.92 2 11 365145 20160427082345
+191.5.148.240 2 78 12430812 20160418163627
+189.1.48.119 0 66 1753803 
+204.79.180.22 0 6 146378 
+189.6.27.178 5 98 12771305 20160430231611
+131.253.26.235 0 1 15962 
+179.216.84.114 0 1 1794177 
+2.81.220.168 0 1 471971 
+131.253.26.226 0 1 4209 
+186.207.107.45 1 57 1681362 20160415153230
+201.71.40.1 2 77 12426365 20160428142345
+187.35.143.58 4 85 12487118 20160408090447
+204.79.180.79 0 5 50459 
+189.41.92.189 2 50 783768 20160428174914
+177.41.15.99 1 76 12291693 20160406115537
+145.255.22.202 3 3 0 20160412162851
+189.41.105.244 16 350 51632478 20160405221127
+200.223.243.162 2 78 12430812 20160405112141
+189.41.140.31 0 33 4265262 
+189.5.110.13 2 95 12606832 20160420095824
+187.181.231.147 1 76 12291693 20160402092152
+177.222.120.245 7 153 14418433 20160425083523
+204.79.180.101 0 2 84686 
+191.243.200.98 1 70 2001333 20160423170130
+177.200.192.227 5 76 10025558 20160428095328
+204.79.180.234 0 1 111687 
+189.31.133.234 1 1 0 20160420104636
+179.192.10.52 2 78 12430812 20160406232958
+191.190.191.30 2 78 12430812 20160426141833
+192.227.162.22 1 1 59268 20160415154140
+62.210.220.107 1 1 36549 20160422041247
+62.210.162.209 7 7 0 20160429035653
+36.110.147.101 2 39 1381235 20160418152653
+179.155.156.251 0 1 609111 
+187.1.90.162 1 77 12292968 20160426193042
+200.187.7.132 0 24 947008 
+204.79.180.134 0 2 58057 
+204.79.180.77 0 2 12253 
+204.79.180.153 0 1 2129 
+204.79.180.44 0 1 2129 
+179.104.217.22 2 78 12430812 20160426134639
+179.126.33.77 0 9 203906 
+200.175.252.123 4 149 20610435 20160426160742
+206.164.153.72 0 30 3341335 
+189.91.18.210 0 60 4778645 
+187.65.62.123 14 156 28596520 20160408080719
+191.189.9.121 0 1 4756649 
+101.199.108.55 1 52 1504919 20160407064257
+204.79.180.228 0 3 147683 
+204.79.180.35 0 3 136643 
+204.79.180.244 0 2 187806 
+36.110.147.88 1 15 460919 20160405134449
+204.79.180.150 0 3 47283 
+191.247.226.58 0 1 176820 
+177.41.0.170 0 1 176820 
+189.28.7.162 2 78 12430812 20160404214610
+54.165.181.10 2 78 12430812 20160414072836
+204.79.180.211 0 3 107281 
+187.180.184.185 2 78 12430812 20160429100224
+189.41.86.44 2 80 12447465 20160419142857
+202.46.58.191 1 1 43400 20160405050541
+201.76.186.178 0 1 19106 
+191.249.192.206 4 87 12747217 20160412153132
+189.41.107.199 1 3 154497 20160405195128
+187.53.220.254 2 78 12430812 20160406140356
+204.79.180.125 0 1 4447 
+189.102.199.60 2 78 12430812 20160419164403
+187.103.83.6 0 55 9940988 
+179.155.105.13 2 78 12430812 20160419070749
+179.235.27.15 0 2 734763 
+65.55.212.85 0 2 46427 
+179.104.126.96 0 18 609480 
+179.43.143.162 3 3 84957 20160417173507
+187.86.137.12 0 1 19106 
+200.201.164.8 4 156 24861624 20160428142325
+186.213.255.22 12 114 13176862 20160428084038
+201.0.80.114 0 67 10794565 
+131.253.36.197 0 1 1082 
+217.115.10.132 0 1 5653 
+187.52.47.10 3 70 2110883 20160405161849
+123.126.68.145 1 11 305626 20160403143854
+189.103.49.6 2 80 12447465 20160420121909
+109.201.154.141 2 2 31058 20160412081627
+64.215.22.94 4 91 12767790 20160420100548
+191.54.6.72 2 77 12429537 20160414101929
+179.104.109.255 2 78 12430812 20160414164008
+200.163.89.249 2 67 1955542 20160423140937
+191.55.45.85 0 2 121716 
+204.79.180.177 0 2 63026 
+139.190.31.188 0 7 119542 
+177.207.80.155 2 152 24583386 20160428092722
+186.237.134.234 2 97 12638519 20160425171231
+182.118.70.111 0 4 19397 
+37.156.184.249 1 1 59268 20160401205801
+65.55.218.54 0 2 6989 
+66.249.84.229 0 2 295811 
+187.109.136.118 2 78 12430812 20160429094940
+191.251.210.189 1 77 12292968 20160416011210
+186.214.240.36 6 91 12567496 20160427091108
+107.151.142.122 8 8 364197 20160407035331
+201.37.67.101 0 1 606209 
+189.49.170.45 21 182 15187184 20160426144602
+204.79.180.126 0 2 3629 
+200.232.205.91 0 42 5850186 
+202.46.51.169 0 1 374 
+187.73.216.4 1 89 12862074 20160422124948
+204.79.180.43 0 3 174544 
+201.1.105.130 0 1 719755 
+123.126.68.122 1 22 964149 20160420180515
+189.41.20.131 0 1 4447 
+203.133.168.9 1 1 59268 20160420175728
+177.179.146.58 0 1 281452 
+179.105.48.84 2 78 12430812 20160408123205
+179.189.20.229 1 2 61417 20160415103134
+177.100.103.14 7 107 13081607 20160420181343
+189.112.73.209 2 80 12447465 20160408161202
+189.115.92.86 0 26 971455 
+177.85.20.17 0 1 257639 
+189.68.59.97 0 34 1165213 
+200.252.103.240 0 21 717103 
+183.115.106.56 1 1 59268 20160407225829
+65.55.212.78 0 3 169433 
+219.129.164.122 1 1 59268 20160407011321
+189.2.83.242 0 1 5549451 
+123.126.68.130 1 17 488202 20160425201759
+189.15.134.154 2 94 12606295 20160412211640
+186.221.27.250 0 1 471971 
+176.10.99.200 0 1 5653 
+177.132.164.146 0 1 609111 
+66.249.88.179 0 1 176820 
+123.126.68.120 3 83 2579036 20160412144628
+131.100.97.222 0 1 471971 
+131.253.24.140 0 1 3358 
+201.14.8.157 9 209 34127103 20160404153618
+202.46.56.94 1 1 45783 20160417002011
+204.79.180.138 0 2 67719 
+177.97.116.135 1 77 12292968 20160404212159
+204.79.180.212 0 1 4209 
+49.150.223.183 0 59 4737004 
+64.233.172.249 5 111 24092841 20160417152038
+123.126.68.125 1 25 1006276 20160417135837
+173.252.115.87 2 2 118536 20160402215352
+204.79.180.30 0 2 155010 
+206.225.84.189 2 65 1916642 20160406214014
+93.174.93.133 3 3 84957 20160428205101
+201.67.50.201 0 44 4491341 
+187.114.117.33 0 1 719755 
+186.210.254.138 0 5 884100 
+65.55.65.30 0 1 176820 
+204.79.180.85 0 2 21087 
+83.233.72.174 0 1 51502 
+5.79.68.161 4 4 55658 20160422033752
+65.55.218.46 0 2 8008 
+179.99.141.166 0 35 1174740 
+201.2.47.237 0 56 13121418 
+179.183.96.171 4 34 6524854 20160420004001
+191.55.40.86 0 1 55177 
+177.204.238.58 0 1 691856 
+191.189.76.197 2 80 12450592 20160404102224
+89.234.157.254 0 1 5653 
+204.79.180.210 0 3 12567 
+187.66.147.222 9 116 13329937 20160404133937
+204.79.180.185 1 3 69061 20160411111959
+5.9.112.6 0 1 4718 
+179.106.60.14 11 117 13068606 20160403052652
+65.55.157.155 0 1 176820 
+204.79.180.136 0 2 3883 
+177.83.109.57 5 96 12751931 20160422163240
+204.79.180.88 0 1 98513 
+186.207.105.131 2 78 12430812 20160419145051
+189.75.9.105 0 1 1794177 
+78.108.79.211 3 3 0 20160412173114
+189.84.214.171 0 2 1381682 
+201.63.188.178 3 131 12530377 20160418171111
+204.79.180.218 0 3 212847 
+177.100.216.66 3 79 12568948 20160407061019
+179.61.252.167 2 2 130891 20160426035834
+131.253.26.253 0 3 133846 
+177.86.106.45 0 1 777299 
+187.115.110.97 0 1 1794177 
+152.249.3.96 12 147 23020194 20160420020127
+177.154.6.225 5 97 12752199 20160414102424
+62.210.105.116 0 2 11306 
+189.108.105.242 2 81 12463036 20160428114631
+179.126.111.100 1 40 1257479 20160419003138
+190.180.161.143 0 26 971241 
+201.94.189.248 0 1 95977 
+65.55.218.35 0 3 42233 
+66.249.93.20 0 1 3470 
+186.247.178.82 0 62 4812110 
+204.79.180.132 0 1 46128 
+187.67.113.58 0 56 4627798 
+187.39.250.221 0 56 13121418 
+204.79.180.157 0 2 60561 
+179.99.246.101 0 1 241110 
+87.196.244.228 0 1 281452 
+66.102.8.249 0 2 353640 
+186.216.252.9 2 78 12430812 20160421200043
+204.79.180.39 0 3 116062 
+66.249.88.4 8 152 19579912 20160428194821
+177.23.33.170 0 1 19106 
+151.80.40.50 1 1 46511 20160406225031
+179.185.145.176 2 78 12430812 20160418151822
+179.104.136.149 1 21 388609 20160421195644
+200.100.204.102 0 2 932966 
+186.210.208.47 0 40 4365104 
+91.204.15.55 1 1 59268 20160422012155
+179.185.133.84 2 78 12430812 20160412093849
+200.188.214.170 0 1 471971 
+123.125.125.77 1 33 1216466 20160416143356
+37.28.218.96 0 1 471971 
+187.127.54.180 0 50 1408157 
+179.155.127.179 2 82 12464118 20160405224630
+179.105.164.68 0 1 471971 
+177.41.148.74 0 1 281452 
+187.106.23.172 2 79 12446383 20160407101049
+131.253.24.157 0 1 15571 
+186.218.80.166 0 42 1352125 
+46.165.228.153 1 1 60180 20160408130530
+204.79.180.252 0 2 111446 
+191.189.107.134 5 88 12779440 20160401084114
+204.79.180.195 0 2 36305 
+204.79.180.57 0 2 33020 
+189.72.229.90 0 56 13121418 
+186.231.100.152 0 62 7605004 
+177.205.76.0 2 78 12430812 20160404134922
+189.83.111.217 0 56 13121418 
+189.83.125.89 0 56 13121418 
+179.107.203.135 4 284 61847215 20160428124558
+177.207.7.30 0 3 1661988 
+189.125.141.2 6 94 12800840 20160414111906
+187.39.30.209 2 78 12430812 20160425231001
+204.79.180.52 0 2 19498 
+204.79.180.214 0 4 63462 
+191.190.61.178 5 97 12767502 20160405124638
+187.34.159.7 11 115 13533112 20160419102710
+189.70.196.7 2 75 12412917 20160401082838
+204.79.180.82 0 3 27792 
+218.18.156.173 1 1 59268 20160410145743
+189.41.33.209 2 86 12435076 20160408083214
+187.55.2.164 2 78 12430812 20160429104803
+54.243.53.148 1 1 816 20160415153542
+90.27.126.151 0 26 847998 
+202.46.48.29 1 2 46699 20160414121845
+204.79.180.141 0 1 109886 
+69.74.29.206 1 1 59268 20160404223002
+204.79.180.112 0 3 72547 
+54.86.77.192 1 1 59268 20160417074238
+204.79.180.8 0 2 19733 
+62.210.129.246 0 1 5653 
+62.210.37.82 0 1 5653 
+189.41.68.113 0 1 0 
+179.126.43.138 2 79 16102320 20160420085400
+131.100.190.20 2 94 12605743 20160417165325
+202.106.16.36 0 1 3296 
+179.234.107.32 2 78 12430812 20160420181900
+179.105.136.20 0 1 251964 
+109.201.154.193 0 1 5653 
+177.94.18.42 1 76 12291693 20160410172203
+179.178.120.156 2 140 12480474 20160418205332
+95.87.233.210 0 1 5653 
+131.253.24.154 0 1 3568 
+177.79.6.254 2 44 10237728 20160418094638
+123.126.68.134 1 59 4777510 20160427202057
+204.79.180.94 0 1 22595 
+186.210.122.20 2 78 12430812 20160425085650
+187.45.21.97 3 74 12485986 20160421112629
+191.55.4.185 2 74 12405401 20160423134503
+65.55.212.80 0 1 2665 
+204.79.180.73 0 2 25761 
+131.253.24.159 0 3 86498 
+112.211.84.95 0 17 433381 
+200.169.165.242 2 78 12430812 20160404150937
+114.252.155.174 1 1 59268 20160404015335
+177.177.110.230 3 84 12389276 20160411133642
+177.106.98.255 2 78 12430812 20160407153055
+204.79.180.15 0 2 68807 
+204.79.180.173 0 3 70384 
+201.94.184.64 0 41 4373811 
+191.198.198.22 6 97 12672348 20160415145315
+177.95.134.32 19 130 38451076 20160428213449
+204.79.180.127 0 3 21888 
+188.40.112.210 0 1 4718 
+66.249.88.254 7 28 3472577 20160420234305
+204.79.180.243 0 1 4162 
+181.223.101.81 2 78 12430812 20160404150041
+187.180.187.247 0 1 176820 
+202.46.51.20 0 1 22595 
+201.17.189.4 4 91 12767790 20160406153137
+191.17.109.126 6 32 2213866 20160406141410
+168.205.174.220 2 78 12430812 20160411142159
+204.79.180.19 0 2 114467 
+191.187.118.249 0 1 4756649 
+191.43.2.251 2 91 12588822 20160404091644
+177.69.18.130 0 15 493019 
+202.46.49.117 0 1 80477 
+201.19.41.88 3 81 12585309 20160407150500
+177.97.148.9 0 1 281452 
+177.138.160.202 1 56 1665432 20160417163652
+191.250.145.83 0 10 353640 
+81.161.41.42 1 1 59268 20160402203252
+187.120.43.204 0 7 211310 
+187.121.55.190 7 99 12856036 20160402021945
+174.59.123.19 11 177 15151051 20160412150318
+201.79.2.175 0 1 281452 
+191.101.2.168 1 1 59268 20160407010923
+204.79.180.62 0 1 11321 
+187.78.96.213 1 77 12292968 20160404155434
+201.22.179.63 14 117 13169844 20160406090249
+93.130.132.186 0 39 1227458 
+189.3.130.50 2 78 12430812 20160425104929
+177.124.175.222 2 2 130891 20160407011400
+187.36.74.106 2 55 8548107 20160428215544
+187.54.243.204 0 1 4162 
+94.31.210.223 3 3 0 20160412155821
+199.127.226.150 0 5 27287 
+66.102.6.197 4 109 13395090 20160429202510
+35.0.127.52 10 13 238428 20160428200314
+177.220.230.34 0 1 471971 
+177.68.253.61 0 1 471971 
+177.99.215.113 0 1 1794177 
+204.79.180.171 0 3 38241 
+46.166.190.187 0 1 5653 
+200.232.61.146 2 78 12430812 20160419132257
+179.185.3.218 0 1 471971 
+187.50.41.154 0 1 4756649 
+181.213.76.226 2 82 12464118 20160405105907
+201.69.93.165 1 45 2961659 20160425210209
+177.11.151.147 2 78 12430812 20160406164218
+74.91.26.114 2 2 118536 20160421042631
+186.215.83.19 0 47 2585762 
+204.79.180.87 0 2 3747 
+191.189.10.85 0 2 1813283 
+200.175.151.56 0 53 1582680 
+201.48.244.145 8 175 25506858 20160413095450
+204.79.180.250 0 2 45640 
+212.129.26.132 1 1 59268 20160428230706
+177.95.133.45 2 78 12430812 20160429155022
+201.24.167.79 5 93 10716757 20160425161020
+204.79.180.139 0 2 23463 
+177.4.215.57 17 215 28494645 20160406004602
+171.8.167.64 1 52 1504919 20160407064327
+189.45.107.54 2 78 12430812 20160420152122
+187.94.92.18 0 32 1159516 
+177.134.122.121 5 96 12751931 20160412125943
+200.232.148.138 2 78 12430812 20160404144753
+204.79.180.181 0 1 11321 
+65.55.212.72 0 1 43069 
+131.253.26.248 0 1 4447 
+177.82.185.47 4 156 24861624 20160425082335
+191.247.226.37 0 2 353640 
+191.249.144.81 6 91 22842730 20160412090449
+189.2.239.146 2 79 12653722 20160404220735
+204.79.180.92 1 7 123941 20160404022824
+37.130.227.133 8 10 214944 20160430144435
+186.240.147.220 4 85 12487118 20160418235729
+189.32.42.13 1 79 13551978 20160415105222
+177.39.113.175 0 6 115333 
+104.129.198.65 2 78 12430812 20160404112508
+189.25.122.191 2 78 12430812 20160414183154
+187.107.157.246 11 116 13464711 20160428105052
+186.218.129.16 12 137 15759317 20160406162610
+191.247.225.58 0 1 176820 
+200.55.17.251 0 12 295929 
+179.126.239.128 1 77 12292968 20160408082703
+177.94.129.252 2 76 12413607 20160402233204
+201.42.17.32 0 1 471971 
+153.224.230.54 1 76 12291693 20160423083940
+182.118.70.246 0 3 15009 
+189.41.137.81 0 1 0 
+204.79.180.99 0 2 103682 
+187.107.165.66 4 87 12503771 20160406171330
+23.95.24.83 1 1 59268 20160421212025
+201.67.179.237 9 110 13225929 20160413101911
+27.156.75.131 2 2 118536 20160418171841
+189.41.38.106 2 80 12447465 20160412200848
+177.67.0.25 0 1 14359 
+179.104.239.208 0 1 0 
+177.158.152.143 21 142 25337060 20160415154611
+204.79.180.68 0 1 8764 
+187.11.180.248 2 78 12430812 20160407101416
+166.111.134.46 1 1 2370 20160403212316
+189.15.222.36 6 89 13723079 20160422195821
+65.55.211.246 0 1 95977 
+204.79.180.203 0 7 95500 
+204.79.180.4 0 2 121716 
+179.219.241.53 0 1 4756649 
+204.79.180.182 0 5 54764 
+202.46.56.142 0 1 2129 
+201.27.11.16 2 100 12625106 20160412085233
+189.108.42.227 2 78 12430812 20160425165837
+93.171.205.34 0 1 5653 
+189.70.192.253 0 25 951455 
+189.34.148.80 0 1 4756649 
+186.249.101.235 2 77 12429178 20160408095924
+131.253.26.225 0 4 137395 
+189.84.7.209 12 116 16671496 20160405080018
+179.107.203.86 1 77 12350272 20160429132223
+106.120.188.164 4 128 14037567 20160410140535
+191.19.179.36 1 78 13919393 20160419194517
+152.250.177.230 5 99 14748547 20160406130255
+36.110.147.93 1 65 5024901 20160407135030
+187.56.47.145 2 78 12445108 20160423070104
+179.87.50.4 16 126 14583550 20160422131229
+189.41.97.119 2 58 5019925 20160414171543
+186.210.114.210 0 1 14359 
+131.253.24.147 0 3 21281 
+200.163.163.121 1 75 12284762 20160411201102
+187.4.98.176 0 3 127478 
+189.126.23.224 2 78 12430812 20160417233136
+200.207.24.253 0 17 524911 
+187.63.10.224 4 164 24928236 20160422100224
+189.125.69.162 4 91 12767790 20160425190104
+41.63.184.22 0 17 433381 
+186.193.245.254 3 89 12525938 20160405131015
+198.23.189.90 1 1 59268 20160416082813
+204.79.180.5 0 3 133390 
+187.126.219.90 2 81 13200966 20160427161450
+189.35.72.43 0 1 1265253 
+182.118.70.225 0 1 7191 
+186.210.127.165 3 77 7368990 20160422155151
+123.126.68.142 1 18 668374 20160415152131
+180.180.110.74 1 1 59268 20160404121315
+37.59.30.209 0 1 4718 
+204.79.180.148 0 4 128018 
+54.241.198.78 0 10 0 
+64.71.207.34 1 1 59268 20160424235804
+201.6.19.49 2 78 12430812 20160429144607
+179.176.251.1 0 6 3265494 
+85.25.184.208 1 1 59268 20160429143810
+191.194.177.222 2 78 12431104 20160415234704
+65.55.218.33 0 1 16878 
+191.43.12.74 0 1 1794177 
+82.211.19.143 2 2 31054 20160427074825
+192.3.141.89 2 2 130891 20160429172127
+191.54.151.165 8 282 48943437 20160423120043
+204.79.180.208 0 2 40457 
+131.253.24.152 0 1 8764 
+189.107.134.241 2 78 12430812 20160420193206
+5.9.61.6 0 1 5982 
+204.79.180.71 0 2 27042 
+177.140.104.217 4 156 24861624 20160413133413
+189.41.107.30 0 5 0 
+177.69.230.10 1 77 12292968 20160427124615
+204.79.180.34 0 4 327190 
+187.14.18.168 2 78 12430812 20160420133305
+204.79.180.172 0 5 379268 
+164.85.21.106 0 1 777299 
+177.157.67.148 0 56 13121418 
+177.106.7.72 0 18 705083 
+176.61.147.146 3 3 84309 20160403162612
+186.210.127.19 2 78 11652722 20160418151936
+204.79.180.11 0 2 9979 
+179.107.17.118 2 78 12430812 20160406164343
+200.174.228.195 0 25 973984 
+204.79.180.29 0 2 22770 
+212.83.187.71 1 1 59268 20160405043105
+189.15.99.207 2 76 12413607 20160408200801
+187.105.26.81 8 102 17709740 20160419220956
+189.24.228.89 0 57 1605614 
+177.16.46.95 2 78 12430812 20160418134641
+179.153.92.35 0 1 719755 
+177.83.237.179 0 1 4756649 
+167.114.89.195 0 1 5653 
+66.249.85.229 0 82 15304529 
+177.23.32.82 2 78 12430812 20160411162412
+201.37.162.216 2 93 12606027 20160405210852
+65.55.218.40 0 2 81580 
+204.79.180.13 0 1 1408 
+113.208.112.26 1 1 59268 20160429133432
+177.7.13.24 1 66 1833360 20160404175936
+200.163.116.50 2 76 12413607 20160410144508
+191.249.123.190 2 78 12430812 20160412114242
+200.223.23.189 6 69 3939425 20160429115147
+177.79.0.206 1 22 841960 20160423104542
+189.12.144.204 7 94 22705029 20160411171943
+186.193.71.185 4 102 14100972 20160415201754
+123.126.68.138 1 21 771924 20160429194756
+189.35.14.134 2 65 3565761 20160424150729
+179.155.116.44 0 27 1004882 
+187.122.79.17 1 76 12291693 20160404221510
+186.219.5.218 2 78 12430812 20160406121045
+201.33.248.123 2 78 12430812 20160401150749
+201.43.60.75 1 77 12292849 20160429004100
+177.74.189.24 2 78 12430812 20160419090915
+65.55.218.44 0 1 16305 
+177.129.152.130 0 1 176820 
+177.183.72.184 5 69 13260140 20160402095006
+177.189.48.53 2 75 12412917 20160411063813
+204.79.180.54 0 3 131611 
+66.249.83.107 0 235 31772523 
+189.50.14.230 5 96 12751931 20160425091443
+187.59.144.33 0 2 949495 
+201.141.98.210 0 2 1296035 
+202.46.54.188 1 1 36415 20160407221700
+88.12.17.23 1 1 33081 20160415180532
+186.206.254.25 0 1 691856 
+195.34.74.38 3 3 0 20160412170433
+191.253.240.44 5 88 12885353 20160420142756
+189.41.21.185 0 1 80477 
+200.230.85.130 0 33 4265262 
+179.104.134.113 2 78 12430812 20160420144239
+177.124.125.1 2 78 12430812 20160422175333
+179.126.224.136 0 18 689527 
+189.123.114.196 2 76 11786163 20160404154613
+190.75.130.145 0 1 55667 
+176.10.99.202 2 2 31054 20160424183124
+189.115.161.108 0 14 481698 
+95.58.28.25 1 1 45067 20160421022237
+191.253.66.122 2 80 12447465 20160415094124
+187.180.168.95 4 87 12747217 20160401161636
+191.241.244.110 4 87 12747217 20160406174537
+177.96.214.67 5 96 12751931 20160406143223
+204.79.180.167 0 1 21647 
+195.245.112.158 1 1 59268 20160404204257
+189.82.145.245 2 78 12430812 20160407215439
+132.255.172.13 5 96 14141550 20160413104915
+179.178.124.158 0 1 4756649 
+191.55.75.140 2 78 12430812 20160414090925
+65.55.211.248 0 2 100424 
+61.116.137.125 0 1 37501 
+186.210.202.90 5 103 12802158 20160410114753
+189.79.75.242 4 83 12510467 20160422163133
+191.185.100.183 6 99 12824733 20160419125154
+191.248.118.158 0 56 13121418 
+179.110.180.170 2 76 12413607 20160426091233
+62.212.73.49 1 1 59268 20160404175340
+131.253.36.205 0 2 17842 
+36.110.147.91 1 40 1299157 20160422194442
+64.71.207.102 1 1 59268 20160420031336
+200.150.117.140 0 1 777299 
+187.13.95.58 0 1 251964 
+54.242.45.158 1 1 42258 20160420164837
+65.55.218.59 0 1 8764 
+179.155.102.206 1 39 1332667 20160401114226
+191.5.149.36 0 61 2848355 
+187.95.102.2 7 99 12896253 20160411135301
+204.79.180.109 0 2 4282 
+191.221.39.114 0 1 15571 
+187.40.182.181 0 1 1076 
+200.212.45.240 0 1 471971 
+65.55.218.37 0 1 4447 
+189.41.82.17 8 154 17804533 20160407170556
+191.254.217.91 1 76 12291693 20160404133646
+187.55.53.115 0 56 13121418 
+36.110.147.102 3 14 282651 20160404204026
+65.55.211.244 0 1 98326 
+204.79.180.7 0 3 25754 
+201.78.143.15 2 80 12483884 20160429100852
+190.180.187.139 0 47 9675168 
+187.8.174.137 5 90 12901714 20160407152217
+187.45.51.4 1 78 13441926 20160429125947
+87.106.135.135 1 1 0 20160418074719
+204.79.180.48 0 4 178190 
+177.67.4.85 0 19 720654 
+179.208.165.49 2 78 12430812 20160426151530
+189.90.160.72 7 110 12976180 20160405135605
+201.29.175.42 0 15 406098 
+204.79.180.164 0 3 193754 
+177.103.130.121 0 1 176820 
+177.68.252.51 2 45 4694087 20160408093452
+187.126.142.5 2 84 12480771 20160406144754
+189.26.213.25 0 56 13121418 
+131.221.15.105 0 172 24825104 
+204.79.180.201 0 1 30969 
+189.84.82.107 0 12 295691 
+187.64.85.134 2 78 12430812 20160430001957
+187.181.94.225 2 79 16102320 20160418160712
+176.10.99.203 2 2 23966 20160404065341
+186.222.207.234 2 78 12430812 20160413154919
+200.152.93.99 2 71 5220799 20160417232508
+187.114.107.165 2 78 12430812 20160425091442
+177.23.39.191 2 95 14150789 20160429130402
+187.40.104.128 2 78 12430812 20160404141913
+189.83.252.96 0 1 471971 
+179.155.113.252 2 76 12413607 20160414215821
+189.34.182.143 0 1 1794177 
+186.194.50.224 10 109 12916986 20160413234627
+191.198.32.127 2 77 12425151 20160425172356
+179.190.169.192 0 1 50850 
+186.250.254.7 2 78 12430812 20160424205307
+204.79.180.90 0 1 9630 
+204.79.180.176 0 1 8764 
+177.193.178.227 2 78 12430812 20160418173716
+189.74.211.66 0 1 1265253 
+93.159.230.90 0 55 1643043 
+200.169.163.68 8 106 13163229 20160413101138
+65.55.218.32 0 1 95977 
+177.190.72.4 0 1 19106 
+201.47.148.106 2 78 12430812 20160419123840
+177.3.254.74 0 1 30969 
+191.250.254.184 5 97 12767502 20160427163657
+69.197.169.202 3 3 177804 20160419055240
+179.219.190.142 0 1 471971 
+204.79.180.81 0 3 27280 
+200.237.251.37 11 127 23816558 20160426150655
+204.79.180.245 0 2 19804 
+200.185.115.52 5 100 12772404 20160427170827
+186.218.143.4 0 1 471971 
+187.87.69.95 4 129 26621758 20160418110924
+177.9.2.67 0 108 3440980 
+204.79.180.235 0 4 143280 
+189.41.141.232 3 82 6647852 20160415154730
+115.25.138.245 1 1 59268 20160407043822
+187.122.73.169 2 79 12446383 20160405095024
+189.41.103.200 2 52 11998575 20160411081642
+189.1.180.101 2 78 12430812 20160414080119
+186.210.107.250 0 1 176820 
+200.181.144.114 0 32 1159516 
+179.246.64.235 2 76 12413607 20160417221543
+186.249.31.238 5 171 18317072 20160417161800
+191.55.217.112 2 78 12430812 20160407124529
+200.228.16.220 2 82 14621181 20160407155851
+177.131.112.138 2 81 16118973 20160415101022
+177.126.3.45 0 5 353640 
+179.159.121.143 0 1 19106 
+179.155.125.197 2 78 12430812 20160430151203
+204.79.180.31 0 5 213974 
+177.37.116.152 2 82 2107686 20160426090557
+204.79.180.23 0 4 76114 
+191.57.22.7 2 78 12430812 20160410210728
+187.95.95.195 2 78 12430812 20160401113114
+179.186.1.19 12 111 13232711 20160428155757
+186.219.33.134 0 1 241110 
+189.12.168.233 1 55 8426193 20160411133727
+187.73.7.143 2 46 9741645 20160426183550
+131.100.241.10 2 78 12430812 20160428093101
+191.17.155.210 2 82 12464118 20160428232340
+187.1.72.226 3 83 12616233 20160413120651
+187.54.230.173 0 3 93937 
+187.14.2.239 0 21 716014 
+179.168.210.199 2 78 12430812 20160404092910
+65.55.211.242 0 2 44172 
+131.221.15.72 0 120 11624939 
+189.15.196.206 2 78 12430812 20160418202248
+204.79.180.69 0 4 52078 
+186.225.177.207 2 61 1913381 20160418102418
+191.240.244.62 2 76 12413607 20160426113636
+177.185.107.81 2 78 12430812 20160407093053
+181.124.105.189 0 1 1794177 
+189.33.142.131 1 93 12470803 20160407181838
+175.235.94.114 1 1 59268 20160410165834
+66.249.88.15 8 140 21436876 20160428194820
+54.172.110.245 1 1 0 20160412083503
+186.218.133.156 2 78 12430812 20160420093943
+177.43.141.5 7 106 12878141 20160404142504
+201.16.211.4 0 7 9784717 
+131.0.97.2 2 78 12430812 20160422190347
+177.5.110.64 1 76 12291693 20160404215102
+204.79.180.135 0 4 15690 
+179.190.234.231 0 16 20278244 
+191.250.105.235 6 157 19914040 20160404131747
+186.193.66.50 2 80 12447465 20160415145452
+204.79.180.192 0 2 117520 
+51.254.15.81 1 1 59268 20160403145830
+179.84.90.141 2 82 12331327 20160419204551
+189.39.16.209 0 43 4586326 
+131.253.36.198 0 1 32823 
+65.55.185.254 0 1 176820 
+191.19.222.100 6 141 24420512 20160407144922
+180.131.42.52 2 2 118536 20160415154948
+189.61.9.73 0 1 719755 
+106.120.188.142 1 18 668374 20160404184115
+177.180.73.100 0 58 6242846 
+201.38.254.146 3 43 2941216 20160428155204
+189.73.190.128 1 1 4644 20160419211401
+191.205.108.98 2 78 12430812 20160402090406
+189.40.72.164 2 166 4730456 20160420141649
+66.249.88.122 0 8 1414560 
+201.148.174.202 2 78 12430812 20160416082908
+177.18.189.21 1 78 13441926 20160430101857
+179.126.24.134 0 1 45124 
+200.205.120.138 2 78 12430812 20160412082544
+201.3.29.66 12 98 22259389 20160424084309
+189.39.146.16 7 102 12913174 20160405135151
+208.43.225.85 1 1 59268 20160419110350
+138.122.0.2 0 6 115333 
+138.122.49.130 0 6 187920 
+187.67.69.32 2 78 12430812 20160413114409
+202.46.51.110 0 1 15571 
+200.131.11.2 0 1 5549451 
+201.27.90.217 0 1 4756649 
+204.79.180.53 0 4 121775 
+203.133.170.156 1 1 59268 20160415124435
+64.215.22.64 2 78 12430812 20160427091431
+179.219.66.72 4 80 5429348 20160423161514
+204.79.180.238 0 3 35939 
+189.41.39.174 8 87 12426098 20160416072855
+187.61.202.33 0 1 281452 
+204.79.180.97 0 5 143924 
+177.32.1.181 16 268 25824736 20160408171131
+189.111.183.208 0 27 975688 
+200.195.162.242 2 78 12430812 20160428115233
+187.101.177.253 0 1 176820 
+179.178.163.70 0 1 176820 
+187.74.243.31 8 114 23421013 20160403185431
+201.40.138.97 5 124 12718845 20160428074725
+186.244.50.116 1 77 12292968 20160419153724
+111.202.102.70 1 33 1216466 20160424145745
+201.78.228.29 8 104 13147155 20160411174007
+189.38.244.23 0 2 949495 
+204.79.180.33 0 2 16452 
+187.63.102.37 1 37 9137141 20160419183030
+46.11.122.25 1 76 12348705 20160408125049
+204.79.180.233 0 1 3358 
+201.37.160.95 2 78 12430812 20160408162627
+123.126.68.109 1 57 4723151 20160401202041
+177.69.61.124 12 155 14596984 20160418104339
+187.66.145.17 1 76 12277038 20160406062340
+179.184.168.249 2 142 21579326 20160419195010
+201.48.64.105 2 78 12430812 20160411103304
+177.140.158.77 0 1 4756649 
+187.66.123.66 0 5 171990 
+200.52.31.78 2 78 12430812 20160416144526
+143.0.87.81 2 78 12430812 20160408101907
+189.5.212.172 2 60 9309152 20160404163023
+191.178.43.163 2 78 12430812 20160419150010
+189.0.77.46 1 1 71623 20160418132418
+202.46.57.28 0 1 32823 
+123.126.68.108 1 57 4754907 20160406135140
+200.206.30.99 2 78 12430812 20160411002346
+186.247.253.135 0 1 471971 
+191.255.248.14 0 51 1424087 
+65.55.212.91 0 1 3568 
+187.10.224.192 1 76 1110879 20160402200636
+204.79.180.72 0 1 3358 
+65.55.212.68 0 1 4209 
+191.189.9.196 1 76 12277038 20160426185039
+187.58.38.187 0 56 13121418 
+200.160.111.134 3 79 12568948 20160428150218
+179.246.93.72 0 3 1720962 
+186.250.130.4 19 123 13429240 20160429144034
+186.210.111.18 0 3 176820 
+202.46.53.164 1 1 59268 20160419132734
+189.27.87.209 0 1 80213 
+201.37.163.37 2 78 12430812 20160418011449
+186.195.24.254 1 66 7911590 20160428092823
+23.80.141.89 1 1 59268 20160413095321
+189.7.248.54 1 77 12458757 20160430154249
+186.205.2.169 16 154 14245427 20160405161624
+189.19.207.97 6 100 12822733 20160401133801
+202.46.51.199 0 1 45124 
+179.236.114.164 0 53 9909846 
+131.253.26.246 0 1 80477 
+187.49.128.138 0 1 471971 
+182.18.111.220 1 1 71623 20160420031142
+131.253.24.141 0 4 122501 
+191.225.100.181 4 81 12493262 20160425163405
+204.79.180.84 0 2 3422 
+79.157.103.244 0 1 471971 
+189.91.229.134 0 50 9772224 
+172.56.17.148 2 76 12413607 20160426144731
+204.79.180.190 0 1 15370 
+191.247.230.48 0 1 176820 
+201.6.128.114 0 1 471971 
+179.191.233.42 9 105 19264185 20160403211944
+91.196.48.183 3 3 59268 20160405075007
+187.55.238.243 5 101 15721455 20160427011314
+200.96.119.41 0 1 281452 
+115.174.76.69 1 4 21652 20160413094710
+138.94.196.6 2 72 1985715 20160404093702
+178.162.211.212 0 1 5653 
+179.208.153.130 0 1 471971 
+177.3.254.72 0 1 15930 
+189.27.26.236 8 116 18307499 20160429104841
+177.2.135.23 2 78 12430812 20160407180217
+187.63.104.245 4 118 12666141 20160422092511
+123.126.68.128 1 10 274657 20160407142749
+186.219.4.215 2 78 12430812 20160401084426
+186.204.19.117 2 78 12430812 20160428190727
+177.101.123.18 2 78 12430812 20160429115159
+179.145.52.159 1 75 12275763 20160412184002
+216.163.188.233 1 1 39864 20160426131110
+186.210.212.179 0 2 0 
+177.157.86.158 2 78 12430812 20160408162207
+109.163.234.9 2 2 24616 20160416021915
+189.41.17.226 0 1 180172 
+177.102.141.44 0 1 1265253 
+66.102.8.244 0 3 530460 
+179.104.201.102 3 80 12355970 20160426164040
+97.74.237.196 2 2 31054 20160414161846
+93.159.230.89 0 55 1643043 
+87.104.155.139 0 1 55667 
+204.79.180.37 0 2 141582 
+131.253.26.249 0 2 96048 
+179.155.89.172 4 105 12711200 20160407104538
+131.253.24.151 0 2 13297 
+37.57.231.227 1 1 59268 20160428110353
+177.69.241.193 4 85 12487118 20160420162233
+177.54.122.112 4 134 3570958 20160414153759
+204.79.180.189 0 3 93723 
+201.94.186.161 1 75 12275763 20160410162400
+201.47.67.55 2 55 8548107 20160423175347
+204.79.180.163 0 3 70949 
+179.104.202.76 2 78 12430812 20160429102030
+200.181.148.20 2 95 12449741 20160414160843
+150.70.188.180 1 1 59268 20160425075850
+191.193.59.245 0 1 176820 
+216.223.27.25 0 1 1794177 
+191.253.252.61 0 1 251964 
+174.139.117.78 1 4 21652 20160407005744
+204.79.180.27 0 3 56922 
+204.79.180.154 0 2 5543 
+201.48.33.81 2 78 12430812 20160406100219
+204.79.180.142 0 1 15370 
+217.164.106.183 2 2 120360 20160423143027
+138.99.54.189 2 79 12431697 20160424171059
+201.14.249.87 0 1 16734 
+177.179.52.56 0 1 471971 
+179.185.68.249 4 88 12748102 20160414165500
+187.62.207.35 2 50 11652722 20160401154654
+179.155.98.93 0 2 0 
+198.190.231.15 12 278 21961304 20160425103811
+101.199.108.56 1 52 1504919 20160414051754
+200.162.164.65 0 1 15930 
+66.249.88.127 9 155 13983613 20160428194821
+176.58.100.98 0 1 5653 
+191.32.122.191 5 96 12751931 20160404134834
+179.104.185.184 7 103 12844773 20160406112853
+187.2.113.230 21 230 32716864 20160407144029
+179.158.82.147 1 91 12466100 20160408031820
+174.139.72.254 12 12 288848 20160408040906
+191.32.38.109 0 1 4756649 
+201.80.18.241 0 1 471971 
+193.236.86.153 0 1 471971 
+200.178.103.130 0 1 471971 
+200.162.175.192 0 1 95977 
+131.253.26.243 0 2 15554 
+189.41.96.235 2 78 12430812 20160425082744
+114.254.122.13 2 2 118536 20160424012659
+179.159.160.245 8 173 25033492 20160417015139
+179.124.137.65 0 8 134912 
+187.183.33.23 2 80 12447465 20160430225819
+177.100.119.11 0 24 928860 
+190.180.160.20 2 75 12364026 20160401132936
+202.46.55.86 0 1 22595 
+189.73.208.229 1 67 1891939 20160424190749
+191.240.253.252 2 78 12430812 20160420103106
+189.47.34.92 2 78 12430812 20160412144701
+179.219.44.64 0 1 471971 
+197.218.192.18 0 1 471971 
+131.253.24.148 0 2 20163 
+179.219.137.132 0 1 719755 
+204.79.180.0 0 3 74974 
+187.33.53.114 0 1 669916 
+36.63.30.208 2 2 965 20160412035914
+201.53.153.86 0 1 4756649 
+201.80.20.200 2 78 12430812 20160422155401
+109.163.234.4 2 2 31056 20160417041504
+191.247.229.36 1 77 13820878 20160422115022
+177.205.29.66 2 78 12430812 20160420230359
+187.4.182.34 0 1 1439527 
+177.96.117.140 0 1 4756649 
+204.79.180.193 0 3 9366 
+144.76.91.209 18 18 1083240 20160429044812
+191.178.47.200 2 78 12430812 20160405211209
+189.103.123.208 0 1 4756649 
+177.100.196.199 4 93 12806458 20160428161842
+60.191.170.122 1 1 59268 20160403212522
+201.92.250.32 1 77 12292968 20160404213020
+201.54.185.20 5 98 12819788 20160411132012
+66.102.8.254 0 39 2809846 
+66.249.85.232 0 91 11396540 
+179.104.55.233 2 78 12430812 20160425074838
+189.17.74.156 13 109 13188393 20160407135445
+179.99.37.9 11 204 25856087 20160425102545
+85.214.245.199 1 1 52076 20160428085820
+187.78.166.56 0 10 311366 
+179.180.86.52 2 78 12430812 20160414160431
+177.183.93.237 0 1 120105 
+204.79.180.47 0 5 270573 
+179.111.143.168 0 56 13121418 
+187.109.135.45 2 78 12430812 20160425212019
+123.126.68.124 1 53 3009368 20160429195533
+177.206.51.192 2 78 12430812 20160411153958
+204.79.180.108 0 2 2164 
+186.214.186.145 0 1 691856 
+189.0.95.42 0 1 777299 
+186.210.209.218 2 78 12430812 20160413111436
+187.183.33.36 2 78 12430812 20160404094927
+200.100.176.93 2 61 13186902 20160406093036
+200.125.244.194 0 15 406098 
+201.16.234.80 6 97 12823554 20160413143705
+179.181.218.217 0 1 16815 
+189.0.77.193 0 41 1443900 
+179.155.112.48 2 52 4778626 20160410185645
+201.4.122.202 5 96 12751931 20160428113857
+189.39.83.20 3 75 10896769 20160427114117
+131.253.24.129 0 1 15370 
+186.218.91.96 2 78 12430812 20160429105939
+204.79.180.61 0 4 94531 
+201.55.31.231 0 1 1794177 
+201.47.151.247 12 98 22259389 20160412130901
+189.46.93.33 2 78 12430812 20160404233028
+167.114.229.215 1 1 59268 20160419203739
+204.79.180.197 0 1 374 
+177.193.164.100 0 1 719755 
+144.76.94.107 2 2 120360 20160421235416
+179.234.101.49 0 42 4381757 
+176.119.33.160 6 6 361080 20160422080937
+179.155.103.67 2 80 12447465 20160404120350
+204.79.180.83 0 3 168692 
+202.46.53.11 1 1 59268 20160416064705
+191.34.59.178 2 78 12430812 20160418150545
+138.201.20.12 1 1 59268 20160401020313
+217.23.14.168 7 10 186845 20160416140624
+177.43.95.240 0 56 13121418 
+66.249.83.103 0 212 53376785 
+187.75.146.164 2 77 11895205 20160415093419
+204.79.180.255 0 1 5169 
+204.79.180.70 0 1 16305 
+187.58.221.131 2 78 12430812 20160406134131
+201.9.224.41 0 1 14920 
+177.95.143.41 0 1 5549451 
+189.93.215.8 7 91 14338327 20160403133050
+204.79.180.86 0 1 1592 
+179.222.49.215 0 1 471971 
+189.115.140.3 2 78 12430812 20160425170607
+179.234.229.87 0 1 176820 
+179.148.103.109 0 56 13121418 
+177.134.101.30 0 58 23427518 
+178.137.19.241 1 1 59268 20160417172655
+192.169.96.27 8 8 282791 20160415231806
+179.126.232.47 2 61 1904614 20160422215046
+181.223.179.133 2 78 12430812 20160415111019
+106.120.188.163 2 23 656376 20160413153916
+65.55.218.53 0 2 24209 
+177.35.44.179 3 85 22682291 20160426152548
+186.210.117.119 3 81 12585309 20160415084725
+177.82.108.245 0 62 4812110 
+148.251.54.44 0 1 4718 
+177.79.47.212 0 44 2341583 
+179.104.202.22 6 132 3904711 20160418152545
+187.115.110.8 0 1 471971 
+187.42.193.222 2 76 12413607 20160425124446
+91.108.177.135 1 1 59268 20160404105758
+187.11.168.14 2 78 12430812 20160406123815
+191.54.159.83 3 56 6648679 20160411160101
+189.101.233.220 1 76 12291693 20160405123018
+131.72.220.196 8 104 13000637 20160414152143
+179.180.31.233 12 123 14970946 20160416212216
+201.48.62.1 8 108 13003031 20160404130548
+36.63.85.245 1 1 59268 20160402094936
+189.41.107.195 1 44 2216767 20160427093236
+189.111.210.40 5 92 18130803 20160404155849
+204.79.180.155 0 1 374 
+179.185.110.133 2 78 12430812 20160413142105
+109.201.133.100 1 1 16 20160407020731
+179.241.168.83 0 52 13051191 
+191.179.136.175 2 66 1955274 20160405234802
+131.253.24.133 0 2 5312 
+189.40.103.153 1 77 12292416 20160429201035
+189.28.128.241 0 56 13121418 
+177.19.218.249 0 1 666894 
+161.22.63.48 2 55 2731655 20160407150305
+191.7.86.2 1 76 12291693 20160407191627
+195.154.146.225 2 2 118536 20160426232658
+200.166.192.200 0 1 281452 
+47.58.87.123 1 76 12348705 20160418155537
+179.148.209.86 2 75 12412917 20160407182414
+23.94.161.117 1 1 59268 20160403234041
+14.125.249.161 8 8 189987 20160412004003
+187.24.44.42 0 1 471971 
+187.39.75.217 4 15 336978 20160410215958
+172.56.4.47 0 40 891429 
+80.17.38.39 0 1 4173 
+181.30.30.166 6 6 118536 20160422011830
+65.55.211.250 0 1 30969 
+191.179.240.135 8 106 12938898 20160429095935
+123.126.68.107 2 66 2321503 20160414135346
+200.192.242.179 2 78 12430812 20160428154146
+179.104.209.216 3 79 12354695 20160410134733
+200.131.63.3 4 156 24861624 20160428231800
+187.56.23.90 0 105 3435645 
+109.201.152.239 3 3 84311 20160401115446
+202.46.49.153 0 1 20000 
+187.58.24.209 2 78 12430812 20160419130308
+177.128.249.22 0 1 471971 
+104.132.8.80 2 68 1937823 20160425074559
+191.19.135.228 9 112 13158604 20160404215229
+164.132.41.28 3 3 84545 20160424212625
+201.6.230.21 0 1 777299 
+204.79.180.191 0 3 140638 
+204.79.180.239 0 2 109959 
+177.79.11.224 0 6 114820 
+204.79.180.116 0 5 80954 
+177.35.205.55 2 78 12430812 20160427101511
+179.104.235.225 8 175 25251340 20160429163653
+198.50.200.139 1 1 59268 20160410163825
+187.60.66.251 1 76 12291693 20160426141457
+201.33.245.176 2 79 12446383 20160419163155
+65.55.218.63 0 2 99734 
+187.114.42.176 2 57 13323862 20160414154334
+191.32.246.55 0 62 10023016 
+152.238.93.147 2 78 12430812 20160408195538
+191.221.175.166 2 63 1718504 20160415012540
+204.79.180.107 0 1 23045 
+155.94.250.190 1 1 59268 20160403145035
+189.41.107.226 6 99 12768584 20160429160234
+191.255.216.160 2 78 12430812 20160430101001
+204.79.180.199 0 1 16878 
+191.8.91.210 1 82 12356650 20160404134654
+91.121.175.185 1 1 59268 20160401134956
+179.104.18.38 20 286 41439939 20160406222427
+131.253.26.242 0 1 111687 
+177.2.9.138 0 1 471971 
+65.55.211.243 0 3 228076 
+179.35.213.123 0 1 719755 
+192.44.242.18 0 5 119789 
+189.2.79.50 5 98 17509656 20160405132805
+179.177.16.174 0 17 433381 
+177.154.222.141 5 96 12751931 20160414084300
+108.61.166.66 0 1 5653 
+191.7.84.2 14 120 27947437 20160408111949
+177.106.229.175 4 92 13990960 20160426093517
+66.249.88.135 3 19 2427838 20160420234057
+191.54.195.241 2 78 12430812 20160420115739
+177.183.53.28 0 2 1018409 
+192.160.102.164 0 2 11306 
+179.186.65.15 0 1 471971 
+204.79.180.131 0 2 120921 
+179.234.106.233 0 9 295436 
+204.79.180.196 0 2 5697 
+5.189.177.15 3 3 177804 20160408011155
+189.41.33.0 2 76 12413607 20160413163621
+191.249.68.249 4 91 12767790 20160404135715
+46.165.230.5 2 3 34882 20160429020401
+187.45.24.14 5 159 24920356 20160427160735
+189.41.157.227 2 78 12430812 20160422221949
+179.99.211.17 0 9 203906 
+177.1.252.136 0 2 951368 
+189.61.0.21 10 92 15303820 20160416142748
+179.197.186.253 0 1 471971 
+186.207.108.138 5 96 12751931 20160426111750
+191.54.20.25 0 20 739098 
+65.55.212.89 0 1 4162 
+177.139.205.88 15 211 30860861 20160428155807
+186.237.50.126 2 78 12430812 20160414142647
+52.38.222.192 1 1 0 20160416043203
+189.41.73.185 2 78 12430812 20160411150513
+123.126.68.116 1 10 274657 20160416140321
+131.253.24.132 0 3 19742 
+204.79.180.36 0 4 166616 
+106.120.188.162 1 62 4834859 20160422195747
+191.179.240.129 2 78 12430812 20160413140012
+177.84.44.4 2 78 12430812 20160414225426
+204.79.180.124 0 2 16679 
+186.251.123.209 0 1 397975 
+23.94.108.108 2 2 130891 20160430075926
+189.41.37.94 2 78 12430812 20160413113039
+204.79.180.12 0 2 96734 
+200.139.140.92 2 78 12430812 20160422140215
+201.88.49.94 0 1 471971 
+192.3.7.71 1 1 59268 20160405224501
+204.79.180.60 0 2 48193 
+186.219.242.49 2 78 12430615 20160411154017
+179.155.158.71 2 78 12430812 20160430222536
+187.16.162.24 7 102 12869232 20160406110433
+186.231.101.176 9 114 14383008 20160429123729
+189.1.52.69 1 76 12277038 20160420192957
+204.79.180.66 0 2 194490 
+177.79.10.182 0 2 353640 
+191.250.90.14 1 76 12277038 20160401130559
+177.63.161.200 0 1 719755 
+177.195.7.207 5 98 12768584 20160428164504
+201.77.124.90 2 65 10252792 20160419135543
+187.180.34.52 0 45 9554945 
+204.79.180.220 0 3 19694 
+189.12.96.255 0 1 609111 
+176.10.99.201 0 1 5653 
+111.202.102.72 1 49 1455106 20160410143241
+176.56.230.162 2 2 24616 20160413162933
+202.46.49.111 0 1 11321 
+92.222.92.94 0 1 5653 
+191.36.186.4 0 39 1227458 
+131.253.24.146 0 3 10238 
+177.87.232.9 0 1 251964 
+187.1.76.19 2 78 12430812 20160430193221
+189.18.32.39 0 1 4756649 
+179.104.214.187 5 96 12751931 20160407163906
+185.101.156.141 1 1 42356 20160406132016
+177.40.46.173 2 94 12621598 20160404131816
+179.179.12.143 0 2 949495 
+201.42.121.163 0 1 691856 
+177.204.141.31 0 56 13121418 
+179.214.49.56 2 55 8548107 20160424182623
+190.140.191.210 0 25 951455 
+187.104.50.230 2 68 13504257 20160404120909
+204.79.180.32 0 3 80727 
+46.166.138.144 0 1 4675 
+204.79.180.166 0 4 17170 
+189.106.80.130 2 90 12587746 20160418100130
+117.254.120.191 0 25 951455 
+204.79.180.6 0 2 32427 
+202.46.56.32 1 1 44007 20160420141114
+179.126.252.215 2 77 12429537 20160414100155
+189.107.9.219 2 78 12430812 20160429180539
+65.130.218.141 10 90 12489100 20160415162203
+186.202.153.29 10 10 0 20160430041844
+189.31.66.66 0 1 691856 
+177.183.64.151 0 2 353640 
+65.55.218.55 0 1 15962 
+131.253.26.237 0 1 55392 
+65.55.212.90 0 2 31321 
+177.13.26.18 2 57 13323862 20160428002423
+201.33.64.133 2 77 12426365 20160419113928
+189.15.237.155 15 117 23424702 20160406134838
+115.174.76.36 3 12 64956 20160406132159
+204.79.180.59 0 1 9645 
+152.250.44.71 1 85 20324109 20160413152453
+177.16.165.198 2 78 12430812 20160404144232
+179.102.222.221 2 73 12420523 20160421081713
+179.176.140.93 2 78 12430812 20160428123942
+187.84.9.181 2 78 12430812 20160420093547
+201.19.204.130 2 61 1913381 20160426222003
+5.9.39.133 1 1 59268 20160426164500
+107.151.142.114 6 6 310536 20160406131946
+101.199.112.53 1 52 1504919 20160414051729
+189.91.234.188 4 90 22932273 20160415141807
+176.126.252.11 2 3 30271 20160426042913
+179.218.12.163 4 91 12767790 20160421161229
+85.4.104.202 0 1 55667 
+204.79.180.50 0 2 6942 
+187.181.78.29 2 78 12430812 20160406125047
+191.241.174.7 0 34 2732427 
+186.226.135.83 6 102 12842401 20160406132851
+198.46.233.163 1 1 59268 20160429050355
+177.133.186.24 2 80 12449399 20160425213323
+179.155.126.218 0 75 10349844 
+204.79.180.145 0 5 239500 
+124.206.119.123 1 1 59268 20160429155924
+204.79.180.168 0 4 51339 
+177.201.249.176 0 11 6366731 
+38.100.21.65 8 11 482776 20160411113543
+179.180.208.184 4 91 12767790 20160415000048
+179.236.134.115 0 26 365772 
+187.180.44.33 2 78 12430812 20160404171615
+204.79.180.249 0 2 115849 
+131.161.191.77 2 88 12526860 20160407102611
+195.154.33.129 1 1 59268 20160428222823
+204.79.180.105 0 1 4233 
+187.35.149.145 0 37 4349352 
+65.55.218.50 0 1 9645 
+177.100.201.206 0 49 9727100 
+177.41.49.87 2 82 12464118 20160416212045
+179.111.232.178 0 3 127478 
+186.210.102.26 11 131 12545053 20160405165609
+62.210.162.37 1 1 0 20160422112907
+189.217.138.39 1 103 38021151 20160416172244
+46.166.190.209 0 1 5653 
+177.39.171.20 0 20 646479 
+191.247.224.36 0 1 983169 
+187.108.175.30 0 16 593176 
+187.54.51.217 3 68 13280834 20160401005931
+179.228.236.170 4 93 14067388 20160412121020
+200.96.210.89 2 57 1803276 20160429181802
+179.104.211.33 2 78 12430812 20160425103436
+189.32.193.139 7 109 15278590 20160425095318
+179.233.144.9 2 78 12430812 20160405164828
+204.79.180.170 0 1 11321 
+179.210.180.201 10 94 13372128 20160427125723
+177.107.230.191 14 131 13703684 20160428152804
+200.49.44.10 0 1 4756649 
+158.69.199.83 2 2 130891 20160422111602
+177.16.141.37 0 1 281452 
+204.79.180.207 0 4 106788 
+152.237.88.182 2 79 12543353 20160428154656
+143.107.176.135 0 1 241110 
+201.26.182.35 4 97 13045640 20160405112811
+204.79.180.20 0 2 23129 
+179.104.165.163 0 21 745208 
+204.79.180.202 0 4 170177 
+187.23.53.155 8 82 20270096 20160401072723
+186.210.108.73 0 7 211310 
+216.223.27.30 0 1 19106 
+202.46.57.39 1 1 45543 20160405180714
+202.46.50.165 0 1 2129 
+201.6.129.128 2 76 12413607 20160417233029
+203.133.170.104 1 1 59268 20160426195335
+179.215.124.185 0 2 2075629 
+177.102.140.9 2 2 93938 20160406131814
+142.54.167.98 4 4 237072 20160422101744
+191.254.212.181 0 115 3579787 
+65.55.212.69 0 1 3358 
+179.104.197.225 0 3 62301 
+189.74.53.75 2 71 13523754 20160416152706
+92.222.92.71 2 2 120360 20160429123616
+179.175.100.228 1 76 12291693 20160404135119
+181.162.22.133 2 70 3819269 20160411144209
+179.187.25.4 9 103 13040304 20160426131645
+187.55.178.227 0 1 45124 
+95.53.229.83 1 1 59268 20160401162146
+204.79.180.237 0 2 70812 
+177.56.17.192 0 1 281452 
+204.79.180.198 0 2 84045 
+177.206.141.28 4 85 12487118 20160405153738
+204.79.180.55 0 4 401405 
+204.79.180.89 0 2 24003 
+186.243.90.182 6 105 12805710 20160419131230
+204.79.180.247 0 2 11429 
+177.127.102.47 4 84 12625782 20160408150642
+152.247.49.15 4 85 12487118 20160405092013
+189.100.222.8 2 80 12447465 20160404131149
+204.79.180.165 0 1 2780 
+189.37.208.232 2 46 4710965 20160421233004
+189.41.37.133 0 1 0 
+173.208.136.114 1 1 59268 20160420084653
+189.125.114.245 0 2 838025 
+64.74.215.1 2 34 840234 20160404015339
+204.79.180.1 0 4 55244 
+177.193.194.144 4 156 24861624 20160415101655
+179.181.132.66 0 16 417451 
+191.223.167.209 2 76 12413607 20160405102345
+204.79.180.209 0 2 35603 
+189.22.134.194 0 4 2671908 
+204.79.180.156 0 1 95977 
+111.202.102.74 1 26 1026276 20160419145134
+177.47.115.195 0 1 471971 
+204.79.180.133 0 1 1082 
+191.6.160.25 0 1 691856 
+186.223.53.120 4 145 14161891 20160411091124
+201.3.53.65 2 76 12413607 20160405173233
+177.205.136.11 2 128 12971060 20160405120909
+172.245.45.222 1 1 59268 20160404105622
+186.228.97.92 3 79 12568948 20160401150048
+186.210.92.157 1 1 0 20160407181530
+178.162.205.22 0 1 5653 
+191.96.137.119 1 1 59268 20160421162551
+179.182.52.190 8 98 12982920 20160414110427
+187.19.79.71 2 78 12430812 20160401164345
+179.78.44.255 2 78 12430260 20160406123943
+85.245.55.6 0 19 613927 
+149.56.43.99 1 1 59268 20160417002105
+191.14.206.50 2 76 12413607 20160420085412
+177.138.229.105 3 67 8344750 20160421230301
+204.79.180.188 0 4 185906 
+201.10.61.37 0 1 19106 
+177.83.135.52 7 102 14562036 20160404192318
+202.46.53.91 1 1 45074 20160405205805
+83.234.161.228 2 2 0 20160428213310
+189.29.235.52 18 367 26050484 20160414123007
+177.182.162.152 2 78 12430812 20160426104631
+191.209.98.30 4 192 23298069 20160401122037
+189.45.98.227 0 1 176820 
+189.40.100.134 1 66 1833360 20160404102938
+177.94.228.3 3 79 12568948 20160407104349
+179.185.96.1 4 156 24861624 20160425141252
+187.39.25.70 0 15 412972 
+187.56.16.70 0 1 471971 
+202.46.54.25 1 1 59268 20160423055418
+177.194.124.129 2 81 12571984 20160414184943
+131.253.36.201 0 1 1082 
+176.10.99.206 2 2 28583 20160404121056
+186.241.209.228 8 105 13025758 20160426193127
+177.19.178.155 1 48 5893201 20160419144543
+179.185.134.138 0 1 471971 
+204.79.180.219 0 3 36886 
+204.79.180.80 0 1 25688 
+131.253.26.231 0 3 190751 
+201.42.156.148 2 80 12447465 20160418135116
+131.253.24.138 0 3 61659 
+204.79.180.241 0 2 11843 
+177.53.185.254 0 1 241110 
+187.183.36.128 2 91 12675811 20160405104126
+5.196.66.162 0 1 5653 
+204.79.180.231 0 2 35178 
+177.86.18.10 0 23 530460 
+117.135.251.131 1 1 59268 20160423185747
+177.157.212.175 2 78 12430812 20160404170810
+152.245.38.21 2 78 12431104 20160424231523
+189.107.77.69 0 51 9908453 
+204.79.180.28 0 2 211141 
+80.14.151.35 2 4 154720 20160425075713
+91.121.222.130 5 5 296340 20160408181105
+213.241.52.165 4 4 240720 20160421160419
+179.236.4.104 0 5 2268614 
+187.18.165.3 7 95 13103737 20160414141451
+65.55.212.73 0 1 4209 
+179.97.146.243 17 103 22259389 20160407165253
+187.63.100.252 5 89 29719858 20160408221704
+202.46.55.123 0 1 15962 
+131.253.24.135 0 1 1592 
+186.218.142.205 0 1 95977 
+189.29.253.215 4 88 18803436 20160426142146
+46.165.251.148 0 2 11306 
+177.201.61.78 2 82 12464118 20160403081442
+189.15.141.232 4 87 12503771 20160412104510
+179.159.56.163 7 98 12823554 20160427210355
+177.32.224.147 2 84 12480771 20160419152811
+204.79.180.49 0 2 44172 
+179.163.25.183 4 82 13372207 20160424192019
+201.78.215.151 5 97 12753007 20160418092340
+65.55.218.52 0 5 159992 
+202.46.51.179 0 1 4447 
+191.8.112.235 0 61 8250321 
+66.249.84.235 0 3 282205 
+187.181.210.116 2 80 12447465 20160408103543
+36.110.147.75 1 58 4769757 20160427203434
+178.162.209.232 0 1 5653 
+191.219.2.140 1 65 1817430 20160413223700
+54.91.137.217 0 1 4710 
+189.41.175.54 0 14 397042 
+106.120.188.161 2 71 10316114 20160430134822
+179.98.180.181 11 114 13391160 20160415174057
+187.107.128.181 2 157 12482753 20160404131926
+151.239.111.221 1 1 45069 20160419224459
+200.201.178.86 2 78 12430812 20160404150016
+189.41.34.92 3 3 14454 20160406134059
+191.255.213.185 1 74 12280315 20160405021928
+120.39.57.148 1 1 59268 20160415055007
+189.28.241.214 0 18 609480 
+187.58.181.110 0 1 1794177 
+186.213.106.57 1 112 13369379 20160419131424
+36.63.28.55 1 1 59268 20160402105110
+189.27.229.15 0 1 14359 
+201.53.232.43 17 103 22259389 20160426131108
+177.8.76.201 7 102 13059961 20160420100327
+164.85.83.104 0 35 0 
+130.185.155.10 1 1 0 20160415093737
+104.250.155.186 1 52 1504919 20160430211835
+191.187.97.218 0 2 1383712 
+179.162.240.59 2 96 19973018 20160404155721
+179.156.32.66 5 82 12493262 20160404165841
+177.183.94.133 0 3 530460 
+179.80.130.238 0 7 211310 
+204.79.180.186 0 3 39132 
+201.35.180.58 2 70 5255946 20160408204948
+200.161.83.131 0 1 19106 
+131.253.24.134 0 1 16878 
+189.15.172.181 4 87 12503771 20160415212644
+179.176.108.150 1 76 12291693 20160414134954
+78.46.156.169 0 1 4718 
+143.208.27.45 2 94 12621604 20160412135528
+191.54.160.118 18 120 23593443 20160428151116
+131.253.24.142 0 4 303426 
+186.220.92.109 0 21 717103 
+189.106.141.107 0 24 947008 
+204.79.180.113 0 3 35677 
+65.55.218.45 0 1 15962 
+201.54.129.82 2 78 12430812 20160405135110
+93.174.90.30 3 3 84955 20160419201400
+118.144.104.245 1 1 33081 20160403212502
+201.53.248.61 0 1 471971 
+189.41.105.37 5 124 12771862 20160407100328
+191.178.50.97 2 78 12430812 20160411085131
+204.79.180.248 0 2 78222 
+94.249.240.108 1 1 59268 20160403194518
+179.183.26.132 0 9 1591380 
+187.44.117.26 0 2 791658 
+179.126.126.69 2 78 12442325 20160424145935
+65.55.218.36 0 1 16878 
+200.142.79.143 0 18 705083 
+191.32.11.41 10 111 13297552 20160408104355
+189.53.185.206 0 9 139359 
+204.79.180.40 1 2 4233 20160404022917
+179.117.1.229 2 76 12413607 20160419222211
+186.226.162.233 1 77 12292968 20160415071123
+189.70.198.21 0 1 471971 
+204.79.180.24 0 2 62811 
+164.132.235.49 0 1 5653 
+189.7.145.8 5 97 12753007 20160430090157
+36.37.151.181 1 1 59268 20160425072527
+187.4.96.164 8 106 13053031 20160422095719
+204.79.180.123 0 3 236757 
+179.104.232.41 0 7 0 
+131.253.26.251 0 1 7634 
+66.249.84.232 0 2 751787 
+200.102.20.22 0 3 2590582 
+189.115.148.100 4 106 12754770 20160404171314
+177.103.25.180 6 99 27632602 20160402092216
+186.210.118.13 2 76 12413607 20160412140021
+204.79.180.56 0 1 45124 
+179.209.27.151 2 90 12587746 20160405004522
+179.182.56.98 0 1 176820 
+150.70.188.179 0 1 15930 
+201.0.122.3 2 78 12430812 20160427100415
+114.252.140.0 1 1 59268 20160408030549
+177.132.163.213 0 1 691856 
+204.79.180.200 0 1 30969 
+95.211.205.151 0 1 5653 
+189.44.90.155 22 141 28165561 20160428145207
+177.157.228.89 0 1 176820 
+65.55.218.42 0 3 57667 
+188.116.9.68 4 4 240720 20160424222629
+202.46.54.168 0 1 22595 
+65.55.211.245 0 3 147156 
+186.237.63.34 2 77 12429537 20160427174609
+200.158.20.185 0 1 677725 
+189.112.113.111 13 234 20810382 20160406140755
+189.61.168.244 6 98 12850118 20160424231946
+191.251.229.40 0 1 471971 
+187.19.222.120 2 76 12413607 20160425141518
+201.11.16.157 2 81 12463036 20160418105611
+191.191.216.31 8 108 13153230 20160407101356
+204.79.180.63 0 1 9630 
+190.180.182.10 2 78 12430812 20160428000042
+204.79.180.242 0 3 124111 
+186.210.209.225 2 78 6722694 20160418103953
+177.37.200.255 2 78 12430812 20160426102501
+200.174.88.99 0 1 4756649 
+131.253.26.234 0 2 211141 
+177.47.134.203 2 78 12430812 20160413182556
+52.39.62.50 1 1 59268 20160419040957
+204.79.180.160 0 3 130049 
+179.222.215.173 10 108 12879872 20160414144731
+191.55.55.70 0 3 103985 
+187.85.193.114 0 1 19106 
+23.95.188.64 1 1 59268 20160403093341
+46.166.190.190 0 1 5653 
+69.175.3.84 6 69 4701627 20160417141405
+189.108.153.66 8 88 12506575 20160425152558
+186.218.128.110 2 78 12430812 20160425102442
+201.24.254.126 1 66 1833360 20160426155919
+177.134.87.169 5 96 12711714 20160411165751
+101.199.108.59 0 30 1038199 
+111.202.102.65 1 25 1006276 20160420180502
+177.204.69.188 0 1 691856 
+204.79.180.180 0 4 128029 
+186.237.51.30 2 78 12430812 20160414115252
+177.79.3.21 1 66 11737976 20160423104541
+162.213.0.243 0 1 5653 
+189.40.78.18 0 19 643089 
+108.171.130.170 10 102 13087622 20160419165555
+179.107.227.211 0 1 176820 
+204.79.180.175 0 2 16778 
+93.190.51.172 1 1 59268 20160407043950
+138.186.83.151 2 82 12464118 20160407080628
+187.75.5.245 9 202 25105923 20160414175539
+92.46.125.177 1 1 59268 20160430195439
+204.79.180.169 0 4 25235 
+131.253.26.239 0 3 34751 
+148.3.202.39 0 25 951455 
+150.70.173.48 0 1 95977 
+186.237.48.54 0 37 4289998 
+186.248.1.82 0 7 203491 
+46.188.125.82 1 1 39593 20160429072422
+204.79.180.102 0 3 125796 
+187.38.2.229 5 96 12751931 20160407081612
+201.52.70.178 5 101 14804615 20160416120510
+204.79.180.140 0 2 88193 
+186.195.159.50 3 11 2196531 20160401122055
+200.229.228.50 15 212 26007816 20160428104705
+189.26.22.224 0 1 19106 
+187.2.40.186 2 86 12482164 20160412090103
+54.175.102.87 1 77 12349980 20160412145325
+65.55.212.70 0 1 11321 
+204.79.180.149 0 4 6637 
+186.210.212.136 2 78 12430812 20160425171721
+186.237.48.154 14 329 43321517 20160427161703
+179.108.61.21 0 64 6378796 
+189.41.85.80 0 1 176820 
+187.183.25.130 2 90 12587746 20160412214045
+104.132.8.79 2 77 12414882 20160412114448
+201.27.212.12 10 186 33686458 20160429142821
+177.79.26.55 0 38 6618411 
+189.41.166.190 1 75 12275763 20160415065138
+123.125.125.74 1 24 983681 20160430145033
+189.41.71.82 2 78 12430812 20160422093317
+200.131.62.31 4 91 12767790 20160418104022
+186.249.109.66 2 46 4714137 20160410122045
+123.56.28.196 1 1 59268 20160405001152
+177.22.147.227 0 1 281452 
+191.55.32.103 9 91 22206137 20160405211640
+201.59.136.169 1 76 12291693 20160423093217
+191.181.133.131 0 1 471971 
+191.33.45.108 0 1 777299 
+143.137.36.1 1 76 12291693 20160404165836
+177.53.60.99 0 1 471971 
+204.79.180.26 0 2 20409 
+177.72.39.218 2 78 12430812 20160405143028
+177.67.137.250 2 78 12430812 20160419145637
+177.42.101.3 2 91 12588822 20160407161911
+191.54.229.131 0 26 971455 
+177.179.250.233 13 175 14279466 20160412222313
+177.221.60.10 0 51 9788529 
+191.247.226.38 2 71 2326414 20160421122041
+66.249.88.112 0 3 530460 
+46.227.5.240 0 1 281452 
+177.184.136.214 0 3 6467871 
+131.253.26.255 0 3 103446 
+115.174.76.109 2 78 12430812 20160414051614
+201.40.218.209 0 62 11253917 
+189.15.214.254 2 76 12413607 20160422233218
+131.253.26.233 0 1 9645 
+177.72.19.126 0 41 4402605 
+187.72.208.162 2 78 12430812 20160422073216
+91.213.8.84 0 2 11306 
+191.8.123.251 2 78 12430812 20160426155014
+131.253.26.229 0 1 16305 
+177.221.52.96 0 1 471971 
+177.134.36.12 5 101 23090255 20160407155939
+123.126.113.15 1 34 1226111 20160425201502
+202.46.51.32 0 1 3358 
+183.87.45.91 0 51 1424087 
+189.47.116.126 0 76 16653 
+65.55.218.47 0 2 107956 
+204.79.180.128 0 3 50523 
+189.41.78.224 2 78 12430812 20160415111126
+187.39.244.41 0 2 16653 
+177.207.105.16 0 4 176820 
+201.63.154.26 11 112 13228814 20160405103745
+65.55.212.84 0 2 121903 
+177.87.235.26 0 9 230889 
+187.75.189.164 2 77 12426365 20160425104148
+188.2.90.216 2 78 12430812 20160403130920
+204.79.180.122 0 1 9645 
+204.79.180.100 0 2 41650 
+189.20.54.10 2 78 12430812 20160406080526
+138.94.154.162 0 1 471971 
+223.72.142.137 1 1 59268 20160422111144
+46.166.190.196 0 1 5653 
+200.174.132.56 0 1 281452 
+66.249.83.105 0 222 31901280 
+187.126.150.142 2 76 12413607 20160410204540
+204.79.180.158 0 4 130404 
+177.87.104.42 0 7 119542 
+187.115.239.7 0 1 19106 
+202.46.50.12 1 1 59268 20160403143818
+138.122.132.5 4 95 14031303 20160415144021
+131.253.36.195 0 1 9135 
+189.36.146.82 0 1 95977 
+179.155.116.89 2 77 12429537 20160423144811
+202.46.58.131 1 1 45320 20160405142419
+131.253.26.224 0 2 121903 
+179.124.57.4 0 1 19106 
+191.21.169.207 0 1 691856 
+179.104.221.176 2 78 12430812 20160405172331
+65.55.218.61 0 2 37965 
+177.99.123.8 2 78 12430812 20160404171453
+167.250.244.168 0 2 2192152 
+203.133.169.24 1 1 59268 20160428112444
+204.79.180.194 0 2 153905 
+123.126.113.22 2 80 5649571 20160413152742
+46.166.138.153 5 6 119841 20160418195748
+49.147.11.215 1 1 44811 20160428200430
+108.188.166.176 10 70 2185176 20160430075907
+93.115.241.2 2 2 31054 20160430025538
+177.157.189.172 2 78 12430812 20160407102445
+177.13.234.26 0 1 669916 
+86.106.18.165 2 2 118536 20160430095658
+65.55.218.60 0 1 1082 
+191.55.60.75 2 76 12413607 20160423104850
+189.50.130.218 0 19 696726 
+41.221.206.41 0 1 281452 
+65.55.212.76 0 2 45190 
+120.198.233.211 1 1 59268 20160421145506
+212.16.104.33 0 1 4675 
+171.25.193.77 6 6 169906 20160426220741
+172.245.248.96 1 1 59268 20160430032626
+164.144.56.20 0 1 689826 
+23.104.184.140 1 1 59268 20160427041748
+189.61.243.146 2 62 6440181 20160407170635
+204.79.180.119 1 1 36415 20160411184938
+185.61.138.125 1 2 5669 20160423202219
+204.79.180.205 0 1 15962 
+65.55.212.88 0 2 99616 
+66.102.8.135 0 30 9753125 
+124.166.242.147 12 12 288848 20160403050417
+173.12.6.13 1 1 0 20160418222433
+194.210.163.27 0 2 943942 
+204.79.180.223 0 3 131321 
+179.104.203.217 2 78 12430812 20160413083217
+196.43.234.193 0 13 300138 
+112.11.152.143 18 18 422265 20160417025001
+179.234.104.96 2 78 12430812 20160405115622
+200.241.4.185 6 96 14052655 20160411140405
+186.223.66.180 7 164 25115329 20160411102400
+179.126.233.186 0 34 1156324 
+179.180.48.88 2 76 12413607 20160403015514
+177.2.122.217 2 78 12430812 20160419181609
+106.120.188.150 1 26 1026276 20160412134549
+177.189.7.100 0 1 471971 
+187.4.137.173 8 103 14808032 20160422185612
+179.126.24.211 2 78 12430812 20160414095713
+104.200.154.5 2 2 31056 20160419164125
+185.62.190.38 3 3 84955 20160422210102
+202.46.49.130 0 1 45124 
+66.249.84.166 0 1 176820 
+111.202.102.71 2 71 2394957 20160428150016
+191.54.153.200 2 76 12413607 20160411202506
+66.249.83.174 0 6 1060920 
+200.199.84.6 2 78 12430812 20160426121220
+91.79.16.74 1 1 59268 20160430071544
+46.216.26.54 1 1 0 20160407181145
+189.20.207.170 11 113 13260740 20160427132837
+104.144.148.82 1 1 59268 20160423012748
+112.16.87.160 1 1 59268 20160401145929
+202.46.53.143 1 1 43282 20160412213558
+187.14.62.163 10 115 13246335 20160405095520
+186.210.252.191 2 78 12430812 20160412152209
+177.65.31.168 0 1 691856 
+189.15.42.57 0 37 4349352 
+200.161.159.65 0 1 19106 
+155.94.233.61 1 1 59268 20160410145719
+177.65.197.204 0 1 53671 
+115.174.76.91 2 80 12447465 20160407064041
+189.24.39.84 2 78 12430812 20160414215625
+179.94.84.64 1 76 12291693 20160415162206
+177.193.174.60 1 76 12291693 20160417213509
+186.237.199.197 2 83 15604350 20160411173124
+65.55.212.79 0 2 38900 
+199.19.249.196 5 5 77473 20160412145355
+201.33.178.98 1 60 1637141 20160405184417
+188.186.64.70 2 4 126063 20160412031957
+131.253.26.222 0 2 55766 
+177.205.42.63 3 95 13968202 20160403225526
+181.72.95.118 0 2 1383712 
+191.187.97.128 2 78 12430812 20160403181816
+57.74.25.166 0 1 471971 
+132.255.92.19 0 8 215519 
+191.218.103.88 0 28 1020453 
+201.91.21.146 2 78 12430812 20160425115155
+187.115.169.233 0 61 1711910 
+204.79.180.17 0 2 4536 
+106.120.188.155 1 14 456710 20160408134213
+191.30.238.142 2 76 12413607 20160405230801
+202.46.52.19 1 1 44234 20160418171740
+189.15.159.77 2 78 12430812 20160407211225
+109.188.126.79 3 3 0 20160412175409
+204.79.180.75 0 3 33707 
+182.18.107.166 1 1 59268 20160420031121
+46.166.138.160 0 1 5653 
+186.214.152.195 2 66 1955274 20160419075714
+179.184.185.242 4 87 7981411 20160429170127
+131.253.24.145 0 2 19780 
+177.83.131.252 2 70 12318994 20160407134903
+191.247.231.36 1 66 1978112 20160429143631
+52.38.250.3 1 1 59268 20160413011056
+65.55.212.94 0 1 23390 
+201.91.186.210 5 98 12819788 20160418104835
+191.254.8.51 0 48 9726018 
+202.46.52.14 0 1 45124 
+65.55.212.87 0 2 2202 
+201.77.124.12 8 175 25320587 20160414135745
+189.41.105.190 2 92 12604951 20160407092104
+204.79.180.51 0 3 223615 
+177.130.57.243 0 1 471971 
+186.240.170.108 0 2 52160 
+189.25.248.129 2 78 12430812 20160404140732
+191.55.9.50 2 78 12430812 20160415142954
+191.55.14.254 2 78 12430812 20160427090357
+138.36.35.92 2 76 12413607 20160408104911
+200.185.157.37 16 118 19191764 20160427085343
+200.161.158.215 0 56 13121418 
+46.166.188.236 0 1 5653 
+187.13.229.138 4 84 10710574 20160408122724
+204.79.180.204 0 1 9645 
+189.59.123.192 7 148 14343656 20160411141258
+201.55.56.119 2 85 17250292 20160418173932
+177.134.74.171 2 78 12430812 20160425094524
+191.54.8.16 2 78 12430812 20160407125314
+189.123.165.40 0 1 50850 
+204.79.180.236 0 4 25071 
+177.86.48.66 1 98 22590652 20160404222543
+204.79.180.104 0 3 33182 
+189.84.9.240 0 58 1615624 
+189.26.121.30 11 110 13280472 20160425151600
+191.223.154.218 2 57 1803276 20160419200602
+177.154.10.69 0 1 60726 
+202.46.51.13 1 1 59268 20160417024726
+36.110.147.94 4 42 1323710 20160402162558
+204.79.180.103 0 1 15930 
+179.216.129.161 6 150 14345537 20160410202900
+131.253.26.254 0 1 2665 
+201.66.212.54 0 4 116813 
+177.69.21.162 2 80 12626555 20160420153624
+106.120.188.138 1 58 4755025 20160415151851
+177.134.224.10 0 4 2362979 
+187.120.35.35 0 1 471971 
+187.108.7.140 0 1 14359 
+151.237.190.224 1 1 59268 20160420171555
+107.152.249.184 2 2 130891 20160417155106
+190.224.63.212 0 61 4797751 
+204.79.180.232 0 3 23402 
+187.39.28.46 2 78 12430812 20160416142250
+204.79.180.114 0 4 88010 
+179.104.105.34 0 37 4289998 
+187.107.134.37 22 285 38369945 20160425123726
+109.163.234.5 0 1 5653 
+187.121.161.105 3 81 12585601 20160413130548
+191.247.229.14 0 18 613553 
+186.201.216.19 2 78 12430812 20160427142046
+200.158.75.134 0 10 246358 
+189.10.54.71 2 78 12430812 20160404124611
+178.216.51.99 2 2 130891 20160426060229
+177.54.115.104 1 76 12291693 20160427003311
+204.79.180.143 0 2 49571 
+187.73.25.237 2 78 12430812 20160427003436
+179.176.223.97 2 78 12430812 20160405153720
+110.85.75.213 3 3 177804 20160423181954
+204.79.180.16 0 1 3358 
+151.82.7.27 0 20 709904 
+52.87.164.70 1 1 59268 20160418050642
+176.10.99.209 1 1 16 20160427204741
+204.79.180.246 0 1 9135 
+189.15.43.62 0 41 4402605 
+200.163.177.124 5 29 2290015 20160403221055
+177.94.244.211 0 29 3488042 
+186.218.130.143 0 41 4367398 
+177.3.253.210 0 1 1103 
+187.44.28.224 0 1 19106 
+189.106.162.48 2 78 12430812 20160408122019
+121.204.76.108 1 1 59268 20160428095821
+187.1.78.251 2 81 12552095 20160428184449
+186.225.178.251 2 79 12431416 20160426093010
+106.120.188.134 1 25 1006276 20160417135944
+186.207.236.203 1 77 12292968 20160430190717
+201.41.69.70 21 212 42156848 20160412172622
+131.253.26.252 0 1 4233 
+179.155.109.6 2 78 12430812 20160426094440
+177.132.167.147 8 106 15506111 20160418004856
+187.1.67.114 2 84 12534424 20160419141731
+189.93.146.93 1 76 12291693 20160404152213
+8.28.16.254 10 10 191706 20160415161902
+204.79.180.183 0 3 130429 
+187.115.42.149 0 1 471971 
+189.41.163.62 2 78 12430812 20160413092208
+96.56.107.50 2 4 154720 20160403022149
+201.17.218.148 0 1 471971 
+189.111.3.243 2 77 12425151 20160406104749
+191.180.35.28 0 51 1424087 
+177.235.140.204 1 77 12292968 20160411162428
+200.212.45.238 0 1 471971 
+92.242.120.222 1 1 59268 20160421154651
+204.79.180.93 0 1 55177 
+200.225.206.49 5 69 7042034 20160411160112
+65.55.218.58 0 2 25592 
+187.107.157.63 0 2 949495 
+187.63.107.133 2 48 5336280 20160419182834
+187.122.199.50 0 43 4586326 
+187.20.246.91 0 1 5549451 
+179.100.137.105 1 77 12292968 20160427115409
+187.126.207.66 0 3 1555704 
+131.253.26.228 0 1 45124 
+131.253.36.206 0 1 30969 
+179.155.102.112 2 80 12447465 20160404152418
+191.227.158.147 1 76 12277038 20160418151151
+177.82.157.153 0 1 1970773 
+131.253.36.200 0 1 3568 
+65.19.167.131 0 1 5653 
+109.163.234.8 2 2 84531 20160423202116
+191.241.39.18 2 78 12430812 20160427090735
+177.135.49.4 2 80 12447465 20160418163054
+189.199.40.128 1 78 13441926 20160418104129
+189.50.111.169 0 46 9670721 
+177.69.100.20 19 172 17342229 20160408084554
+186.210.51.41 4 87 12747217 20160425134801
+187.182.216.14 0 79 12217468 
+186.210.249.16 5 73 1887543 20160412122932
+177.47.118.203 2 78 12430812 20160429140446
+189.41.75.163 2 82 12468453 20160429222943
+5.135.226.143 1 1 59268 20160413051716
+200.245.123.253 2 67 5020704 20160418125056
+191.193.111.146 2 78 12430812 20160425105922
+195.154.250.180 18 18 3291354 20160423182532
+204.79.180.21 0 1 109886 
+177.201.57.214 3 60 13479203 20160418133825
+177.53.81.83 0 34 1201435 
+177.67.5.23 16 125 23824490 20160404141112
+179.84.205.230 4 93 12807498 20160404145750
+200.232.242.75 0 1 281452 
+189.90.182.105 2 78 12430812 20160427161457
+182.18.109.120 1 1 59268 20160420171516
+186.225.51.222 1 1 59268 20160418222153
+186.207.253.109 0 1 281452 
+179.156.168.129 0 1 176820 
+203.113.152.10 2 2 7014 20160420174058
+202.46.58.119 0 1 15571 
+202.46.49.152 1 1 45753 20160407175522
+177.134.56.170 2 78 12430812 20160404080355
+177.132.190.8 0 1 471971 
+179.126.222.252 2 76 12413607 20160415153440
+101.199.112.54 1 52 1504919 20160407064437
+179.126.237.32 4 92 18175932 20160430101651
+187.108.218.210 0 2 850221 
+36.74.126.10 1 1 45061 20160421022213
+177.202.211.230 2 80 12626555 20160414150029
+177.203.48.92 0 2 20018 
+66.249.83.171 0 5 884100 
+65.55.218.49 0 1 8764 
+189.28.234.48 2 65 12044732 20160404083342
+131.253.26.238 0 1 20000 
+191.55.234.162 0 4 36813 
+187.111.15.126 2 80 12447465 20160429104127
+106.120.188.154 2 80 2569715 20160421134508
+177.159.166.226 5 98 12753275 20160406083340
+189.41.74.242 0 60 6049388 
+186.210.255.57 2 78 12430812 20160407094927
+177.99.150.31 4 96 12614355 20160415155419
+104.236.19.29 0 32 780966 
+177.138.143.177 2 77 12320760 20160426115738
+150.70.188.182 0 1 95977 
+177.156.17.117 8 100 12778129 20160428152317
+189.68.75.55 0 41 1256874 
+189.35.67.191 1 76 12291693 20160408174655
+204.79.180.110 0 1 3358 
+187.41.251.5 0 1 471971 
+5.153.234.106 0 1 5653 
+191.33.19.206 0 1 281452 
+200.229.223.166 4 84 13806140 20160424113628
+191.33.37.103 4 93 12658091 20160426193518
+186.210.96.139 0 23 2708563 
+204.79.180.251 0 2 117520 
+204.79.180.78 0 2 7567 
+177.129.153.200 0 34 4273015 
+177.0.176.4 0 1 471971 
+164.85.80.101 0 1 176820 
+189.123.80.205 0 1 4756649 
+202.46.57.164 1 1 59268 20160415130744
+177.134.146.144 2 78 12430812 20160415151415
+177.0.48.185 0 1 176820 
+109.200.130.62 0 1 5653 
+186.220.3.132 0 1 4756649 
+89.35.178.104 3 3 84307 20160408050036
+177.86.43.38 1 73 12285416 20160405163147
+189.41.86.139 16 231 44354579 20160414091053
+111.202.102.66 2 66 5162745 20160411135612
+191.55.63.212 0 1 4162 
+204.79.180.120 0 4 37997 
+179.199.210.12 2 78 12430812 20160426134209
+191.248.196.130 2 78 12430812 20160401125020
+181.134.142.30 0 1 1265253 
+189.11.45.82 12 108 26323091 20160415095831
+200.248.150.2 0 1 281452 
+186.239.253.53 0 2 522562 
+181.222.206.66 2 78 12430812 20160426203539
+66.249.85.235 0 61 9946003 
+36.110.147.103 2 67 5227272 20160423140959
+204.79.180.179 0 2 151154 
+189.61.24.86 0 1 281452 
+177.6.86.169 6 95 12843711 20160404105005
+188.237.176.100 1 1 59268 20160424141859
+177.139.204.72 2 78 12430812 20160422173058
+172.245.45.154 1 1 59268 20160423211406
+177.130.62.30 0 16 417419 
+179.178.48.53 9 299 46006379 20160405132124
+201.33.248.249 2 78 12430812 20160414122605
+189.68.204.160 1 80 14535147 20160416213839
+152.249.240.179 0 67 7328434 
+204.79.180.162 0 3 115578 
+131.253.26.227 0 1 25688 
+204.79.180.9 0 2 1911 
+177.92.27.218 2 69 9778429 20160401092614
+177.222.70.236 11 217 39683741 20160402231443
+177.201.48.96 1 79 2397760 20160418160922
+65.55.218.39 0 2 144510 
+131.253.26.244 0 1 3358 
+201.13.39.147 6 101 14367970 20160405144417
+66.249.88.102 0 7 1237740 
+189.114.191.46 0 1 471971 
+66.249.83.177 0 5 884100 
+189.112.113.242 2 78 12430812 20160421122410
+189.15.158.208 6 81 13724108 20160426105723
+191.35.55.133 2 78 12430812 20160419105943
+89.31.57.5 3 3 84301 20160406020508
+187.5.199.6 2 78 12430812 20160407102748
+189.31.197.40 0 1 471971 
+138.0.235.114 0 1 19106 
+123.126.68.115 1 31 1102650 20160423141311
+167.114.235.70 3 3 167306 20160413162501
+204.79.180.159 0 3 11505 
+179.191.86.178 2 78 12430812 20160419083301
+204.79.180.226 0 2 38166 
+189.80.69.160 5 102 12836355 20160428160542
+131.108.122.177 2 77 12429178 20160407173346
+186.210.214.170 2 77 12429537 20160404220716
+216.163.188.238 1 1 59268 20160411142510
+191.179.254.71 9 106 12897379 20160418085814
+187.107.34.126 3 43 6874589 20160419144548
+177.142.115.112 2 78 12430812 20160412230046
+177.2.93.22 0 2 84686 
+200.181.90.121 0 57 13122391 
+152.236.222.218 2 59 4924160 20160415103430
+210.245.128.132 14 14 332692 20160429134958
+204.79.180.38 0 3 123032 
+191.178.103.149 0 1 4756649 
+46.166.138.169 0 1 4675 
+177.133.40.150 0 1 1794177 
+191.255.69.142 0 26 1000435 
+191.55.63.79 2 73 12404711 20160427023704
+201.92.98.219 16 561 89535482 20160429104945
+201.40.154.75 0 43 1281568 
+177.66.194.66 2 78 12430812 20160406142941
+204.79.180.227 0 1 55392 
+201.77.68.46 2 92 12604399 20160408103832
+177.104.121.176 2 96 12638257 20160418164230
+177.16.76.123 0 1 4756649 
+177.204.179.23 2 78 12430812 20160406111737
+204.79.180.240 0 1 15571 
+131.253.26.232 0 1 73 
+200.167.32.150 2 78 12430812 20160420122815
+66.249.84.167 0 6 1060920 
+204.79.180.111 0 2 26828 
+103.246.38.196 4 4 191896 20160412145355
+177.189.141.31 2 77 12426365 20160405153942
+204.79.180.161 0 2 189307 
+177.53.116.2 2 78 12430812 20160428113142
+123.126.68.127 1 27 1030509 20160424145303
+204.79.180.121 0 1 15930 
+65.55.212.67 0 1 7199 
+189.41.81.34 2 77 12430122 20160425202410
+191.22.59.216 2 76 12413607 20160416100154
+204.79.180.217 0 1 80477 
+107.179.102.246 0 1 5653 
+204.79.180.118 0 4 22598 
+191.54.15.169 2 76 12413607 20160414153213
+177.79.25.48 1 38 5673282 20160405134916
+106.120.188.136 2 74 12345745 20160419144625
+200.150.102.2 2 78 12430812 20160418172011
+177.156.238.114 13 100 22260417 20160410211604
+204.79.180.25 0 3 211282 
+191.223.213.168 2 78 12430260 20160404171335
+179.99.212.33 4 85 12487118 20160408112140
+187.57.204.129 2 78 12430812 20160419162840
+191.249.97.129 0 40 4084695 
+191.250.2.236 2 78 12430812 20160422170641
+52.37.209.145 1 1 59268 20160408152054
+179.199.198.170 9 98 12895794 20160427092635
+191.248.255.9 4 94 14074090 20160411224108
+186.210.207.231 2 74 10384094 20160421154210
+189.46.118.222 0 1 691856 
+191.54.156.41 1 76 12291693 20160414193209
+66.102.6.193 2 104 17948371 20160428202029
+177.13.225.30 2 76 12413607 20160416145812
+204.79.180.187 0 3 120124 
+204.79.180.229 0 3 25291 
+112.199.65.190 1 1 59268 20160401134900
+187.180.45.174 9 106 13295290 20160407091257
+107.182.131.117 0 1 5653 
+64.233.172.141 7 124 11824381 20160417152039
+191.255.53.204 4 95 14081410 20160412095942
+204.79.180.225 0 6 209531 
+200.171.221.234 4 85 12487118 20160405150753
+186.206.255.157 0 1 471971 
+191.55.53.225 1 75 12275763 20160422161924
+177.220.135.82 0 1 19106 
+189.126.62.122 4 87 19648378 20160415101243
+46.166.136.162 2 2 22342 20160418140757
+179.104.212.254 2 160 24822230 20160402111807
+179.211.225.59 0 1 4756649 
+220.181.132.199 1 52 1504919 20160414051957
+187.86.250.3 8 98 6461553 20160403210216
+200.139.140.112 6 89 12668641 20160403210527
+177.23.184.116 2 78 12430812 20160416084010
+179.104.136.34 0 2 353640 
+189.41.103.55 2 83 18913411 20160407163957
+179.155.84.62 4 94 14411061 20160406132457
+187.87.245.45 1 76 12291693 20160404200600
+187.62.183.41 0 17 609106 
+65.55.183.62 0 1 176820 
+186.219.16.62 0 42 9685761 
+91.213.8.235 2 2 84289 20160407020724
+188.138.9.49 2 2 84939 20160427204735
+204.79.180.253 0 2 22668 
+177.18.23.198 0 27 2238646 
+131.253.24.131 0 1 5169 
+189.115.78.198 0 1 60726 
+187.87.254.205 0 1 609111 
+37.187.7.74 0 1 5653 
+187.56.97.217 0 6 115333 
+204.79.180.98 0 1 22595 
+179.111.246.66 0 18 3121660 
+186.224.229.46 24 137 27022995 20160405103632
+187.114.152.203 6 95 12812322 20160404145351
+191.54.16.18 1 74 12283487 20160410230110
+204.79.180.10 0 3 134816 
+65.55.212.65 0 1 7634 
+187.35.20.235 6 216 36825353 20160412115043
+216.163.188.231 1 1 59268 20160407143856
+105.186.205.204 0 10 219836 
+66.220.152.7 0 1 3671508 
+179.155.124.150 5 98 12753275 20160410192056
+186.210.86.141 2 78 12430812 20160419112608
+66.102.6.253 2 97 18377821 20160421185124
+189.68.73.242 13 202 25993987 20160423090538
+200.232.236.91 0 17 609106 
+187.11.15.127 2 76 12424461 20160429100754
+200.161.250.189 0 48 9676250 
+189.26.206.132 0 1 251964 
+201.55.31.247 2 76 10357112 20160406125558
+187.127.109.2 2 78 12430812 20160405074833
+204.79.180.95 0 1 22595 
+177.38.201.67 0 1 1439527 
+186.228.174.228 2 96 12622948 20160401110405
+189.39.9.221 0 1 471971 
+202.46.58.160 1 1 45794 20160402011846
+202.46.54.19 0 1 757 
+179.155.100.42 2 78 12430812 20160414093227
+66.249.88.129 3 26 5815783 20160420234030
+200.102.175.115 1 57 4836655 20160417163335
+65.55.212.74 0 1 4162 
+187.32.81.125 2 74 12405401 20160420112029
+191.17.17.109 3 67 20156830 20160413221032
+138.59.85.107 2 80 12431145 20160407155045
+189.10.101.179 0 68 9955074 
+36.110.147.109 5 152 16070208 20160414145155
+204.79.180.76 0 2 5754 
+187.38.39.69 2 76 12413607 20160405224438
+177.74.74.112 0 1 669916 
+204.79.180.144 0 1 30969 
+177.154.222.153 18 134 19362054 20160407153021
+177.139.211.47 8 88 5663136 20160411135929
+177.7.77.104 2 87 17108781 20160404135404
+221.1.215.138 1 1 59268 20160419031928
+187.181.117.18 3 16 313817 20160406132552
+64.233.172.133 7 135 14219421 20160417152038
+204.79.180.46 0 2 35930 
+177.139.203.27 0 1 691856 
+177.132.107.231 21 143 17999299 20160404201530
+186.232.44.73 3 82 12586486 20160414132636
+177.140.34.204 4 88 12748293 20160401154135
+179.112.118.84 1 90 12465832 20160407113108
+204.79.180.174 0 2 84686 
+91.239.67.99 4 4 240720 20160426170525
+177.169.204.61 2 78 12431104 20160415163824
+177.2.118.37 2 76 12259857 20160429113443
+201.33.77.229 2 70 5255946 20160421101724
+91.121.65.201 1 1 59268 20160411134713
+187.115.48.82 0 1 19106 
+213.254.241.5 0 3 119106 
+65.55.212.82 0 1 55392 
+204.79.180.215 0 3 127755 
+201.222.28.202 1 51 4526212 20160418135906
+179.252.87.194 2 78 12430812 20160404101720
+177.106.171.242 1 82 12356650 20160413140838
+179.216.115.113 2 78 12430812 20160420175617
+177.79.16.246 0 4 39466 
+187.66.185.18 2 80 12447465 20160418002436
+200.240.247.225 12 116 11551797 20160405001538
+189.47.249.236 1 36 4376614 20160420233510
+36.110.147.80 2 60 4821773 20160406142413
+188.138.1.217 0 1 5653 
+216.163.188.234 1 1 71623 20160414102538
+204.79.180.96 0 4 152664 
+177.100.122.109 2 78 12430812 20160407081425
+177.74.189.38 0 1 689826 
+177.96.156.55 1 75 12284762 20160401182658
+190.180.187.164 2 78 12430260 20160411211936
+131.253.26.247 0 1 7634 
+186.51.135.97 0 1 1794177 
+199.116.169.254 5 5 265875 20160412145416
+179.104.213.207 2 78 12430812 20160406105134
+191.247.225.48 2 57 1803276 20160425100640
+191.55.7.158 2 78 12430812 20160413211431
+186.238.203.3 2 78 12430812 20160420150810
+200.217.154.100 7 167 12847953 20160411160344
+201.9.121.33 8 107 13173285 20160407145737
+177.79.28.77 0 2 3732 
+177.16.134.245 1 69 10108055 20160411164230
+131.253.36.204 0 2 181764 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20160401 378 3145 380387217 37
+20160402 330 1643 205801795 25
+20160403 370 1990 246491446 41
+20160404 541 7361 1065393519 95
+20160405 542 5932 785868206 81
+20160406 494 5103 662220858 61
+20160407 505 5817 784076143 88
+20160408 420 3711 481481323 54
+20160410 193 1445 168565424 22
+20160411 355 4138 534328843 56
+20160412 476 4478 545526726 56
+20160413 448 4022 504052686 48
+20160414 414 4948 631157695 54
+20160415 491 4422 593020520 60
+20160416 320 1711 245680110 25
+20160417 318 1632 160190224 27
+20160418 482 4741 608701086 64
+20160419 447 4176 543851089 55
+20160420 436 3888 517394627 54
+20160421 309 1493 147164547 29
+20160422 454 3570 448124284 48
+20160423 348 1977 233503437 31
+20160424 335 1657 190516955 25
+20160425 399 3783 486117225 48
+20160426 447 4281 578279987 53
+20160427 456 3692 490272798 51
+20160428 1339 5439 817379958 67
+20160429 465 4457 624987606 56
+20160430 526 1897 196905413 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 147
+30mn-1h 21
+2mn-5mn 86
+0s-30s 1062
+5mn-15mn 58
+15mn-30mn 22
+1h+ 45
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 109
+/wp-cron.php 7155 0 31 31
+/xmlrpc.php 1010 163245882 2 4
+/wp-content/themes/inovar/type/fontello/fontello.woff 924 73961280 803 128
+/wp-admin/admin-ajax.php 877 0 19 259
+/wp-content/themes/inovar/type/fontello/fontello.ttf 795 109172448 49 537
+/nossas-unidades/ 581 38396502 33 64
+/ 433 21178092 243 233
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 100 1674800 13 13
+/sobre-a-inovar/ 94 5012458 11 3
+/atendimento/ 93 3215042 7 7
+/wp-content/themes/inovar/type/fontello/fontello.eot 61 7873752 45 7
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf 54 900288 3 22
+/catalogo/pasta/0537fb.php 52 1971215 30 2
+/index.php 43 2587740 20 20
+/containers-e-acessorios/linha-express/325-container-almoxarifado-express/ 36 1551033 1 1
+/carrinho/ 35 1255011 4 3
+/containers-e-acessorios/page/2/ 33 1488201 15 1
+/containers-e-acessorios/page/5/ 28 1237897 4 1
+/containers-e-acessorios/linha-express/329-container-escritorio-revestido/ 27 1152140 0 2
+/containers-e-acessorios/ 24 1078255 0 2
+/containers-e-acessorios/page/3/ 24 1084824 0 1
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot 22 370744 6 2
+/containers-e-acessorios/page/6/ 21 948318 0 0
+/containers-e-acessorios/page/7/ 20 759804 3 1
+/containers-e-acessorios/page/4/ 19 883576 0 0
+/containers-e-acessorios/linha-standard/container-sanitario-masculino-e-feminino/ 3 133250 0 0
+/containers-e-acessorios/linha-express/container-almoxarifado/ 2 88663 0 0
+/containers-e-acessorios/linha-standard/gerador/ 4 172796 0 0
+/portaldofranqueado/index.php 4 32592 0 1
+/containers-e-acessorios/linha-express/container-almoxarifado-express-4/ 1 45569 0 0
+/containers-e-acessorios/linha-express/andaime/ 13 494833 0 1
+/containers-e-acessorios/linha-standard/container-almoxarifado-3/ 4 183198 0 0
+/wp-content/plugins/revslider/rs-plugin/font/revicons.eot 7 84952 5 0
+/containers-e-acessorios/linha-standard/container-almoxarifado-2/ 8 272982 1 0
+/containers-e-acessorios/linha-express/328-container-escritorio-revestido-desmontado/ 19 830042 4 4
+/wp-admin/ 11 0 1 6
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio-revestido-c-wc/ 17 704069 2 1
+/home-page/feed/ 19 11424 12 4
+/author/admin/ 2 73098 2 1
+/containers-e-acessorios/linha-express/container-almoxarifado-express-5/ 1 44530 0 0
+/containers-e-acessorios/linha-express/container-sanitario-express/ 2 89820 1 2
+/wp-content/plugins/woocommerce/assets/fonts/star.eot 7 11732 0 0
+/wp-admin/admin.php 2 0 2 2
+/portaldofranqueado/admin.php 10 62041 3 3
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio-revestido/ 12 479691 0 0
+/containers-e-acessorios/linha-express/container-almoxarifado-express-com-wc/ 2 91215 0 0
+/wp-content/themes/inovar/type/fontello/fontello-social.eot 7 125370 0 0
+/containers-e-acessorios/linha-express/327-container-escritorio-revestido-desmontado/ 14 613838 3 3
+/containers-e-acessorios/linha-standard/container-acoplado-escritorio/ 15 576076 4 4
+/containers-e-acessorios/linha-standard/container-guarita/ 1 44156 0 0
+/wp-content/languages/eb160d.php 11 190307 0 11
+/containers-e-acessorios/linha-express/container-escritorio-7/ 2 90069 0 0
+/author/igor/ 1 35182 0 0
+/author/mauricio/ 1 35190 0 0
+/feed/ 2 3498 2 0
+/containers-e-acessorios/linha-express/324-container-escritorio-desmontado/ 15 645317 3 4
+/containers-e-acessorios/linha-standard/container-refeitorio-revestido-com-eletrica-2/ 2 91868 0 0
+/containers-e-acessorios/linha-standard/container-sanitario-6-metros/ 1 45595 0 0
+/wp-admin/tools.php 1 0 1 1
+/portaldofranqueado/central-download.php 1 19052 0 1
+/containers-e-acessorios/linha-standard/container-escritorio/ 2 89960 0 0
+/containers-e-acessorios/acessorios/ar-condicionado-1/ 5 211290 1 1
+/containers-e-acessorios/linha-express/318-container-escritorio/ 5 218537 0 0
+/containers-e-acessorios/linha-express/container-almoxarifado-express/ 2 91037 0 0
+/containers-e-acessorios/linha-standard/container-almoxarifado-6-metros/ 4 176340 2 0
+/containers-e-acessorios/linha-express/container-escritorio-4/ 3 137219 0 0
+/location/unidade-braganca-paulista/ 2 77142 0 1
+/containers-e-acessorios/linha-standard/container-sanitario/ 2 88477 1 0
+/containers-e-acessorios/linha-express/container-escritorio-revestido-5/ 2 93693 0 0
+/finalizar-orcamento/ 9 486279 0 0
+/containers-e-acessorios/linha-express/321-container-sanitario/ 2 86767 0 0
+/containers-e-acessorios/linha-standard/container-escritorio-revestido/ 2 90267 0 0
+/containers-e-acessorios/linha-express/306-container-sanitario-express/ 1 38187 0 0
+/containers-e-acessorios/linha-standard/escora-2/ 6 203659 0 0
+/wp-content/plugins/showbiz/showbiz-plugin/font/revicons.eot 7 84952 0 0
+/containers-e-acessorios/linha-standard/compactador/ 9 300961 2 2
+/containers-e-acessorios/linha-express/container-almoxarifado-express-2/ 1 45183 0 0
+/wp-content/themes/inovar/js/videojs/font/vjs.eot 7 20300 0 2
+/wp-login.php 17 0 11 7
+/containers-e-acessorios/linha-express/container-escritorio-com-eletrica/ 1 45693 0 0
+/containers-e-acessorios/linha-standard/container-alojamento-com-eletrica/ 3 135708 0 0
+/containers-e-acessorios/linha-express/container-escritorio-6/ 1 46013 1 1
+/containers-e-acessorios/linha-standard/container-escritorio-revestidoalmoxarifado/ 1 45970 0 0
+/portaldofranqueado/galeria-fotos.php 4 278988 1 3
+/containers-e-acessorios/linha-standard/container-refeitorio-revestido-sem-eletrica/ 1 44879 0 0
+/portaldofranqueado/bd/login.php 7 854 0 0
+/portaldofranqueado/ 6 48888 3 0
+/containers-e-acessorios/linha-express/container-escritorio-revestido-2/ 2 84503 0 2
+/containers-e-acessorios/linha-express/container-escritorio-express/ 1 46234 0 0
+/containers-e-acessorios/linha-standard/container-escritorio-com-eletrica-e-banheiro/ 18 827133 2 2
+/containers-e-acessorios/linha-standard/container-escritorio-com-eletrica-e-banheiro-2/ 15 642762 3 3
+/containers-e-acessorios/linha-express/escora/ 14 446842 1 3
+/containers-e-acessorios/linha-standard/container-escritorio-revestido-com-eletrica/ 5 227263 0 0
+/containers-e-acessorios/linha-express/322-container-sanitario-express/ 1 45291 0 0
+/catalogo/pasta/c3e878.php 10 133587 10 0
+/wp-content/plugins/showbiz/showbiz-plugin/css/fontello/fontello.eot 7 48188 0 0
+/containers-e-acessorios/linha-standard/martelete/ 5 194031 0 0
+/containers-e-acessorios/linha-standard/container-dormitorio-com-banheiro-chuveiro-e-eletrica/ 3 132411 0 0
+/containers-e-acessorios/acessorios/equipamentos-de-seguranca-epis/ 5 211780 1 1
+/containers-e-acessorios/linha-express/326-container-escritorio-desmontado/ 13 531386 0 0
+/containers-e-acessorios/linha-standard/container-misto/ 1 44185 0 0
+/wp-admin/user/a7608800.php 10 156801 0 10
+/containers-e-acessorios/linha-standard/container-escritorio-2/ 2 90271 0 0
+/containers-e-acessorios/linha-standard/container-vestiario-com-eletrica-2/ 1 37039 0 1
+/wp-content/uploads/a1140a.php 17 404896 14 1
+/atendimento/feed/ 1 820 0 0
+/wp-content/extensions/dd4504.php 8 86223 0 8
+/containers-e-acessorios/linha-standard/container-almoxarifado-com-banheiro-e-eletrica/ 1 44445 0 0
+/containers-e-acessorios/linha-express/container-escritorio-3/ 1 46065 0 0
+END_SIDER

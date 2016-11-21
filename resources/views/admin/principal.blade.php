@@ -22,11 +22,13 @@
 
                         <div class="item <?php if($i == 0){echo 'active';}?>">
                             <a href="{{'/admin/noticia'}}/{{$noticia->url_site}}"><img src="{{url('banner')}}/{{$noticia->url_image}}" /></a>
-                            <div class="carousel-caption">
-                                <h3>{{$noticia->titulo}}</h3>
+                            <a href="{{'/admin/noticia'}}/{{$noticia->url_site}}">
+                                <div class="carousel-caption">
+                                    <h3>{{$noticia->titulo}}</h3>
 
-                                <p>{!!str_limit($noticia->descricao,$limit = 165, $end="...")  !!}</p>
-                            </div>
+                                    <p>{!!str_limit($noticia->descricao,$limit = 165, $end="...")  !!}</p>
+                                </div>
+                            </a>
                         </div>
                         <?php $i++;?>
                     @endforeach
@@ -55,7 +57,7 @@
             </div>
         </a>
         <a href="http://inovarlocacoes.com/webmail" target="_blank">
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-6 col-md-3">
                 <div class="panel panel-default">
                     <div class="panel-body easypiechart-panel">
                         <h4>Email</h4>
@@ -66,7 +68,7 @@
             </div>
         </a>
         <a href="#">
-            <div class="col-xs-6 col-md-4">
+            <div class="col-xs-6 col-md-3">
                 <div class="panel panel-default">
                     <div class="panel-body easypiechart-panel">
                         <h4>Proloc</h4>
@@ -76,15 +78,17 @@
                 </div>
             </div>
         </a>
-        <!--<div class="col-xs-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body easypiechart-panel">
-                    <h4></h4>
-                    <div class="easypiechart" id="easypiechart-red" data-percent="27" ><span class="percent">27%</span>
+        <a href="http://sia.inovarlocacoes.com.br" target="_blank">
+            <div class="col-xs-6 col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body easypiechart-panel">
+                        <h4>SIA</h4>
+                        <div class="easypiechart" id="easypiechart-red" data-percent="100" ><span class="percent"></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
-    </div><!--/.row-->
+        </a>
+    </div>
 
 @endsection

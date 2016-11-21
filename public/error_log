@@ -1,0 +1,14 @@
+[13-Oct-2016 19:43:44 UTC] PHP Fatal error:  Class 'Bestmomo\Scafold\ScafoldServiceProvider' not found in /home/inovarlocacoes/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Oct-2016 17:58:51 UTC] PHP Fatal error:  Class 'Intervention\Image\Facades\Image' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 48
+[21-Oct-2016 17:59:53 UTC] PHP Fatal error:  Class 'Intervention\Image\Facades\Image' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 48
+[21-Oct-2016 17:59:55 UTC] PHP Fatal error:  Class 'Intervention\Image\Facades\Image' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 48
+[21-Oct-2016 18:00:19 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/inovarlocacoes/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Oct-2016 18:00:30 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/inovarlocacoes/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Oct-2016 18:00:31 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/inovarlocacoes/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Oct-2016 18:00:56 UTC] PHP Fatal error:  Class 'Intervention\Image\ImageServiceProvider' not found in /home/inovarlocacoes/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Oct-2016 16:01:48 America/Sao_Paulo] PHP Warning:  require(/home/inovarlocacoes/vendor/composer/../guzzlehttp/psr7/src/functions_include.php): failed to open stream: No such file or directory in /home/inovarlocacoes/vendor/composer/autoload_real.php on line 66
+[21-Oct-2016 16:01:48 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '/home/inovarlocacoes/vendor/composer/../guzzlehttp/psr7/src/functions_include.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/inovarlocacoes/vendor/composer/autoload_real.php on line 66
+[21-Oct-2016 18:28:04 UTC] PHP Fatal error:  Class 'inovarlocacoes\Http\Controllers\File' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 71
+[21-Oct-2016 18:48:48 UTC] PHP Fatal error:  Class 'inovarlocacoes\Http\Controllers\File' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 71
+[21-Oct-2016 18:49:16 UTC] PHP Fatal error:  Class 'inovarlocacoes\Http\Controllers\File' not found in /home/inovarlocacoes/app/Http/Controllers/NoticiaController.php on line 72
+[25-Oct-2016 16:57:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/inovarlocacoes/storage/framework/views/69f1eea5529c954f643ddc72b43a2dfb on line 61

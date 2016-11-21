@@ -1,0 +1,65 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Fri, 01 Apr 2016 16:59:03 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86_1)
+	id 1am5Dj-0006aV-Nv
+	for nao-responda@inovarlocacoes.com; Fri, 01 Apr 2016 16:59:03 -0300
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1459540743-eximdsn-1269631064
+MIME-Version: 1.0
+Subject: Warning: message 1alfsf-0005Sz-4h delayed 24 hours
+Message-Id: <E1am5Dj-0006aV-Nv@inovarloca.virtuaserver.com.br>
+Date: Fri, 01 Apr 2016 16:59:03 -0300
+
+--1459540743-eximdsn-1269631064
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+A message that you sent has not yet been delivered to one or more of its
+recipients after more than 24 hours on the queue on inovarloca.virtuaserver.com.br.
+
+The message identifier is:     1alfsf-0005Sz-4h
+The date of the message is:    31 Mar 2016 13:55:41 -0300
+The subject of the message is: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+
+The address to which the message has not yet been delivered is:
+
+  carlafyall@idoud.com
+
+No action is required on your part. Delivery attempts will continue for
+some time, and this warning may be repeated at intervals if the message
+remains undelivered. Eventually the mail delivery software will give up,
+and when that happens, the message will be returned to you.
+
+--1459540743-eximdsn-1269631064
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: delayed
+Final-Recipient: rfc822;carlafyall@idoud.com
+Status: 4.0.0
+
+--1459540743-eximdsn-1269631064
+Content-type: text/rfc822-headers
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [179.145.234.117] (port=50634 helo=Usuario-PC)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86_1)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1alfsf-0005Sz-4h; Thu, 31 Mar 2016 13:55:37 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Gilmara_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: carlafyall@idoud.com
+Date: 31 Mar 2016 13:55:41 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+
+--1459540743-eximdsn-1269631064--

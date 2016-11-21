@@ -45,7 +45,7 @@
                                 <td class="vertical-middle" style="text-align: left">{{$franqueado->cidade->nome}}</td>
 
                                 <td class="vertical-middle">{{ date("d/m/Y H:i:s", strtotime($franqueado->created_at)) }}</td>
-                                <td class="vertical-middle"><a class="btn btn-info btn-xs" href="#"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+                                <td class="vertical-middle"><a class="btn btn-info btn-xs" href="{{route('usuarios.log',['id' => $franqueado->user->id])}}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
                                 <td class="vertical-middle"><a class="delete btn btn-danger btn-xs" href="{{route('usuarios.delete',['id' => $franqueado->id])}}"><span class="glyphicon glyphicon-trash"></span></a></td>
                             </tr>
                         @endforeach

@@ -63,17 +63,14 @@
             <li class="parent"><a href="{{url('admin/gerencia/usuarios')}}"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
 
                     Listagem Usuários</a></li>
-            <li class="parent"><a href="{{url('admin/gerencia/arquivos')}}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"/></svg>
+            <li class="parent"><a href="{{url('admin/gerencia/logs')}}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"/></svg>
                     Log de Eventos</a></li>
         @endif
 
         <li class="parent"><a href="{{url('admin/manuais')}}"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/></svg>
                 Arquivos</a></li>
         <li class="parent"><a href="{{url('admin/videos')}}"><svg class="glyph stroked camcorder"><use xlink:href="#stroked-camcorder"/></svg>
-                Vídeo Aulas</a></li>
-
-
-
+                Escola Inovar</a></li>
     </ul>
 </div><!--/.sidebar-->
 

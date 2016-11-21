@@ -1,0 +1,91 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Thu, 03 Mar 2016 17:22:45 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86_1)
+	id 1abZll-0008WD-Mg
+	for nao-responda@inovarlocacoes.com; Thu, 03 Mar 2016 17:22:45 -0300
+X-Failed-Recipients: primaveradoleste@inivarlocacoes.com.br
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1457036565-eximdsn-389690490
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1abZll-0008WD-Mg@inovarloca.virtuaserver.com.br>
+Date: Thu, 03 Mar 2016 17:22:45 -0300
+
+--1457036565-eximdsn-389690490
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  primaveradoleste@inivarlocacoes.com.br
+    The mail server could not deliver mail to primaveradoleste@inivarlocacoes.com.br.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1457036565-eximdsn-389690490
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;primaveradoleste@inivarlocacoes.com.br
+Status: 5.0.0
+
+--1457036565-eximdsn-389690490
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [191.223.194.163] (port=50145 helo=SONYVAIO-VAIO)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86_1)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1abZlk-0008VZ-17
+	for primaveradoleste@inivarlocacoes.com.br; Thu, 03 Mar 2016 17:22:45 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Glauco_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: primaveradoleste@inivarlocacoes.com.br
+Date: 3 Mar 2016 16:21:57 -0400
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5o
+YUlub3ZhckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwn
+IHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6og
+ZXN0w6EgY29uY29ycmVuZG8gYSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxh
+bWVudG8gZSB2YWxpZGUgc2V1IGN1cG9tIG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFu
+IGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGEgaHJl
+Zj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+Jz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+IDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxl
+PSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gNzkxMSwgNzkyMSwgNzkz
+MSwgNzk0MSwgNzk1MSwgNzk2MSwgNzk3MSwgNzk4MSwgNzk5MSwgODAwMS4gPC9zcGFu
+PiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6
+IDEycHQ7Jz4gRW1haWwgYXV0b23DoXRpY28gbsOjbyByZXNwb25kYS4gPC9zcGFuPiA8
+YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDEw
+cHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhvbWEmcXVvdDssJnF1b3Q7c2Fucy1zZXJp
+ZiZxdW90OzsgY29sb3I6IHJnYigzNCwgMzQsIDM0KTsnPkF0ZW5jaW9zYW1lbnRlLCA8
+L3NwYW4+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6
+IDE0cHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhvbWEmcXVvdDssJnF1b3Q7c2Fucy1z
+ZXJpZiZxdW90OzsgY29sb3I6IHJnYigyNTUsIDE5MiwgMCk7Jz48Yj5HbGF1Y288L2I+
+PC9zcGFuPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXpl
+OiAxMHB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMt
+c2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMzQsIDM0LCAzNCk7Jz48Yj4oNjYpIDM0OTct
+MTU5MTwvYj48L3NwYW4+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdm
+b250LXNpemU6IDEwcHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhvbWEmcXVvdDssJnF1
+b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6IHJnYigyNTUsIDE5MiwgMCk7Jz48Yj4m
+bGRxdW87Tk9TU0EgTUlTUyZBdGlsZGU7TzogPC9iPjwvc3Bhbj48c3BhbiBjbGFzcz0n
+TXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMC41cHQ7IGZvbnQtZmFtaWx5OiAm
+cXVvdDtUYWhvbWEmcXVvdDssJnF1b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6IHJn
+YigzNCwgMzQsIDM0KTsnPkNvbnRyaWJ1aXIgcGFyYSBvIHByb2dyZXNzbyBkZSBub3Nz
+b3MgY2xpZW50ZXMsIGNvbSBpbm92YSZjY2VkaWw7JmF0aWxkZTtvIGUgcHJvZmlzc2lv
+bmFsaXNtbywgYnVzY2FuZG8gY2FkYSB2ZXogbWFpcyBhdGVuZGVyIG1lbGhvciBwYXJh
+IHNlcnZpciBzZW1wcmUuPC9zcGFuPjxicj48aW1nIHNyYz0naHR0cDovL3VuaWRhZGVz
+LnByb2xvY3N5c3RlbS5jb20uYnIvYXNzaW5hdHVyYS5wbmcnIC8+
+
+
+--1457036565-eximdsn-389690490--

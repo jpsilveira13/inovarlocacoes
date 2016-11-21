@@ -1,0 +1,91 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Wed, 30 Mar 2016 14:38:30 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86_1)
+	id 1alK4c-0002kR-2R
+	for nao-responda@inovarlocacoes.com; Wed, 30 Mar 2016 14:38:30 -0300
+X-Failed-Recipients: 00000@00000
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1459359510-eximdsn-86852004
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1alK4c-0002kR-2R@inovarloca.virtuaserver.com.br>
+Date: Wed, 30 Mar 2016 14:38:30 -0300
+
+--1459359510-eximdsn-86852004
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  00000@00000
+    The mail server could not deliver mail to 00000@00000.  The account or domain may not exist, they may be blacklisted, or missing the proper dns entries.
+
+--1459359510-eximdsn-86852004
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;00000@00000
+Status: 5.0.0
+
+--1459359510-eximdsn-86852004
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [177.158.148.88] (port=49564 helo=DESKTOP-BSV441A)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86_1)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1alK4b-0002kJ-IK
+	for 00000@00000; Wed, 30 Mar 2016 14:38:29 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Thiago_Augusto_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: 00000@00000
+Date: 30 Mar 2016 14:38:33 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5o
+YUlub3ZhckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwn
+IHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6og
+ZXN0w6EgY29uY29ycmVuZG8gYSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxh
+bWVudG8gZSB2YWxpZGUgc2V1IGN1cG9tIG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFu
+IGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGEgaHJl
+Zj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+Jz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+IDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxl
+PSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gMjQ5MTEsIDI0OTIxLCAy
+NDkzMSwgMjQ5NDEsIDI0OTUxLiA8L3NwYW4+IDxicj48YnI+PHNwYW4gY2xhc3M9J01z
+b05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTJwdDsnPiBFbWFpbCBhdXRvbcOhdGlj
+byBuw6NvIHJlc3BvbmRhLiA8L3NwYW4+IDxicj48YnI+PHNwYW4gY2xhc3M9J01zb05v
+cm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9udC1mYW1pbHk6ICZxdW90O1Rh
+aG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDM0LCAz
+NCwgMzQpOyc+QXRlbmNpb3NhbWVudGUsIDwvc3Bhbj48YnI+PHNwYW4gY2xhc3M9J01z
+b05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTRwdDsgZm9udC1mYW1pbHk6ICZxdW90
+O1RhaG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDI1
+NSwgMTkyLCAwKTsnPjxiPlRoaWFnbyBBdWd1c3RvPC9iPjwvc3Bhbj48YnI+PHNwYW4g
+Y2xhc3M9J01zb05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9udC1mYW1p
+bHk6ICZxdW90O1RhaG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xv
+cjogcmdiKDM0LCAzNCwgMzQpOyc+PGI+KDgxKSAzMDc3LTcxNzEgfCAoODEpIDMyMzYt
+MzQ3OCB8ICg4MSkgOTQzNi0wNzE2PC9iPjwvc3Bhbj48YnI+PHNwYW4gY2xhc3M9J01z
+b05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9udC1mYW1pbHk6ICZxdW90
+O1RhaG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDI1
+NSwgMTkyLCAwKTsnPjxiPiZsZHF1bztOT1NTQSBNSVNTJkF0aWxkZTtPOiA8L2I+PC9z
+cGFuPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDEwLjVw
+dDsgZm9udC1mYW1pbHk6ICZxdW90O1RhaG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlm
+JnF1b3Q7OyBjb2xvcjogcmdiKDM0LCAzNCwgMzQpOyc+Q29udHJpYnVpciBwYXJhIG8g
+cHJvZ3Jlc3NvIGRlIG5vc3NvcyBjbGllbnRlcywgY29tIGlub3ZhJmNjZWRpbDsmYXRp
+bGRlO28gZSBwcm9maXNzaW9uYWxpc21vLCBidXNjYW5kbyBjYWRhIHZleiBtYWlzIGF0
+ZW5kZXIgbWVsaG9yIHBhcmEgc2VydmlyIHNlbXByZS48L3NwYW4+PGJyPjxpbWcgc3Jj
+PSdodHRwOi8vcHJvbG9jc3lzdGVtLmNvbS5ici9Bc3NpbmF0dXJhLnBuZycgLz4=
+
+
+--1459359510-eximdsn-86852004--

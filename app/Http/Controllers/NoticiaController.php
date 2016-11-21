@@ -2,14 +2,15 @@
 
 namespace inovarlocacoes\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 
 use inovarlocacoes\Http\Requests;
 use inovarlocacoes\Http\Controllers\Controller;
 use inovarlocacoes\Noticia;
 use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\File;
-
 
 
 class NoticiaController extends Controller
@@ -40,13 +41,12 @@ class NoticiaController extends Controller
     public function salvarNoticia(Request $request){
         $noticia = $this->noticia->fill($request->all());
         $noticia->url_site = str_slug($request->get('titulo'));
-        $image = $request->file('arquivo');
+        $imagem = $request->file('arquivo');
 
-        $renamed = md5(date('Ymdhms').$image->getClientOriginalName()).'.'.$image->getClientOriginalExtension();
-        $image->move(public_path().'/banner/',$renamed);
+        $noticia->url_image = md5(date('Ymdhms').$imagem->getClientOriginalName()).'.'.$imagem->getClientOriginalExtension();
+        $path = public_path().'/banner/'.$noticia->url_image;
 
-
-        $noticia->url_image = $renamed;
+        Image::make($imagem->getRealPath())->resize(1094,496)->save($path);
 
         $request->session()->flash('alert-success','Notícia cadastrado com sucesso!');
         $noticia->save();

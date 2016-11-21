@@ -183,4 +183,8 @@ class SiteController extends Controller
     public function areaLogin(){
         return view('admin.login');
     }
+
+    public function mapa(){
+        return view('mapa.mapa');
+    }
 }

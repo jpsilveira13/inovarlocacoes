@@ -1,0 +1,95 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Thu, 31 Mar 2016 09:12:40 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86_1)
+	id 1albSq-0002y5-9Z
+	for nao-responda@inovarlocacoes.com; Thu, 31 Mar 2016 09:12:40 -0300
+X-Failed-Recipients: svconstrucoes@hotmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1459426360-eximdsn-1219706104
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1albSq-0002y5-9Z@inovarloca.virtuaserver.com.br>
+Date: Thu, 31 Mar 2016 09:12:40 -0300
+
+--1459426360-eximdsn-1219706104
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  svconstrucoes@hotmail.com
+    host mx4.hotmail.com [65.54.188.94]
+    SMTP error from remote mail server after RCPT TO:<svconstrucoes@hotmail.com>:
+    550 Requested action not taken: mailbox unavailable
+
+--1459426360-eximdsn-1219706104
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;svconstrucoes@hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; mx4.hotmail.com
+Diagnostic-Code: smtp; 550 Requested action not taken: mailbox unavailable
+
+--1459426360-eximdsn-1219706104
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [177.154.222.141] (port=52506 helo=windows)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86_1)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1albSo-0002xm-23; Thu, 31 Mar 2016 09:12:38 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Mossoro_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: svconstrucoes@hotmail.com
+Date: 31 Mar 2016 09:12:37 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5o
+YUlub3ZhckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwn
+IHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6og
+ZXN0w6EgY29uY29ycmVuZG8gYSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxh
+bWVudG8gZSB2YWxpZGUgc2V1IGN1cG9tIG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFu
+IGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGEgaHJl
+Zj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+Jz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+IDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxl
+PSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gMjU3MTEsIDI1NzIxLCAy
+NTczMSwgMjU3NDEsIDI1NzUxLCAyNTc2MSwgMjU3NzEsIDI1NzgxLCAyNTc5MSwgMjU4
+MDEuIDwvc3Bhbj4gPGJyPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0n
+Zm9udC1zaXplOiAxMnB0Oyc+IEVtYWlsIGF1dG9tw6F0aWNvIG7Do28gcmVzcG9uZGEu
+IDwvc3Bhbj4gPGJyPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9u
+dC1zaXplOiAxMHB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90
+O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMzQsIDM0LCAzNCk7Jz5BdGVuY2lv
+c2FtZW50ZSwgPC9zcGFuPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0n
+Zm9udC1zaXplOiAxNHB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZx
+dW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMjU1LCAxOTIsIDApOyc+PGI+
+TW9zc29ybzwvYj48L3NwYW4+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxl
+PSdmb250LXNpemU6IDEwcHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhvbWEmcXVvdDss
+JnF1b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6IHJnYigzNCwgMzQsIDM0KTsnPjxi
+Pig4NCkgOSA5ODk4MDQ0NSB8ICg4NCkgOSA4ODY2LTI1NDE8L2I+PC9zcGFuPjxicj48
+c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMHB0OyBmb250
+LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7
+IGNvbG9yOiByZ2IoMjU1LCAxOTIsIDApOyc+PGI+JmxkcXVvO05PU1NBIE1JU1MmQXRp
+bGRlO086IDwvYj48L3NwYW4+PHNwYW4gY2xhc3M9J01zb05vcm1hbCcgc3R5bGU9J2Zv
+bnQtc2l6ZTogMTAuNXB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZx
+dW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMzQsIDM0LCAzNCk7Jz5Db250
+cmlidWlyIHBhcmEgbyBwcm9ncmVzc28gZGUgbm9zc29zIGNsaWVudGVzLCBjb20gaW5v
+dmEmY2NlZGlsOyZhdGlsZGU7byBlIHByb2Zpc3Npb25hbGlzbW8sIGJ1c2NhbmRvIGNh
+ZGEgdmV6IG1haXMgYXRlbmRlciBtZWxob3IgcGFyYSBzZXJ2aXIgc2VtcHJlLjwvc3Bh
+bj48YnI+PGltZyBzcmM9J2h0dHA6Ly9wcm9sb2NzeXN0ZW0uY29tLmJyL0Fzc2luYXR1
+cmEucG5nJyAvPg==
+
+
+--1459426360-eximdsn-1219706104--

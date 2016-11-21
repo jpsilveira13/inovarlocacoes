@@ -1,0 +1,103 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Mon, 14 Mar 2016 14:01:32 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86_1)
+	id 1afVs4-00075P-OL
+	for nao-responda@inovarlocacoes.com; Mon, 14 Mar 2016 14:01:32 -0300
+X-Failed-Recipients: antonio@lcbequipamentos.com.br
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1457974892-eximdsn-353748732
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1afVs4-00075P-OL@inovarloca.virtuaserver.com.br>
+Date: Mon, 14 Mar 2016 14:01:32 -0300
+
+--1457974892-eximdsn-353748732
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  antonio@lcbequipamentos.com.br
+    host lcbequipamentos.com.br [138.128.174.242]
+    SMTP error from remote mail server after RCPT TO:<antonio@lcbequipamentos.com.br>:
+    550 No Such User Here
+
+--1457974892-eximdsn-353748732
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;antonio@lcbequipamentos.com.br
+Status: 5.0.0
+Remote-MTA: dns; lcbequipamentos.com.br
+Diagnostic-Code: smtp; 550 No Such User Here
+
+--1457974892-eximdsn-353748732
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [177.42.185.78] (port=61813 helo=PHILCO)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86_1)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1afVrP-00074X-7S
+	for antonio@lcbequipamentos.com.br; Mon, 14 Mar 2016 14:00:51 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Thiago_Tavares_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: antonio@lcbequipamentos.com.br
+Date: 14 Mar 2016 13:59:50 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-Antivirus: avast! (VPS 160314-0, 14/03/2016), Outbound message
+X-Antivirus-Status: Clean
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5oYUlub3Zh
+ckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250
+LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6ogZXN0w6EgY29uY29ycmVuZG8g
+YSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxhbWVudG8gZSB2YWxpZGUgc2V1IGN1cG9t
+IG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250
+LXNpemU6IDI0cHQ7Jz4gPGEgaHJlZj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250
+YWluZXJkZXByZW1pb3MvJz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJk
+ZXByZW1pb3MvIDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0
+eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gMTQ0MTEsIDE0NDIxLCAxNDQz
+MSwgMTQ0NDEsIDE0NDUxLCAxNDQ2MSwgMTQ0NzEsIDE0NDgxLCAxNDQ5MSwgMTQ1MDEuIDwvc3Bh
+bj4gPGJyPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMnB0
+Oyc+IEVtYWlsIGF1dG9tw6F0aWNvIG7Do28gcmVzcG9uZGEuIDwvc3Bhbj4gPGJyPjxicj48c3Bh
+biBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMHB0OyBmb250LWZhbWlseTog
+JnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMzQs
+IDM0LCAzNCk7Jz5BdGVuY2lvc2FtZW50ZSwgPC9zcGFuPjxicj48c3BhbiBjbGFzcz0nTXNvTm9y
+bWFsJyBzdHlsZT0nZm9udC1zaXplOiAxNHB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1
+b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMjU1LCAxOTIsIDApOyc+PGI+
+VGhpYWdvIFRhdmFyZXM8L2I+PC9zcGFuPjxicj48c3BhbiBjbGFzcz0nTXNvTm9ybWFsJyBzdHls
+ZT0nZm9udC1zaXplOiAxMHB0OyBmb250LWZhbWlseTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90
+O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMzQsIDM0LCAzNCk7Jz48Yj4oODEpIDMwNzct
+NzE3MSB8ICg4MSkgMzIzNi0zNDc4IHwgKDgxKSA5NDM2LTA3MTY8L2I+PC9zcGFuPjxicj48c3Bh
+biBjbGFzcz0nTXNvTm9ybWFsJyBzdHlsZT0nZm9udC1zaXplOiAxMHB0OyBmb250LWZhbWlseTog
+JnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2IoMjU1
+LCAxOTIsIDApOyc+PGI+JmxkcXVvO05PU1NBIE1JU1MmQXRpbGRlO086IDwvYj48L3NwYW4+PHNw
+YW4gY2xhc3M9J01zb05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTAuNXB0OyBmb250LWZhbWls
+eTogJnF1b3Q7VGFob21hJnF1b3Q7LCZxdW90O3NhbnMtc2VyaWYmcXVvdDs7IGNvbG9yOiByZ2Io
+MzQsIDM0LCAzNCk7Jz5Db250cmlidWlyIHBhcmEgbyBwcm9ncmVzc28gZGUgbm9zc29zIGNsaWVu
+dGVzLCBjb20gaW5vdmEmY2NlZGlsOyZhdGlsZGU7byBlIHByb2Zpc3Npb25hbGlzbW8sIGJ1c2Nh
+bmRvIGNhZGEgdmV6IG1haXMgYXRlbmRlciBtZWxob3IgcGFyYSBzZXJ2aXIgc2VtcHJlLjwvc3Bh
+bj48YnI+PGltZyBzcmM9J2h0dHA6Ly91bmlkYWRlcy5wcm9sb2NzeXN0ZW0uY29tLmJyL2Fzc2lu
+YXR1cmEucG5nJyAvPg0KPGJyIC8+DQo8dGFibGUgc3R5bGU9ImJvcmRlci10b3A6IDFweCBzb2xp
+ZCAjYWFhYmI2OyI+DQoJPHRyPg0KCQkNCgkJPHRkIHN0eWxlPSJ3aWR0aDogNDcwcHg7IHBhZGRp
+bmctdG9wOiAyMHB4OyBjb2xvcjogIzQxNDI0ZTsgZm9udC1zaXplOiAxM3B4OyBmb250LWZhbWls
+eTogQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgbGluZS1oZWlnaHQ6IDE4cHg7Ij5Fc3Rl
+IGUtbWFpbCBmb2kgZW52aWFkbyBwb3IgdW0gY29tcHV0YWRvciBzZW0gdsOtcnVzIGUgcHJvdGVn
+aWRvIHBlbG8gQXZhc3QuIDxiciAvPjxhIGhyZWY9Imh0dHBzOi8vd3d3LmF2YXN0LmNvbS9zaWct
+ZW1haWw/dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPWxpbmsmdXRtX2NhbXBhaWduPXNpZy1l
+bWFpbCZ1dG1fY29udGVudD1lbWFpbGNsaWVudCIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xv
+cjogIzQ0NTNlYTsiPnd3dy5hdmFzdC5jb208L2E+IAkJPC90ZD4NCgk8L3RyPg0KPC90YWJsZT4N
+Cg==
+
+--1457974892-eximdsn-353748732--

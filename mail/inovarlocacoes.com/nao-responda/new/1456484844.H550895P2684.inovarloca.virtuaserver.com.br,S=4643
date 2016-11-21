@@ -1,0 +1,95 @@
+Return-path: <>
+Envelope-to: nao-responda@inovarlocacoes.com
+Delivery-date: Fri, 26 Feb 2016 08:07:24 -0300
+Received: from mailnull by inovarloca.virtuaserver.com.br with local (Exim 4.86)
+	id 1aZGF2-0000hD-Di
+	for nao-responda@inovarlocacoes.com; Fri, 26 Feb 2016 08:07:24 -0300
+X-Failed-Recipients: daniella@polifertil.com.br
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@inovarloca.virtuaserver.com.br>
+To: nao-responda@inovarlocacoes.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1456484844-eximdsn-1423549884
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1aZGF2-0000hD-Di@inovarloca.virtuaserver.com.br>
+Date: Fri, 26 Feb 2016 08:07:24 -0300
+
+--1456484844-eximdsn-1423549884
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  daniella@polifertil.com.br
+    host mail.polifertil.com.br [200.170.151.16]
+    SMTP error from remote mail server after RCPT TO:<daniella@polifertil.com.br>:
+    554 5.7.1 <inovarloca.virtuaserver.com.br>: Helo command rejected:
+    Recebimento temporariamente suspenso
+
+--1456484844-eximdsn-1423549884
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; inovarloca.virtuaserver.com.br
+
+Action: failed
+Final-Recipient: rfc822;daniella@polifertil.com.br
+Status: 5.0.0
+Remote-MTA: dns; mail.polifertil.com.br
+Diagnostic-Code: smtp; 554 5.7.1 <inovarloca.virtuaserver.com.br>: Helo command rejected: Recebimento temporariamente suspenso
+
+--1456484844-eximdsn-1423549884
+Content-type: message/rfc822
+
+Return-path: <nao-responda@inovarlocacoes.com>
+Received: from [186.210.148.136] (port=9505 helo=InovarGrazi-PC)
+	by inovarloca.virtuaserver.com.br with esmtpa (Exim 4.86)
+	(envelope-from <nao-responda@inovarlocacoes.com>)
+	id 1aZGEz-0000h0-Qz; Fri, 26 Feb 2016 08:07:22 -0300
+MIME-Version: 1.0
+From: =?utf-8?Q?Grazielle_Freitas_=2D_Inovar_Loca=C3=A7=C3=B5es?=
+ <nao-responda@inovarlocacoes.com>
+To: daniella@polifertil.com.br
+Date: 26 Feb 2016 08:07:01 -0300
+Subject: =?iso-8859-1?Q?Cupom_Container_de_Pr=EAmios_=2D_Inovar_Loca=E7?=
+ =?iso-8859-1?Q?=F5es?=
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGltZyBzcmM9J2h0dHA6Ly9pbm92YXJsb2NhY29lcy5jb20vaW1nRW1haWxDYW1wYW5o
+YUlub3ZhckxvY2Fjb2VzLmpwZycgLz48YnI+IDxzcGFuIGNsYXNzPSdNc29Ob3JtYWwn
+IHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+UGFyYWLDqW5zITwvYj4gVm9jw6og
+ZXN0w6EgY29uY29ycmVuZG8gYSB2w6FyaW9zIHByw6ptaW9zLCBsZWlhIG8gcmVndWxh
+bWVudG8gZSB2YWxpZGUgc2V1IGN1cG9tIG5vIHNpdGU6IDwvc3Bhbj4gPGJyPjxzcGFu
+IGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDI0cHQ7Jz4gPGEgaHJl
+Zj0naHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+Jz4gaHR0cDovL2lub3ZhcmxvY2Fjb2VzLmNvbS5ici9jb250YWluZXJkZXByZW1pb3Mv
+IDwvYT4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxl
+PSdmb250LXNpemU6IDI0cHQ7Jz4gPGI+Q3Vwb25zOjwvYj4gNDE2MSwgNDE3MSwgNDE4
+MSwgNDE5MSwgNDIwMS4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3Jt
+YWwnIHN0eWxlPSdmb250LXNpemU6IDEycHQ7Jz4gRW1haWwgYXV0b23DoXRpY28gbsOj
+byByZXNwb25kYS4gPC9zcGFuPiA8YnI+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwn
+IHN0eWxlPSdmb250LXNpemU6IDEwcHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhvbWEm
+cXVvdDssJnF1b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6IHJnYigzNCwgMzQsIDM0
+KTsnPkF0ZW5jaW9zYW1lbnRlLCA8L3NwYW4+PGJyPjxzcGFuIGNsYXNzPSdNc29Ob3Jt
+YWwnIHN0eWxlPSdmb250LXNpemU6IDE0cHQ7IGZvbnQtZmFtaWx5OiAmcXVvdDtUYWhv
+bWEmcXVvdDssJnF1b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6IHJnYigyNTUsIDE5
+MiwgMCk7Jz48Yj5HcmF6aWVsbGUgRnJlaXRhczwvYj48L3NwYW4+PGJyPjxzcGFuIGNs
+YXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdmb250LXNpemU6IDEwcHQ7IGZvbnQtZmFtaWx5
+OiAmcXVvdDtUYWhvbWEmcXVvdDssJnF1b3Q7c2Fucy1zZXJpZiZxdW90OzsgY29sb3I6
+IHJnYigzNCwgMzQsIDM0KTsnPjxiPigzNCkgMzA3NS0xMDE1PC9iPjwvc3Bhbj48YnI+
+PHNwYW4gY2xhc3M9J01zb05vcm1hbCcgc3R5bGU9J2ZvbnQtc2l6ZTogMTBwdDsgZm9u
+dC1mYW1pbHk6ICZxdW90O1RhaG9tYSZxdW90OywmcXVvdDtzYW5zLXNlcmlmJnF1b3Q7
+OyBjb2xvcjogcmdiKDI1NSwgMTkyLCAwKTsnPjxiPiZsZHF1bztOT1NTQSBNSVNTJkF0
+aWxkZTtPOiA8L2I+PC9zcGFuPjxzcGFuIGNsYXNzPSdNc29Ob3JtYWwnIHN0eWxlPSdm
+b250LXNpemU6IDEwLjVwdDsgZm9udC1mYW1pbHk6ICZxdW90O1RhaG9tYSZxdW90Oywm
+cXVvdDtzYW5zLXNlcmlmJnF1b3Q7OyBjb2xvcjogcmdiKDM0LCAzNCwgMzQpOyc+Q29u
+dHJpYnVpciBwYXJhIG8gcHJvZ3Jlc3NvIGRlIG5vc3NvcyBjbGllbnRlcywgY29tIGlu
+b3ZhJmNjZWRpbDsmYXRpbGRlO28gZSBwcm9maXNzaW9uYWxpc21vLCBidXNjYW5kbyBj
+YWRhIHZleiBtYWlzIGF0ZW5kZXIgbWVsaG9yIHBhcmEgc2VydmlyIHNlbXByZS48L3Nw
+YW4+PGJyPjxpbWcgc3JjPSdodHRwOi8vdW5pZGFkZXMucHJvbG9jc3lzdGVtLmNvbS5i
+ci9hc3NpbmF0dXJhLnBuZycgLz4=
+
+
+--1456484844-eximdsn-1423549884--

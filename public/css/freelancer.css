@@ -1472,3 +1472,9 @@ h1.franq-loca{
         display: none;
     }
 }
+
+.mapas{
+    min-height: 600px;
+    padding: 40px;
+
+}
