@@ -15,7 +15,7 @@ Route::get('/', function () {
 
     return view('site.principal');
 });
-
+Route::get('unidades',['as' => 'unidades', 'uses' =>'SiteController@unidades']);
 Route::get('/email',[
     'uses' => 'SiteController@sendEmailTest'
 
@@ -94,9 +94,11 @@ Route::get('/unidade/{url_nome}', 'SiteController@hotsite');
 Route::get('/','EquipController@index');
 
 Route::get('/{url_categoria}/{url_nome}','EquipController@equipInterno');
+Route::get('/{url_categoria}','SiteController@categorySite');
 
 
-Route::get('unidades',['as' => 'unidades', 'uses' =>'SiteController@unidades']);
+
+
 Route::get('a-inovar','SiteController@sobre');
 
 Route::get('busca-franquia','SiteController@buscaFranquia');

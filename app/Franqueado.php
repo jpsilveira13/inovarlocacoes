@@ -41,4 +41,8 @@ class Franqueado extends Model
     public function estado(){
         return $this->hasOne(Estado::class,'id','estado_id');
     }
+
+    public function equipamento(){
+        return $this->belongsToMany(Equipamento::class,'equipamento_franqueado');
+    }
 }

@@ -16,126 +16,57 @@
             </div>
         </div>
     </header>
-    <div id="equipamentos" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Alugue Containers</h1>
-                <hr /><br />
-            </div>
-            @foreach($containers as $container)
+    <div class="container-fluid">
+        <section id="equipamentos" style="padding: 0">
+            <div class="row">
+                <div class="col-sm-4 col1">
 
-                <a href="{{url('container')}}/{{$container->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-color:#f1f1f1;    background-size: contain;background-repeat:no-repeat;background-image: url('{{url('img/capa')}}/{{$container->url_imagem}}')">
-                        <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
-                            <div class="linha" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <img class="icone" src="http://www.microlins.com.br/galeria/curso/20150415114833996.png">
-                                    </div>
-
-                                    <div class="media-body media-middle">
-                                        <div class="nome" style="color: #FFFFFF">{{$container->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chamada" style="color: #FFFFFF">
-                                {{$container->descricao}}
-                            </div>
-                            <div class="linha-second" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <div class="icone-tipo img icone-tradicional-xs"></div>
-                                    </div>
-
-                                    <div class="media-body media-middle">
-                                        <div class="nome-tipo"><small>{{$container->catequip->nome}}</small><br>{{$container->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="cont">
+                        <div class="layer active0 bg-container">
+                    <span class="headline_small">
+                        <h5>Container</h5>
+                        <h4>Saiba mais</h4>
+                       <a href="{{url('container')}}">
+                            <img src="https://www.hercrentals.com/content/dam/herc/home/content/images/landing-arrow.png">
+                        </a>
+                        <p>Veja os modelos de containers que trabalhos </p>
+                    </span>
                         </div>
                     </div>
-                </a>
-            @endforeach
-            <div class="col-md-12">
-                <h1>Alugue Máquinas</h1>
-                <hr /><br />
-            </div>
-            @foreach($maquinas as $maquina)
 
-                <a href="{{url('maquinas')}}/{{$maquina->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-color:#f1f1f1;background-image: url('{{url('img/capa')}}/{{$maquina->url_imagem}}')">
-                        <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
-                            <div class="linha" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <img class="icone" src="http://www.microlins.com.br/galeria/curso/20150415114833996.png">
-                                    </div>
+                </div>
 
-                                    <div class="media-body media-middle">
-                                        <div class="nome" style="color: #FFFFFF">{{$maquina->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chamada" style="color: #FFFFFF">
-                                {{$maquina->descricao}}
-                            </div>
-                            <div class="linha-second" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <div class="icone-tipo img icone-tradicional-xs"></div>
-                                    </div>
-
-                                    <div class="media-body media-middle">
-                                        <div class="nome-tipo"><small>{{$maquina->catequip->nome}}</small><br>{{$maquina->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-sm-4 col2">
+                    <div class="cont">
+                        <div class="layer active0 bg-equipamentos">
+                    <span class="headline_small">
+                        <h5>Máquinas</h5>
+                        <h4>Saiba mais</h4>
+                        <a href="{{url('maquinas')}}">
+                            <img src="https://www.hercrentals.com/content/dam/herc/home/content/images/landing-arrow.png">
+                        </a>
+                        <p>Máquinas para o seu projeto é aqui na Inovar Locações. </p>
+                    </span>
                         </div>
                     </div>
-                </a>
-            @endforeach
-            <div class="col-md-12">
-
-                <h1>Alugue Ferramentas</h1>
-                <hr /><br />
-            </div>
-            @foreach($ferramentas as $ferramenta)
-
-                <a href="{{url('ferramentas')}}/{{$ferramenta->url_site}}" class="inovar-produto col-md-3 col-lg-3 col-sm-4 col-xs-12">
-                    <div class="img-fundo" style="background-color:#f1f1f1;background-image: url('{{url('img/capa')}}/{{$ferramenta->url_imagem}}')">
-                        <div class="conteudo-produto" style="top: 190px;background-color: #f7921e;">
-                            <div class="linha" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <img class="icone" src="http://www.microlins.com.br/galeria/curso/20150415114833996.png">
-                                    </div>
-
-                                    <div class="media-body media-middle">
-                                        <div class="nome" style="color: #FFFFFF">{{$ferramenta->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chamada" style="color: #FFFFFF">
-                                {{$ferramenta->descricao}}
-                            </div>
-                            <div class="linha-second" style="">
-                                <div class="media">
-                                    <div class="media-left media-middle">
-                                        <div class="icone-tipo img icone-tradicional-xs"></div>
-                                    </div>
-
-                                    <div class="media-body media-middle">
-                                        <div class="nome-tipo"><small>{{$ferramenta->catequip->nome}}</small><br>{{$ferramenta->nome}}</div>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-sm-4 col1">
+                    <div class="cont">
+                        <div class="layer active0 bg-materiais">
+                    <span class="headline_small">
+                        <h5>Ferramentas</h5>
+                        <h4>Saiba mais</h4>
+                       <a href="{{url('ferramentas')}}">
+                            <img src="https://www.hercrentals.com/content/dam/herc/home/content/images/landing-arrow.png">
+                        </a>
+                        <p>Ferramentas para o seu projeto é aqui na Inovar Locações</p>
+                    </span>
                         </div>
                     </div>
-                </a>
-            @endforeach
-        </div>
+                </div>
+            </div>
+        </section>
     </div>
-
     <section id="clientes">
         <div class="container">
             <div class="row">

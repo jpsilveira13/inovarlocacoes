@@ -1478,3 +1478,128 @@ h1.franq-loca{
     padding: 40px;
 
 }
+
+/* css box home */
+.col1{
+    height: 300px;
+
+    background-size: 100%;
+    border: 10px solid #f7921e;
+}
+
+.col2 {
+
+    height: 300px;
+    background-size: 100%;
+    border: 10px solid #f7921e;
+}
+
+.layer {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.headline_small {
+    margin-top: 180px;
+    margin-left: 20px;
+    float: left;
+}
+
+.col-sm-4:hover .headline_small{
+    margin-top: 60px;
+}
+
+.headline_small h5 {
+
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.headline_small h4 {
+
+    color: #fff;
+    font-size: 38px;
+    margin: -3px 0 0 0;
+    float: left;
+    text-transform: uppercase;
+}
+
+.col-sm-4:hover .headline_small a {
+    cursor: pointer;
+}
+
+.col-sm-4:hover .headline_small p {
+    display: block;
+}
+
+
+.headline_small a img {
+    margin: 5px 10px;
+}
+
+.headline_small p {
+
+    font-size: 20px;
+    margin: 25px 0px;
+    overflow: hidden;
+    display: none;
+}
+
+.col-sm-4:hover .layer {
+    background-color: rgba(255, 194, 15, 0.8);
+    cursor: default;
+
+}
+
+.bg-container{
+    background-image: url('../img/container.jpg');
+
+
+}
+
+.bg-equipamentos{
+    background-image: url('../img/equipamentos.jpg');
+}
+.bg-materiais{
+    background-image: url('../img/ferramentas.jpg');
+}
+
+.col-sm-4:hover .bg-container,.col-sm-4:hover .bg-equipamentos,.col-sm-4:hover .bg-materiais{
+    background-image: none;
+}
+
+
+
+@media only screen and (max-device-width: 767px) and (min-device-width: 640px){
+    .cont .layer {
+        background-size: cover;
+    }
+
+
+}
+
+@media only screen and (max-device-width: 767px) and (min-device-width: 320px){
+    .headline_small {
+        margin-top: 161px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .headline_small h5 {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        margin-top: 16px;
+    }
+
+    .headline_small h4 {
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+}

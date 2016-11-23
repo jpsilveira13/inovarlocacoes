@@ -30,6 +30,10 @@ $(document).delegate(".inovar-produto","mouseenter mouseleave",function(e){"mous
         }
     })
 
+    $('.active0').onmouseover(function () {
+        $(this).css("background-image","");
+    });
+
     // Floating label headings for the contact form
     $(function() {
         $("body").on("input propertychange", ".floating-label-form-group", function(e) {

@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
+use inovarlocacoes\CategoriaEquipamento;
 use inovarlocacoes\Cidade;
 use inovarlocacoes\Equipamento;
 use inovarlocacoes\Estado;
@@ -23,12 +24,14 @@ class SiteController extends Controller
     private $franqueado;
     private $cidade;
     private $estado;
+    private $categoria;
 
-    public function __construct(Equipamento $equipamento,Franqueado $franqueado, Cidade $cidade, Estado $estado){
+    public function __construct(CategoriaEquipamento $categoria,Equipamento $equipamento,Franqueado $franqueado, Cidade $cidade, Estado $estado){
         $this->cidade = $cidade;
         $this->franqueado = $franqueado;
         $this->estado = $estado;
         $this->equipamento = $equipamento;
+        $this->categoria = $categoria;
     }
 
     public function hotsite($url_nome){
@@ -187,4 +190,13 @@ class SiteController extends Controller
     public function mapa(){
         return view('mapa.mapa');
     }
+
+    public function categorySite($url_categoria){
+        $idCategoria = $this->categoria->where('url_nome',$url_categoria)->first()->id;
+        $nomeCat  = $this->categoria->where('url_nome',$url_categoria)->first()->nome;
+        $equipamentos = $this->equipamento->where('categoria_id',$idCategoria)->get();
+        return view('site.categoria_equipamento',compact('equipamentos','nomeCat'));
+    }
+
+
 }

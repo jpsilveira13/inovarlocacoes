@@ -23,4 +23,8 @@ class Equipamento extends Model
         return $this->belongsTo(CategoriaEquipamento::class,'categoria_id','id');
 
     }
+
+    public function franqueado(){
+        return $this->belongsToMany(Franqueado::class,'equipamento_franqueado');
+    }
 }
