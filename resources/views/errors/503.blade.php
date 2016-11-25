@@ -40,7 +40,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+                <div class="title">Ops houve um erro</div>
+                <a href="{{url('/')}}">Clique aqui para voltar para a  página inical</a>
             </div>
         </div>
     </body>

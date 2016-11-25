@@ -60,12 +60,14 @@
                     Criar Notícias</a></li>
             <li class="parent"><a href="{{url('admin/gerencia/arquivos')}}"><svg class="glyph stroked tag"><use xlink:href="#stroked-tag"/></svg>
                     Criar Manuais</a></li>
-            <li class="parent"><a href="{{url('admin/gerencia/usuarios')}}"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
+            <li class="parent"><a href="{{url('admin/gerencia/usuarios0p-ç')}}"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>
 
                     Listagem Usuários</a></li>
             <li class="parent"><a href="{{url('admin/gerencia/logs')}}"><svg class="glyph stroked table"><use xlink:href="#stroked-table"/></svg>
                     Log de Eventos</a></li>
         @endif
+
+
 
         <li class="parent"><a href="{{url('admin/manuais')}}"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/></svg>
                 Arquivos</a></li>
@@ -83,7 +85,7 @@
 
 <script src="{{asset('admin/js/jquery-1.11.1.min.js')}}"></script>
 <script src="{{asset('admin/js/bootstrap.min.js')}}"></script>
-
+<script src="https://use.fontawesome.com/9a93b47e91.js"></script>
 <script src="{{asset('admin/js/chart.min.js')}}"></script>
 <script src="{{asset('admin/js/chart-data.js')}}"></script>
 <script src="{{asset('admin/js/easypiechart.js')}}"></script>
