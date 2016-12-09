@@ -77,15 +77,7 @@ class SiteController extends Controller
         return Response::json($achado);
     }
 
-    public function sendEmailTest(){
-        Mail::send('emails.teste', ['msg' => 'hello'], function ($message) {
-            $message->from('suporte@inovarlocacoes.com.br', 'João Paulo');
 
-            $message->to('samotinho@gmail.com', 'Pedro 2')->subject('My Test Email!');
-        });
-
-
-    }
 
     public function formFranqueado(){
         $inputData = Input::get('formData');

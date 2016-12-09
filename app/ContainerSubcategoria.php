@@ -4,9 +4,9 @@ namespace inovarlocacoes;
 
 use Illuminate\Database\Eloquent\Model;
 
-class EquipamentoSubcategoria extends Model
+class ContainerSubcategoria extends Model
 {
-    protected  $table = "equipamento_subcategoria";
+    protected  $table = "container_subcategoria";
 
     protected  $fillable = [
         'nome',

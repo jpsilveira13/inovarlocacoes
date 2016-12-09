@@ -13,10 +13,7 @@ $(document).delegate(".inovar-produto","mouseenter mouseleave",function(e){"mous
     });
 
     // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
+
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function(){
@@ -28,10 +25,6 @@ $(document).delegate(".inovar-produto","mouseenter mouseleave",function(e){"mous
         offset: {
             top: 100
         }
-    })
-
-    $('.active0').onmouseover(function () {
-        $(this).css("background-image","");
     });
 
     // Floating label headings for the contact form
@@ -175,6 +168,11 @@ $(document).ready(function () {
               ;
             } //success
         }); //done
+    });
+
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 51
     });
 
 

@@ -47,109 +47,38 @@
                     <div class="descricao">
                         {!! $equipamento->descricao !!}
                     </div>
-                    @if(!empty($equipsTres->first()->id))
+
                     <div class="dados">
-                        <h3 class="text-center">{{$equipsTres->first()->nome}}</h3>
+                        <h3 class="text-center">{{$equipFerramentas->first()->nome}}</h3>
                         <table class="table referencia-dados table-hover">
                             <thead>
                             <tr>
-                                <th>Modelo(Nº)</th>
-                                <th>Elétrica</th>
-                                <th>Revestido</th>
-                                <th>Banheiro</th>
-                                <th>Entrada Ar.Cond</th>
-                                <th>Janelas</th>
-                                <th>Portas</th>
-                                <th>Especial</th>
+                                <th>Nome</th>
+                                <th>Potência</th>
+                                <th>Peso</th>
+                                <th>Característica</th>
+
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($equipsTres as $equipTres)
+                            @foreach($equipFerramentas as $equipFerramenta)
 
                                 <tr>
-                                    <td><span class="fontTable fontTable">{{$equipTres->modelo}}</span></td>
-                                    <td>@if(!empty($equipTres->eletrica))<span class="fontTable">{{$equipTres->eletrica}}</span> @else  <i class="fa fa-times  fa-2x" aria-hidden="true" ></i> @endif </td>
-                                    <td>@if($equipTres->revestido == "n") <i class="fa fa-times corNegativo fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check testeAqui corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                    <td><span class="fontTable">{{$equipTres->banheiro}}</span></td>
-                                    <td>@if($equipTres->entrada_ar == "n") <i class="fa fa-times corNegativo  fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                    <td><span class="fontTable" >{{$equipTres->janela}}</span></td>
-                                    <td><span class="fontTable">{{$equipTres->porta}}</span></td>
-                                    <td><span class="fontTable">{{$equipTres->especial}}</span></td>
+                                    <td><span class="fontTable fontTable">{{$equipFerramenta->nome}}</span></td>
+
+
+                                    <td><span class="fontTable">{{$equipFerramenta->potencia}}</span></td>
+
+                                    <td><span class="fontTable" >{{$equipFerramenta->peso}}</span></td>
+                                    <td><span class="fontTable">{{$equipFerramenta->caracteristica}}</span></td>
+
                                 </tr>
                             @endforeach
                             </tbody>
                         </table>
                     </div>
                     <hr />
-                    @endif
-                    <div class="dados">
-                        <h3 class="text-center">{{$equipsSeis->first()->nome}}</h3>
-                        <table class="referencia-dados table-hover">
-                            <thead>
-                            <tr>
-                                <th>Modelo(Nº)</th>
-                                <th>Elétrica</th>
-                                <th>Revestido</th>
-                                <th>Banheiro</th>
-                                <th>Entrada Ar.Cond</th>
-                                <th>Janelas</th>
-                                <th>Portas</th>
-                                <th>Especial</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            @foreach($equipsSeis as $equipSeis)
 
-                                <tr>
-                                    <td><span class="fontTable">{{$equipSeis->modelo}}</span></td>
-                                    <td>@if(!empty($equipSeis->eletrica))<span class="fontTable">{{$equipSeis->eletrica}}</span> @else  <i class="fa fa-times  fa-2x" aria-hidden="true" ></i> @endif </td>
-                                    <td>@if($equipSeis->revestido == "n") <i class="fa fa-times corNegativo fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                    <td><span class="fontTable">{{$equipSeis->banheiro}}</span></td>
-                                    <td>@if($equipSeis->entrada_ar == "n") <i class="fa fa-times corNegativo  fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                    <td><span class="fontTable" >{{$equipSeis->janela}}</span></td>
-                                    <td><span class="fontTable">{{$equipSeis->porta}}</span></td>
-                                    <td><span class="fontTable">{{$equipSeis->especial}}</span></td>
-                                </tr>
-                            @endforeach
-                            </tbody>
-                        </table>
-                    </div>
-                    <hr />
-                    @if(!empty($equipsDoze->first()->id))
-                        <div class="dados">
-                            <h3 class="text-center">{{$equipsDoze->first()->nome}}</h3>
-                            <table class="referencia-dados table-hover">
-                                <thead>
-                                <tr>
-                                    <th>Modelo(Nº)</th>
-                                    <th>Elétrica</th>
-                                    <th>Revestido</th>
-                                    <th>Banheiro</th>
-                                    <th>Entrada Ar.Cond</th>
-                                    <th>Janelas</th>
-                                    <th>Portas</th>
-                                    <th>Especial</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                @foreach($equipsDoze as $equipDoze)
-
-                                    <tr>
-                                        <td><span class="fontTable fontTable">{{$equipDoze->modelo}}</span></td>
-                                        <td>@if(!empty($equipSeis->eletrica))<span class="fontTable">{{$equipSeis->eletrica}}</span> @else  <i class="fa fa-times  fa-2x" aria-hidden="true" ></i> @endif </td>
-                                        <td>@if($equipDoze->revestido == "n") <i class="fa fa-times corNegativo fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                        <td><span class="fontTable">{{$equipDoze->banheiro}}</span></td>
-                                        <td>@if($equipSeis->entrada_ar == "n") <i class="fa fa-times corNegativo  fa-2x" aria-hidden="true"></i>@else<i class="fa fa-check corPositivo  fa-2x" aria-hidden="true"></i>@endif</td>
-                                        <td><span class="fontTable" >{{$equipSeis->janela}}</span></td>
-                                        <td><span class="fontTable">{{$equipDoze->porta}}</span></td>
-                                        <td><span class="fontTable">{{$equipDoze->especial}}</span></td>
-                                    </tr>
-                                @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                        <hr />
-                    @endif
                 </div>
             </div>
             <div class="col-md-4">

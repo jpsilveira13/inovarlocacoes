@@ -28,7 +28,7 @@ class Equipamento extends Model
         return $this->belongsToMany(Franqueado::class,'equipamento_franqueado');
     }
 
-    public function equipamentoSubcategoria(){
-        return $this->belongsToMany(EquipamentoSubcategoria::class);
+    public function containerSubcategoria(){
+        return $this->belongsToMany(ContainerSubcategoria::class);
     }
 }

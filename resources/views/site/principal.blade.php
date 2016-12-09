@@ -29,20 +29,19 @@
                        <a href="{{url('container')}}">
                             <img src="https://www.hercrentals.com/content/dam/herc/home/content/images/landing-arrow.png">
                         </a>
-                        <p>Veja os modelos de containers que trabalhos </p>
+                        <p>Container para sua obra é na Inovar Locações. </p>
                     </span>
                         </div>
                     </div>
 
                 </div>
-
                 <div class="col-sm-4 col2">
                     <div class="cont">
                         <div class="layer active0 bg-equipamentos">
                     <span class="headline_small">
                         <h5>Máquinas</h5>
                         <h4>Saiba mais</h4>
-                        <a href="{{url('maquinas')}}">
+                        <a href="{{url('equipamentos')}}">
                             <img src="https://www.hercrentals.com/content/dam/herc/home/content/images/landing-arrow.png">
                         </a>
                         <p>Máquinas para o seu projeto é aqui na Inovar Locações. </p>

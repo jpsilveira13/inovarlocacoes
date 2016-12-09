@@ -20,7 +20,7 @@ Route::get('/email',[
     'uses' => 'SiteController@sendEmailTest'
 
 ]);
-
+Route::get('busca-franquia','SiteController@buscaFranquia');
 Route::get('mapa','SiteController@mapa');
 //area admin
 
@@ -101,7 +101,7 @@ Route::get('/{url_categoria}','SiteController@categorySite');
 
 Route::get('a-inovar','SiteController@sobre');
 
-Route::get('busca-franquia','SiteController@buscaFranquia');
+
 Route::get('noticias','BlogController@index');
 
 //area portal do franqueado
